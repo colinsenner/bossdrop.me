@@ -1,7 +1,7 @@
 {
-  "name": "11ty-landing-page",
+  "name": "bossdrop.me",
   "version": "0.0.1",
-  "description": "A simple landing page built with 11ty and Tailwind CSS",
+  "description": "Bossdrop.me is a site that easily display if a boss drops an item for games",
   "scripts": {
     "serve": "eleventy --serve",
     "deploy": "eleventy"
