@@ -28,11 +28,6 @@ module.exports = function (eleventyConfig) {
     })
   )
 
-  //create collections
-  eleventyConfig.addCollection('sections', async (collection) => {
-    return collection.getFilteredByGlob('./src/sections/*.md');
-  });
-
   // STATIC FILES
   eleventyConfig.addPassthroughCopy({ './src/static/': '/' });
 
