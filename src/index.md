@@ -1,6 +1,6 @@
 ---
-title: Hello World
-layout: "base.njk"
+title: d2r
+layout: "diablo2.njk"
 ---
 
-Content here
+d2r content
