@@ -1,28 +1,62 @@
-{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preload" href="/css/page.css" as="style">
-<!-- PRELOAD CDN SCRIPTS -->
-<link rel="preconnect" href="https://unpkg.com/popper.js@1" as="script">
-<link rel="preconnect" href="https://unpkg.com/tippy.js@4" as="script">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="{{ description or site.description }}">
-<meta name="author" content="{{ site.author }}">
-<meta name="robots" content="index,follow">
-<!-- BEGIN SOCIAL META DATA -->
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ title or site.title }}">
-<meta property="og:description" content="{{ description  or site.description }}">
-<meta property="og:url" content="{{ absolutePageUrl }}">
-<meta name="twitter:card" content="{% if image -%}summary_large_image{% else %}summary{% endif %}">
-{%- if image -%}
-  <meta property="og:image" content="{{ image | url | absoluteUrl(site.url) }}">
-{%- endif -%}
-<!-- ./END SOCIAL META DATA -->
-<meta name="theme-color" content="#ffffff">
-<title>{{ title or site.title }} | {{ site.author }}</title>
-<link rel="stylesheet" href="/css/page.css">
-{% if not isFront %}
-  <!-- include Normalize for regular text pages -->
-  <link rel="stylesheet"  href="/css/normalize.min.css">
-{% endif %}
+<!--
+  Maintained with the excellent knowledge from https://htmlhead.dev
+  These comments will be removed in production
+
+  ========================
+
+  The following 2 meta tags *must* come first in the <head>
+  to consistently ensure proper document rendering.
+  Any other head element should come *after* these tags.
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Set the base URL for all relative URLs within the document -->
+  <base href="{{ page.url }}">
+
+  <!--
+    Short description of the document (limit to 150 characters)
+    This content *may* be used as a part of search engine results.
+  -->
+  <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- Control the behavior of search engine crawling and indexing -->
+  <meta name="robots" content="index,follow"><!-- All Search Engines -->
+  <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+  <!-- Tells Google not to show the sitelinks search box -->
+  <meta name="google" content="nositelinkssearchbox">
+  <!-- Tells Google not to provide a translation for this document -->
+  <meta name="google" content="notranslate">
+
+  <!-- Identify the software used to build the document, Eleventy ftw! -->
+  <meta name="generator" content="eleventy">
+
+  <!-- Disable automatic detection and formatting of possible phone numbers -->
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- Helps prevent duplicate content issues -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  <title>{% if title %}{{ title }} - {% endif %}{{ site.title }}</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Open+Sans:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <!-- Apple Touch Icon (reuse 192px icon.png) & standard favicons -->
+  {# <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png"> #}
+
+  <!-- Facebook Open Graph meta -->
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
+
+  <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="article:author" content="{{ site.author }}">
+</head>

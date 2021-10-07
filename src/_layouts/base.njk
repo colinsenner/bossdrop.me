@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="{{ site.language }}">
-<head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
   {% include "head.njk" %}
-</head>
-<body id="top" class="font-sans text-gray-800 bg-gray-100">
-  {{ content | safe }}
+
+  <body>
+    {% include 'nav.njk' %}
+
+    <main>
+      {{ content | safe }}
+    </main>
+  </body>
+
   {% include "footer.njk" %}
-  {% include "js.njk" %}
-</body>
+
 </html>

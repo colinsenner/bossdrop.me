@@ -1,7 +1,7 @@
 {
   "name": "bossdrop.me",
   "version": "0.0.1",
-  "description": "Bossdrop.me is a site that easily display if a boss drops an item for games",
+  "description": "My first description",
   "scripts": {
     "serve": "eleventy --serve",
     "deploy": "eleventy"
