@@ -13,18 +13,5 @@ module.exports = {
       sans: ['Montserrat', 'Open Sans', 'sans-serif'],
       serif: ['exocet', 'Merriweather', 'serif'],
     },
-    extend: {
-
-    }
   },
-
-  darkMode: false, // or 'media' or 'class'
-
-  variants: {
-    extend: {
-      borderColor: ['focus-visible'],
-      opacity: ['disabled'],
-    }
-  },
-
 }
