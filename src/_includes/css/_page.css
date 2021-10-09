@@ -20,10 +20,13 @@
     }
 
     input {
-        @apply rounded-full;
+        @apply rounded-full focus:outline-none focus:ring-1 focus:ring-yellow-600;
     }
 
     .page-width {
         @apply max-w-6xl;
+    }
+
+    .result {
     }
 }
