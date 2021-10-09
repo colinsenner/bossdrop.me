@@ -8,26 +8,22 @@
 
 @layer base {
     body {
-        @apply bg-gray-100 font-serif text-gray-700;
+        @apply font-serif bg-gray-100 text-gray-700;
     }
 
     nav {
-        @apply mt-8 font-sans;
+        @apply m-2 md:m-4 font-sans;
     }
 
     hr {
-        @apply my-4 border-gray-300;
+        @apply m-4 border-gray-300;
     }
 
     input {
-        @apply rounded-full;
+        @apply rounded-full w-full;
     }
 
     .page-width {
-        @apply w-full max-w-5xl mx-auto;
-    }
-
-    .d2 {
-        @apply text-4xl;
+        @apply max-w-6xl;
     }
 }
