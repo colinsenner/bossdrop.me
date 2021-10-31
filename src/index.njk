@@ -3,6 +3,10 @@ title: d2r
 layout: "base.njk"
 ---
 
+<head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
 <div class="flex h-full md:h-48 justify-center items-center">
     <div class="flex flex-wrap">
         <div class="text-4xl mx-auto">
@@ -21,3 +25,13 @@ layout: "base.njk"
         <li class="result">Baal [Hell]</li>
     </ul>
 </div>
+
+<div id="data">
+</div>
+
+
+<script type="text/javascript">
+$.getJSON('results.json', function(data) {
+    console.log(data['bosses']);
+});
+</script>
