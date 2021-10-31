@@ -1,0 +1,16 @@
+{
+  "bosses": [
+    {
+      "Id": "andariel",
+      "Level": 12.0,
+      "Level(N)": 49.0,
+      "Level(H)": 75.0
+    }
+  ],
+  "uniqueitems": [
+    {
+      "index": "Harlequin Crest",
+      "lvl": 69.0
+    }
+  ]
+}
