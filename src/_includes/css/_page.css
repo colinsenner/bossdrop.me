@@ -27,6 +27,21 @@
         @apply max-w-6xl;
     }
 
-    .result {
+    #searchresult {
+        @apply hover:text-yellow-800 cursor-pointer;
+    }
+
+    #searchresult ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #searchresult ul li {
+        @apply pt-2;
+    }
+
+    #searchresult ul li:hover {
+
     }
 }

@@ -1,5 +1,6 @@
 import os
 import pandas
+from pandas.core import indexing
 import common
 import json
 
@@ -57,7 +58,7 @@ bosses = parse_d2_file("MonStats.txt",
 
 unique_items = parse_d2_file("UniqueItems.txt",
                         column_to_filter_rows_by='index',
-                        rows_to_keep=['Harlequin Crest'],
+                        rows_to_keep=['Harlequin Crest', 'The Stone of Jordan'],
                         columns_to_keep=['index', 'lvl'])
 
 results = {"bosses": bosses, "uniqueitems": unique_items}
