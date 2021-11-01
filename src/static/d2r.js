@@ -101,6 +101,9 @@ function showSearchResults(val) {
     }
 
     res.innerHTML = '<ul>' + list + '</ul>';
+
+    search_onsubmit();
+
     return false;
 }
 
