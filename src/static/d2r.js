@@ -50,15 +50,15 @@ function get_bosses_that_can_drop(item_name) {
         all_bosses.forEach((boss) => {
             // Normal difficulty
             if (boss['Level'] >= ilvl) {
-                bosses.push(boss['Id']);
+                bosses.push(boss['name']);
             }
             // Nightmare difficulty
             if (boss['Level(N)'] >= ilvl) {
-                bosses.push(boss['Id'] + " (NM)");
+                bosses.push(boss['name'] + " (NM)");
             }
             // Hell difficulty
             if (boss['Level(H)'] >= ilvl) {
-                bosses.push(boss['Id'] + " (H)");
+                bosses.push(boss['name'] + " (H)");
             }
         });
 

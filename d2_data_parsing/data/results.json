@@ -4,43 +4,43 @@
       "Id": "andariel",
       "Level": 12.0,
       "Level(N)": 49.0,
-      "Level(H)": 75.0
+      "Level(H)": 75.0,
+      "name": "Andariel"
     },
     {
       "Id": "duriel",
       "Level": 22.0,
       "Level(N)": 55.0,
-      "Level(H)": 88.0
+      "Level(H)": 88.0,
+      "name": "Duriel"
     },
     {
       "Id": "mephisto",
       "Level": 26.0,
       "Level(N)": 59.0,
-      "Level(H)": 87.0
+      "Level(H)": 87.0,
+      "name": "Mephisto"
     },
     {
       "Id": "diablo",
       "Level": 40.0,
       "Level(N)": 62.0,
-      "Level(H)": 94.0
+      "Level(H)": 94.0,
+      "name": "Diablo"
     },
     {
       "Id": "summoner",
       "Level": 18.0,
       "Level(N)": 55.0,
-      "Level(H)": 80.0
-    },
-    {
-      "Id": "nihlathakboss",
-      "Level": 65.0,
-      "Level(N)": 70.0,
-      "Level(H)": 92.0
+      "Level(H)": 80.0,
+      "name": "Summoner"
     },
     {
       "Id": "baalcrab",
       "Level": 60.0,
       "Level(N)": 75.0,
-      "Level(H)": 99.0
+      "Level(H)": 99.0,
+      "name": "Baal"
     }
   ],
   "uniqueitems": [
@@ -529,7 +529,7 @@
       "lvl": 20.0
     },
     {
-      "index": "The Stone of Jordan",
+      "index": "The Stone of Jordan (SOJ)",
       "lvl": 39.0
     },
     {
@@ -1025,7 +1025,7 @@
       "lvl": 55.0
     },
     {
-      "index": "Harlequin Crest",
+      "index": "Harlequin Crest (Shako)",
       "lvl": 69.0
     },
     {
