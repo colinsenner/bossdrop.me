@@ -1,20 +1,1588 @@
 {
-    "bosses":[
-      {
-        "Id": "andariel",
-        "Level": 12.0,
-        "Level(N)": 49.0,
-        "Level(H)": 75.0
-      }
-    ],
-    "uniqueitems":[
-      {
-        "index": "The Stone of Jordan",
-        "lvl": 39.0
-      },
-      {
-        "index": "Harlequin Crest",
-        "lvl": 69.0
-      }
-    ]
-  }
+  "bosses": [
+    {
+      "Id": "andariel",
+      "Level": 12.0,
+      "Level(N)": 49.0,
+      "Level(H)": 75.0
+    },
+    {
+      "Id": "duriel",
+      "Level": 22.0,
+      "Level(N)": 55.0,
+      "Level(H)": 88.0
+    },
+    {
+      "Id": "mephisto",
+      "Level": 26.0,
+      "Level(N)": 59.0,
+      "Level(H)": 87.0
+    },
+    {
+      "Id": "diablo",
+      "Level": 40.0,
+      "Level(N)": 62.0,
+      "Level(H)": 94.0
+    },
+    {
+      "Id": "summoner",
+      "Level": 18.0,
+      "Level(N)": 55.0,
+      "Level(H)": 80.0
+    },
+    {
+      "Id": "nihlathakboss",
+      "Level": 65.0,
+      "Level(N)": 70.0,
+      "Level(H)": 92.0
+    },
+    {
+      "Id": "baalcrab",
+      "Level": 60.0,
+      "Level(N)": 75.0,
+      "Level(H)": 99.0
+    }
+  ],
+  "uniqueitems": [
+    {
+      "index": "The Gnasher",
+      "lvl": 7.0
+    },
+    {
+      "index": "Deathspade",
+      "lvl": 12.0
+    },
+    {
+      "index": "Bladebone",
+      "lvl": 20.0
+    },
+    {
+      "index": "Mindrend",
+      "lvl": 28.0
+    },
+    {
+      "index": "Rakescar",
+      "lvl": 36.0
+    },
+    {
+      "index": "Fechmars Axe",
+      "lvl": 11.0
+    },
+    {
+      "index": "Goreshovel",
+      "lvl": 19.0
+    },
+    {
+      "index": "The Chieftan",
+      "lvl": 26.0
+    },
+    {
+      "index": "Brainhew",
+      "lvl": 34.0
+    },
+    {
+      "index": "The Humongous",
+      "lvl": 39.0
+    },
+    {
+      "index": "Iros Torch",
+      "lvl": 7.0
+    },
+    {
+      "index": "Maelstromwrath",
+      "lvl": 19.0
+    },
+    {
+      "index": "Gravenspine",
+      "lvl": 27.0
+    },
+    {
+      "index": "Umes Lament",
+      "lvl": 38.0
+    },
+    {
+      "index": "Felloak",
+      "lvl": 4.0
+    },
+    {
+      "index": "Knell Striker",
+      "lvl": 7.0
+    },
+    {
+      "index": "Rusthandle",
+      "lvl": 23.0
+    },
+    {
+      "index": "Stormeye",
+      "lvl": 31.0
+    },
+    {
+      "index": "Stoutnail",
+      "lvl": 7.0
+    },
+    {
+      "index": "Crushflange",
+      "lvl": 12.0
+    },
+    {
+      "index": "Bloodrise",
+      "lvl": 20.0
+    },
+    {
+      "index": "The Generals Tan Do Li Ga",
+      "lvl": 28.0
+    },
+    {
+      "index": "Ironstone",
+      "lvl": 36.0
+    },
+    {
+      "index": "Bonesob",
+      "lvl": 32.0
+    },
+    {
+      "index": "Steeldriver",
+      "lvl": 39.0
+    },
+    {
+      "index": "Rixots Keen",
+      "lvl": 3.0
+    },
+    {
+      "index": "Blood Crescent",
+      "lvl": 10.0
+    },
+    {
+      "index": "Krintizs Skewer",
+      "lvl": 14.0
+    },
+    {
+      "index": "Gleamscythe",
+      "lvl": 18.0
+    },
+    {
+      "index": "Griswolds Edge",
+      "lvl": 23.0
+    },
+    {
+      "index": "Hellplague",
+      "lvl": 30.0
+    },
+    {
+      "index": "Culwens Point",
+      "lvl": 39.0
+    },
+    {
+      "index": "Shadowfang",
+      "lvl": 16.0
+    },
+    {
+      "index": "Soulflay",
+      "lvl": 26.0
+    },
+    {
+      "index": "Kinemils Awl",
+      "lvl": 31.0
+    },
+    {
+      "index": "Blacktongue",
+      "lvl": 35.0
+    },
+    {
+      "index": "Ripsaw",
+      "lvl": 35.0
+    },
+    {
+      "index": "The Patriarch",
+      "lvl": 39.0
+    },
+    {
+      "index": "Gull",
+      "lvl": 6.0
+    },
+    {
+      "index": "The Diggler",
+      "lvl": 15.0
+    },
+    {
+      "index": "The Jade Tan Do",
+      "lvl": 26.0
+    },
+    {
+      "index": "Irices Shard",
+      "lvl": 34.0
+    },
+    {
+      "index": "The Dragon Chang",
+      "lvl": 11.0
+    },
+    {
+      "index": "Razortine",
+      "lvl": 16.0
+    },
+    {
+      "index": "Bloodthief",
+      "lvl": 23.0
+    },
+    {
+      "index": "Lance of Yaggai",
+      "lvl": 30.0
+    },
+    {
+      "index": "The Tannr Gorerod",
+      "lvl": 36.0
+    },
+    {
+      "index": "Dimoaks Hew",
+      "lvl": 11.0
+    },
+    {
+      "index": "Steelgoad",
+      "lvl": 19.0
+    },
+    {
+      "index": "Soul Harvest",
+      "lvl": 26.0
+    },
+    {
+      "index": "The Battlebranch",
+      "lvl": 34.0
+    },
+    {
+      "index": "Woestave",
+      "lvl": 38.0
+    },
+    {
+      "index": "The Grim Reaper",
+      "lvl": 39.0
+    },
+    {
+      "index": "Bane Ash",
+      "lvl": 7.0
+    },
+    {
+      "index": "Serpent Lord",
+      "lvl": 12.0
+    },
+    {
+      "index": "Lazarus Spire",
+      "lvl": 24.0
+    },
+    {
+      "index": "The Salamander",
+      "lvl": 28.0
+    },
+    {
+      "index": "The Iron Jang Bong",
+      "lvl": 38.0
+    },
+    {
+      "index": "Pluckeye",
+      "lvl": 10.0
+    },
+    {
+      "index": "Witherstring",
+      "lvl": 18.0
+    },
+    {
+      "index": "Rimeraven",
+      "lvl": 20.0
+    },
+    {
+      "index": "Piercerib",
+      "lvl": 27.0
+    },
+    {
+      "index": "Pullspite",
+      "lvl": 34.0
+    },
+    {
+      "index": "Wizendraw",
+      "lvl": 35.0
+    },
+    {
+      "index": "Hellclap",
+      "lvl": 36.0
+    },
+    {
+      "index": "Blastbark",
+      "lvl": 38.0
+    },
+    {
+      "index": "Leadcrow",
+      "lvl": 12.0
+    },
+    {
+      "index": "Ichorsting",
+      "lvl": 24.0
+    },
+    {
+      "index": "Hellcast",
+      "lvl": 36.0
+    },
+    {
+      "index": "Doomspittle",
+      "lvl": 38.0
+    },
+    {
+      "index": "War Bonnet",
+      "lvl": 4.0
+    },
+    {
+      "index": "Tarnhelm",
+      "lvl": 20.0
+    },
+    {
+      "index": "Coif of Glory",
+      "lvl": 19.0
+    },
+    {
+      "index": "Duskdeep",
+      "lvl": 23.0
+    },
+    {
+      "index": "Wormskull",
+      "lvl": 28.0
+    },
+    {
+      "index": "Howltusk",
+      "lvl": 34.0
+    },
+    {
+      "index": "Undead Crown",
+      "lvl": 39.0
+    },
+    {
+      "index": "The Face of Horror",
+      "lvl": 27.0
+    },
+    {
+      "index": "Greyform",
+      "lvl": 10.0
+    },
+    {
+      "index": "Blinkbats Form",
+      "lvl": 16.0
+    },
+    {
+      "index": "The Centurion",
+      "lvl": 19.0
+    },
+    {
+      "index": "Twitchthroe",
+      "lvl": 22.0
+    },
+    {
+      "index": "Darkglow",
+      "lvl": 19.0
+    },
+    {
+      "index": "Hawkmail",
+      "lvl": 20.0
+    },
+    {
+      "index": "Sparking Mail",
+      "lvl": 23.0
+    },
+    {
+      "index": "Venomsward",
+      "lvl": 27.0
+    },
+    {
+      "index": "Iceblink",
+      "lvl": 30.0
+    },
+    {
+      "index": "Boneflesh",
+      "lvl": 35.0
+    },
+    {
+      "index": "Rockfleece",
+      "lvl": 38.0
+    },
+    {
+      "index": "Rattlecage",
+      "lvl": 39.0
+    },
+    {
+      "index": "Goldskin",
+      "lvl": 38.0
+    },
+    {
+      "index": "Victors Silk",
+      "lvl": 38.0
+    },
+    {
+      "index": "Heavenly Garb",
+      "lvl": 39.0
+    },
+    {
+      "index": "Pelta Lunata",
+      "lvl": 3.0
+    },
+    {
+      "index": "Umbral Disk",
+      "lvl": 12.0
+    },
+    {
+      "index": "Stormguild",
+      "lvl": 18.0
+    },
+    {
+      "index": "Wall of the Eyeless",
+      "lvl": 27.0
+    },
+    {
+      "index": "Swordback Hold",
+      "lvl": 20.0
+    },
+    {
+      "index": "Steelclash",
+      "lvl": 23.0
+    },
+    {
+      "index": "Bverrit Keep",
+      "lvl": 26.0
+    },
+    {
+      "index": "The Ward",
+      "lvl": 35.0
+    },
+    {
+      "index": "The Hand of Broc",
+      "lvl": 7.0
+    },
+    {
+      "index": "Bloodfist",
+      "lvl": 12.0
+    },
+    {
+      "index": "Chance Guards",
+      "lvl": 20.0
+    },
+    {
+      "index": "Magefist",
+      "lvl": 31.0
+    },
+    {
+      "index": "Frostburn",
+      "lvl": 39.0
+    },
+    {
+      "index": "Hotspur",
+      "lvl": 7.0
+    },
+    {
+      "index": "Gorefoot",
+      "lvl": 12.0
+    },
+    {
+      "index": "Treads of Cthon",
+      "lvl": 20.0
+    },
+    {
+      "index": "Goblin Toe",
+      "lvl": 30.0
+    },
+    {
+      "index": "Tearhaunch",
+      "lvl": 39.0
+    },
+    {
+      "index": "Lenyms Cord",
+      "lvl": 10.0
+    },
+    {
+      "index": "Snakecord",
+      "lvl": 16.0
+    },
+    {
+      "index": "Nightsmoke",
+      "lvl": 27.0
+    },
+    {
+      "index": "Goldwrap",
+      "lvl": 36.0
+    },
+    {
+      "index": "Bladebuckle",
+      "lvl": 39.0
+    },
+    {
+      "index": "Nokozan Relic",
+      "lvl": 14.0
+    },
+    {
+      "index": "The Eye of Etlich",
+      "lvl": 20.0
+    },
+    {
+      "index": "The Mahim-Oak Curio",
+      "lvl": 34.0
+    },
+    {
+      "index": "Nagelring",
+      "lvl": 10.0
+    },
+    {
+      "index": "Manald Heal",
+      "lvl": 20.0
+    },
+    {
+      "index": "The Stone of Jordan",
+      "lvl": 39.0
+    },
+    {
+      "index": "Amulet of the Viper",
+      "lvl": 0.0
+    },
+    {
+      "index": "Staff of Kings",
+      "lvl": 0.0
+    },
+    {
+      "index": "Horadric Staff",
+      "lvl": 0.0
+    },
+    {
+      "index": "Hell Forge Hammer",
+      "lvl": 0.0
+    },
+    {
+      "index": "KhalimFlail",
+      "lvl": 0.0
+    },
+    {
+      "index": "SuperKhalimFlail",
+      "lvl": 0.0
+    },
+    {
+      "index": "Coldkill",
+      "lvl": 44.0
+    },
+    {
+      "index": "Butcher's Pupil",
+      "lvl": 47.0
+    },
+    {
+      "index": "Islestrike",
+      "lvl": 51.0
+    },
+    {
+      "index": "Pompe's Wrath",
+      "lvl": 53.0
+    },
+    {
+      "index": "Guardian Naga",
+      "lvl": 56.0
+    },
+    {
+      "index": "Warlord's Trust",
+      "lvl": 43.0
+    },
+    {
+      "index": "Spellsteel",
+      "lvl": 47.0
+    },
+    {
+      "index": "Stormrider",
+      "lvl": 49.0
+    },
+    {
+      "index": "Boneslayer Blade",
+      "lvl": 50.0
+    },
+    {
+      "index": "The Minataur",
+      "lvl": 53.0
+    },
+    {
+      "index": "Suicide Branch",
+      "lvl": 41.0
+    },
+    {
+      "index": "Carin Shard",
+      "lvl": 43.0
+    },
+    {
+      "index": "Arm of King Leoric",
+      "lvl": 44.0
+    },
+    {
+      "index": "Blackhand Key",
+      "lvl": 49.0
+    },
+    {
+      "index": "Dark Clan Crusher",
+      "lvl": 42.0
+    },
+    {
+      "index": "Zakarum's Hand",
+      "lvl": 45.0
+    },
+    {
+      "index": "The Fetid Sprinkler",
+      "lvl": 46.0
+    },
+    {
+      "index": "Hand of Blessed Light",
+      "lvl": 50.0
+    },
+    {
+      "index": "Fleshrender",
+      "lvl": 46.0
+    },
+    {
+      "index": "Sureshrill Frost",
+      "lvl": 47.0
+    },
+    {
+      "index": "Moonfall",
+      "lvl": 50.0
+    },
+    {
+      "index": "Baezil's Vortex",
+      "lvl": 53.0
+    },
+    {
+      "index": "Earthshaker",
+      "lvl": 51.0
+    },
+    {
+      "index": "Bloodtree Stump",
+      "lvl": 56.0
+    },
+    {
+      "index": "The Gavel of Pain",
+      "lvl": 53.0
+    },
+    {
+      "index": "Bloodletter",
+      "lvl": 38.0
+    },
+    {
+      "index": "Coldsteel Eye",
+      "lvl": 39.0
+    },
+    {
+      "index": "Hexfire",
+      "lvl": 41.0
+    },
+    {
+      "index": "Blade of Ali Baba",
+      "lvl": 43.0
+    },
+    {
+      "index": "Ginther's Rift",
+      "lvl": 45.0
+    },
+    {
+      "index": "Headstriker",
+      "lvl": 47.0
+    },
+    {
+      "index": "Plague Bearer",
+      "lvl": 49.0
+    },
+    {
+      "index": "The Atlantian",
+      "lvl": 50.0
+    },
+    {
+      "index": "Crainte Vomir",
+      "lvl": 50.0
+    },
+    {
+      "index": "Bing Sz Wang",
+      "lvl": 51.0
+    },
+    {
+      "index": "The Vile Husk",
+      "lvl": 52.0
+    },
+    {
+      "index": "Cloudcrack",
+      "lvl": 53.0
+    },
+    {
+      "index": "Todesfaelle Flamme",
+      "lvl": 54.0
+    },
+    {
+      "index": "Swordguard",
+      "lvl": 55.0
+    },
+    {
+      "index": "Spineripper",
+      "lvl": 40.0
+    },
+    {
+      "index": "Heart Carver",
+      "lvl": 44.0
+    },
+    {
+      "index": "Blackbog's Sharp",
+      "lvl": 46.0
+    },
+    {
+      "index": "Stormspike",
+      "lvl": 49.0
+    },
+    {
+      "index": "The Impaler",
+      "lvl": 39.0
+    },
+    {
+      "index": "Kelpie Snare",
+      "lvl": 41.0
+    },
+    {
+      "index": "Soulfeast Tine",
+      "lvl": 43.0
+    },
+    {
+      "index": "Hone Sundan",
+      "lvl": 45.0
+    },
+    {
+      "index": "Spire of Honor",
+      "lvl": 47.0
+    },
+    {
+      "index": "The Meat Scraper",
+      "lvl": 49.0
+    },
+    {
+      "index": "Blackleach Blade",
+      "lvl": 50.0
+    },
+    {
+      "index": "Athena's Wrath",
+      "lvl": 50.0
+    },
+    {
+      "index": "Pierre Tombale Couant",
+      "lvl": 51.0
+    },
+    {
+      "index": "Husoldal Evo",
+      "lvl": 52.0
+    },
+    {
+      "index": "Grim's Burning Dead",
+      "lvl": 52.0
+    },
+    {
+      "index": "Razorswitch",
+      "lvl": 36.0
+    },
+    {
+      "index": "Ribcracker",
+      "lvl": 39.0
+    },
+    {
+      "index": "Chromatic Ire",
+      "lvl": 43.0
+    },
+    {
+      "index": "Warpspear",
+      "lvl": 47.0
+    },
+    {
+      "index": "Skullcollector",
+      "lvl": 49.0
+    },
+    {
+      "index": "Skystrike",
+      "lvl": 36.0
+    },
+    {
+      "index": "Riphook",
+      "lvl": 39.0
+    },
+    {
+      "index": "Kuko Shakaku",
+      "lvl": 41.0
+    },
+    {
+      "index": "Endlesshail",
+      "lvl": 44.0
+    },
+    {
+      "index": "Whichwild String",
+      "lvl": 47.0
+    },
+    {
+      "index": "Cliffkiller",
+      "lvl": 49.0
+    },
+    {
+      "index": "Magewrath",
+      "lvl": 51.0
+    },
+    {
+      "index": "Godstrike Arch",
+      "lvl": 54.0
+    },
+    {
+      "index": "Langer Briser",
+      "lvl": 40.0
+    },
+    {
+      "index": "Pus Spiter",
+      "lvl": 44.0
+    },
+    {
+      "index": "Buriza-Do Kyanon",
+      "lvl": 59.0
+    },
+    {
+      "index": "Demon Machine",
+      "lvl": 57.0
+    },
+    {
+      "index": "Peasent Crown",
+      "lvl": 36.0
+    },
+    {
+      "index": "Rockstopper",
+      "lvl": 39.0
+    },
+    {
+      "index": "Stealskull",
+      "lvl": 43.0
+    },
+    {
+      "index": "Darksight Helm",
+      "lvl": 46.0
+    },
+    {
+      "index": "Valkiry Wing",
+      "lvl": 52.0
+    },
+    {
+      "index": "Crown of Thieves",
+      "lvl": 57.0
+    },
+    {
+      "index": "Blackhorn's Face",
+      "lvl": 49.0
+    },
+    {
+      "index": "Vampiregaze",
+      "lvl": 49.0
+    },
+    {
+      "index": "The Spirit Shroud",
+      "lvl": 36.0
+    },
+    {
+      "index": "Skin of the Vipermagi",
+      "lvl": 37.0
+    },
+    {
+      "index": "Skin of the Flayerd One",
+      "lvl": 39.0
+    },
+    {
+      "index": "Ironpelt",
+      "lvl": 41.0
+    },
+    {
+      "index": "Spiritforge",
+      "lvl": 43.0
+    },
+    {
+      "index": "Crow Caw",
+      "lvl": 45.0
+    },
+    {
+      "index": "Shaftstop",
+      "lvl": 46.0
+    },
+    {
+      "index": "Duriel's Shell",
+      "lvl": 49.0
+    },
+    {
+      "index": "Skullder's Ire",
+      "lvl": 50.0
+    },
+    {
+      "index": "Guardian Angel",
+      "lvl": 53.0
+    },
+    {
+      "index": "Toothrow",
+      "lvl": 56.0
+    },
+    {
+      "index": "Atma's Wail",
+      "lvl": 59.0
+    },
+    {
+      "index": "Black Hades",
+      "lvl": 61.0
+    },
+    {
+      "index": "Corpsemourn",
+      "lvl": 63.0
+    },
+    {
+      "index": "Que-Hegan's Wisdon",
+      "lvl": 59.0
+    },
+    {
+      "index": "Visceratuant",
+      "lvl": 36.0
+    },
+    {
+      "index": "Mosers Blessed Circle",
+      "lvl": 39.0
+    },
+    {
+      "index": "Stormchaser",
+      "lvl": 43.0
+    },
+    {
+      "index": "Tiamat's Rebuke",
+      "lvl": 46.0
+    },
+    {
+      "index": "Kerke's Sanctuary",
+      "lvl": 52.0
+    },
+    {
+      "index": "Radimant's Sphere",
+      "lvl": 58.0
+    },
+    {
+      "index": "Lidless Wall",
+      "lvl": 49.0
+    },
+    {
+      "index": "Lance Guard",
+      "lvl": 43.0
+    },
+    {
+      "index": "Venom Grip",
+      "lvl": 37.0
+    },
+    {
+      "index": "Gravepalm",
+      "lvl": 39.0
+    },
+    {
+      "index": "Ghoulhide",
+      "lvl": 44.0
+    },
+    {
+      "index": "Lavagout",
+      "lvl": 50.0
+    },
+    {
+      "index": "Hellmouth",
+      "lvl": 55.0
+    },
+    {
+      "index": "Infernostride",
+      "lvl": 37.0
+    },
+    {
+      "index": "Waterwalk",
+      "lvl": 40.0
+    },
+    {
+      "index": "Silkweave",
+      "lvl": 44.0
+    },
+    {
+      "index": "Wartraveler",
+      "lvl": 50.0
+    },
+    {
+      "index": "Gorerider",
+      "lvl": 55.0
+    },
+    {
+      "index": "String of Ears",
+      "lvl": 37.0
+    },
+    {
+      "index": "Razortail",
+      "lvl": 39.0
+    },
+    {
+      "index": "Gloomstrap",
+      "lvl": 45.0
+    },
+    {
+      "index": "Snowclash",
+      "lvl": 49.0
+    },
+    {
+      "index": "Thudergod's Vigor",
+      "lvl": 55.0
+    },
+    {
+      "index": "Harlequin Crest",
+      "lvl": 69.0
+    },
+    {
+      "index": "Veil of Steel",
+      "lvl": 77.0
+    },
+    {
+      "index": "The Gladiator's Bane",
+      "lvl": 85.0
+    },
+    {
+      "index": "Arkaine's Valor",
+      "lvl": 85.0
+    },
+    {
+      "index": "Blackoak Shield",
+      "lvl": 67.0
+    },
+    {
+      "index": "Stormshield",
+      "lvl": 77.0
+    },
+    {
+      "index": "Hellslayer",
+      "lvl": 71.0
+    },
+    {
+      "index": "Messerschmidt's Reaver",
+      "lvl": 75.0
+    },
+    {
+      "index": "Baranar's Star",
+      "lvl": 70.0
+    },
+    {
+      "index": "Schaefer's Hammer",
+      "lvl": 83.0
+    },
+    {
+      "index": "The Cranium Basher",
+      "lvl": 85.0
+    },
+    {
+      "index": "Lightsabre",
+      "lvl": 66.0
+    },
+    {
+      "index": "Doombringer",
+      "lvl": 75.0
+    },
+    {
+      "index": "The Grandfather",
+      "lvl": 85.0
+    },
+    {
+      "index": "Wizardspike",
+      "lvl": 69.0
+    },
+    {
+      "index": "Stormspire",
+      "lvl": 78.0
+    },
+    {
+      "index": "Eaglehorn",
+      "lvl": 77.0
+    },
+    {
+      "index": "Windforce",
+      "lvl": 80.0
+    },
+    {
+      "index": "Bul Katho's Wedding Band",
+      "lvl": 66.0
+    },
+    {
+      "index": "The Cat's Eye",
+      "lvl": 58.0
+    },
+    {
+      "index": "The Rising Sun",
+      "lvl": 73.0
+    },
+    {
+      "index": "Crescent Moon",
+      "lvl": 58.0
+    },
+    {
+      "index": "Mara's Kaleidoscope",
+      "lvl": 80.0
+    },
+    {
+      "index": "Atma's Scarab",
+      "lvl": 60.0
+    },
+    {
+      "index": "Dwarf Star",
+      "lvl": 53.0
+    },
+    {
+      "index": "Raven Frost",
+      "lvl": 53.0
+    },
+    {
+      "index": "Highlord's Wrath",
+      "lvl": 73.0
+    },
+    {
+      "index": "Saracen's Chance",
+      "lvl": 55.0
+    },
+    {
+      "index": "Arreat's Face",
+      "lvl": 50.0
+    },
+    {
+      "index": "Homunculus",
+      "lvl": 50.0
+    },
+    {
+      "index": "Titan's Revenge",
+      "lvl": 50.0
+    },
+    {
+      "index": "Lycander's Aim",
+      "lvl": 50.0
+    },
+    {
+      "index": "Lycander's Flank",
+      "lvl": 50.0
+    },
+    {
+      "index": "The Oculus",
+      "lvl": 50.0
+    },
+    {
+      "index": "Herald of Zakarum",
+      "lvl": 50.0
+    },
+    {
+      "index": "Cutthroat1",
+      "lvl": 50.0
+    },
+    {
+      "index": "Jalal's Mane",
+      "lvl": 50.0
+    },
+    {
+      "index": "The Scalper",
+      "lvl": 65.0
+    },
+    {
+      "index": "Bloodmoon",
+      "lvl": 69.0
+    },
+    {
+      "index": "Djinnslayer",
+      "lvl": 73.0
+    },
+    {
+      "index": "Deathbit",
+      "lvl": 52.0
+    },
+    {
+      "index": "Warshrike",
+      "lvl": 83.0
+    },
+    {
+      "index": "Gutsiphon",
+      "lvl": 79.0
+    },
+    {
+      "index": "Razoredge",
+      "lvl": 75.0
+    },
+    {
+      "index": "Demonlimb",
+      "lvl": 71.0
+    },
+    {
+      "index": "Steelshade",
+      "lvl": 70.0
+    },
+    {
+      "index": "Tomb Reaver",
+      "lvl": 86.0
+    },
+    {
+      "index": "Deaths's Web",
+      "lvl": 74.0
+    },
+    {
+      "index": "Nature's Peace",
+      "lvl": 77.0
+    },
+    {
+      "index": "Azurewrath",
+      "lvl": 87.0
+    },
+    {
+      "index": "Seraph's Hymn",
+      "lvl": 73.0
+    },
+    {
+      "index": "Fleshripper",
+      "lvl": 76.0
+    },
+    {
+      "index": "Horizon's Tornado",
+      "lvl": 72.0
+    },
+    {
+      "index": "Stone Crusher",
+      "lvl": 76.0
+    },
+    {
+      "index": "Jadetalon",
+      "lvl": 74.0
+    },
+    {
+      "index": "Shadowdancer",
+      "lvl": 79.0
+    },
+    {
+      "index": "Cerebus",
+      "lvl": 71.0
+    },
+    {
+      "index": "Tyrael's Might",
+      "lvl": 87.0
+    },
+    {
+      "index": "Souldrain",
+      "lvl": 82.0
+    },
+    {
+      "index": "Runemaster",
+      "lvl": 80.0
+    },
+    {
+      "index": "Deathcleaver",
+      "lvl": 78.0
+    },
+    {
+      "index": "Executioner's Justice",
+      "lvl": 83.0
+    },
+    {
+      "index": "Stoneraven",
+      "lvl": 72.0
+    },
+    {
+      "index": "Leviathan",
+      "lvl": 73.0
+    },
+    {
+      "index": "Wisp",
+      "lvl": 84.0
+    },
+    {
+      "index": "Gargoyle's Bite",
+      "lvl": 78.0
+    },
+    {
+      "index": "Lacerator",
+      "lvl": 76.0
+    },
+    {
+      "index": "Mang Song's Lesson",
+      "lvl": 86.0
+    },
+    {
+      "index": "Viperfork",
+      "lvl": 79.0
+    },
+    {
+      "index": "Ethereal Edge",
+      "lvl": 82.0
+    },
+    {
+      "index": "Demonhorn's Edge",
+      "lvl": 69.0
+    },
+    {
+      "index": "The Reaper's Toll",
+      "lvl": 83.0
+    },
+    {
+      "index": "Spiritkeeper",
+      "lvl": 75.0
+    },
+    {
+      "index": "Hellrack",
+      "lvl": 84.0
+    },
+    {
+      "index": "Alma Negra",
+      "lvl": 85.0
+    },
+    {
+      "index": "Darkforge Spawn",
+      "lvl": 72.0
+    },
+    {
+      "index": "Widowmaker",
+      "lvl": 73.0
+    },
+    {
+      "index": "Bloodraven's Charge",
+      "lvl": 79.0
+    },
+    {
+      "index": "Ghostflame",
+      "lvl": 70.0
+    },
+    {
+      "index": "Shadowkiller",
+      "lvl": 85.0
+    },
+    {
+      "index": "Gimmershred",
+      "lvl": 78.0
+    },
+    {
+      "index": "Griffon's Eye",
+      "lvl": 84.0
+    },
+    {
+      "index": "Windhammer",
+      "lvl": 76.0
+    },
+    {
+      "index": "Thunderstroke",
+      "lvl": 77.0
+    },
+    {
+      "index": "Demon's Arch",
+      "lvl": 76.0
+    },
+    {
+      "index": "Boneflame",
+      "lvl": 80.0
+    },
+    {
+      "index": "Steelpillar",
+      "lvl": 77.0
+    },
+    {
+      "index": "Nightwing's Veil",
+      "lvl": 75.0
+    },
+    {
+      "index": "Crown of Ages",
+      "lvl": 86.0
+    },
+    {
+      "index": "Andariel's Visage",
+      "lvl": 85.0
+    },
+    {
+      "index": "Dragonscale",
+      "lvl": 84.0
+    },
+    {
+      "index": "Steel Carapice",
+      "lvl": 74.0
+    },
+    {
+      "index": "Medusa's Gaze",
+      "lvl": 84.0
+    },
+    {
+      "index": "Ravenlore",
+      "lvl": 82.0
+    },
+    {
+      "index": "Boneshade",
+      "lvl": 84.0
+    },
+    {
+      "index": "Flamebellow",
+      "lvl": 79.0
+    },
+    {
+      "index": "Fathom",
+      "lvl": 81.0
+    },
+    {
+      "index": "Wolfhowl",
+      "lvl": 85.0
+    },
+    {
+      "index": "Spirit Ward",
+      "lvl": 76.0
+    },
+    {
+      "index": "Kira's Guardian",
+      "lvl": 85.0
+    },
+    {
+      "index": "Ormus' Robes",
+      "lvl": 83.0
+    },
+    {
+      "index": "Gheed's Fortune",
+      "lvl": 70.0
+    },
+    {
+      "index": "Stormlash",
+      "lvl": 86.0
+    },
+    {
+      "index": "Halaberd's Reign",
+      "lvl": 85.0
+    },
+    {
+      "index": "Spike Thorn",
+      "lvl": 78.0
+    },
+    {
+      "index": "Dracul's Grasp",
+      "lvl": 84.0
+    },
+    {
+      "index": "Frostwind",
+      "lvl": 78.0
+    },
+    {
+      "index": "Templar's Might",
+      "lvl": 82.0
+    },
+    {
+      "index": "Eschuta's temper",
+      "lvl": 80.0
+    },
+    {
+      "index": "Firelizard's Talons",
+      "lvl": 75.0
+    },
+    {
+      "index": "Sandstorm Trek",
+      "lvl": 72.0
+    },
+    {
+      "index": "Marrowwalk",
+      "lvl": 74.0
+    },
+    {
+      "index": "Heaven's Light",
+      "lvl": 69.0
+    },
+    {
+      "index": "Arachnid Mesh",
+      "lvl": 87.0
+    },
+    {
+      "index": "Nosferatu's Coil",
+      "lvl": 68.0
+    },
+    {
+      "index": "Metalgrid",
+      "lvl": 85.0
+    },
+    {
+      "index": "Verdugo's Hearty Cord",
+      "lvl": 71.0
+    },
+    {
+      "index": "Carrion Wind",
+      "lvl": 68.0
+    },
+    {
+      "index": "Giantskull",
+      "lvl": 73.0
+    },
+    {
+      "index": "Ironward",
+      "lvl": 68.0
+    },
+    {
+      "index": "Annihilus",
+      "lvl": 110.0
+    },
+    {
+      "index": "Arioc's Needle",
+      "lvl": 85.0
+    },
+    {
+      "index": "Cranebeak",
+      "lvl": 71.0
+    },
+    {
+      "index": "Nord's Tenderizer",
+      "lvl": 76.0
+    },
+    {
+      "index": "Earthshifter",
+      "lvl": 77.0
+    },
+    {
+      "index": "Wraithflight",
+      "lvl": 84.0
+    },
+    {
+      "index": "Bonehew",
+      "lvl": 72.0
+    },
+    {
+      "index": "Ondal's Wisdom",
+      "lvl": 74.0
+    },
+    {
+      "index": "The Reedeemer",
+      "lvl": 80.0
+    },
+    {
+      "index": "Headhunter's Glory",
+      "lvl": 83.0
+    },
+    {
+      "index": "Steelrend",
+      "lvl": 78.0
+    },
+    {
+      "index": "Rainbow Facet",
+      "lvl": 85.0
+    },
+    {
+      "index": "Rainbow Facet",
+      "lvl": 85.0
+    },
+    {
+      "index": "Rainbow Facet",
+      "lvl": 85.0
+    },
+    {
+      "index": "Rainbow Facet",
+      "lvl": 85.0
+    },
+    {
+      "index": "Rainbow Facet",
+      "lvl": 85.0
+    },
+    {
+      "index": "Rainbow Facet",
+      "lvl": 85.0
+    },
+    {
+      "index": "Rainbow Facet",
+      "lvl": 85.0
+    },
+    {
+      "index": "Rainbow Facet",
+      "lvl": 85.0
+    },
+    {
+      "index": "Hellfire Torch",
+      "lvl": 110.0
+    }
+  ]
+}

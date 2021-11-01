@@ -6,65 +6,45 @@ import json
 
 data_dir = os.path.join(os.path.dirname(__file__), 'data')
 
-def parse_d2_file(filename, column_to_filter_rows_by='', rows_to_keep=[], columns_to_keep=[]):
-    entries = common.create_dictionary(os.path.join(data_dir, filename))
+def parse_monstats():
+    columns_to_keep = ['Id', 'Level', 'Level(N)', 'Level(H)']
+    entries = common.create_dictionary(os.path.join(data_dir, "MonStats.txt"))
 
-    if len(rows_to_keep) > 0:
-        # Filter all entries where their id isn't in the list
-        entries = [entry for entry in entries if entry[column_to_filter_rows_by] in rows_to_keep]
+    # Filter out monsters that are not bosses
+    entries = [entry for entry in entries if entry['boss'] == 1]
 
-    # If we are filtering out at least one column
-    if len(columns_to_keep) > 0:
-        filtered_entries = []
-        for entry in entries:
-            filtered_entries.append(common.filter_columns(entry, columns_to_keep))
-    else:
-        filtered_entries = entries
+    # Only keep these bosses
+    bosses_to_keep = ['andariel', 'duriel', 'mephisto', 'diablo', 'summoner', 'nihlathakboss', 'baalcrab']
+    entries = [entry for entry in entries if entry['Id'] in bosses_to_keep]
+
+    filtered_entries = []
+    for entry in entries:
+        filtered_entries.append(common.filter_columns(entry, columns_to_keep))
 
     return filtered_entries
 
-# def parse_MonStats():
-#     monster_ids_to_keep = ['andariel']
-#     columns_to_keep = ['Id', 'Level', 'Level(N)', 'Level(H)']
+def parse_uniqueitems():
+    columns_to_keep=['index', 'lvl']
 
-#     monsters = common.create_dictionary(os.path.join(data_dir, "MonStats.txt"))
+    entries = common.create_dictionary(os.path.join(data_dir, "UniqueItems.txt"))
 
-#     # Filter all monsters where their id isn't in the list
-#     monsters = [monster for monster in monsters if monster['Id'] in monster_ids_to_keep]
+    # Filter out entries that are not enabled
+    entries = [entry for entry in entries if entry['enabled'] == 1]
 
-#     filtered_monsters = []
-#     for monster in monsters:
-#         filtered_monsters.append(common.filter_columns(monster, columns_to_keep))
+    filtered_entries = []
+    for entry in entries:
+        filtered_entries.append(common.filter_columns(entry, columns_to_keep))
 
-#     return filtered_monsters
+    return filtered_entries
 
-# def parse_UniqueItems():
-#     item_indexes_to_keep = ['Harlequin Crest']
-#     columns_to_keep = ['index', 'lvl']
+if __name__ == "__main__":
+    bosses = parse_monstats()
+    unique_items = parse_uniqueitems()
 
-#     unique_items = common.create_dictionary(os.path.join(data_dir, "UniqueItems.txt"))
+    results = {"bosses": bosses, "uniqueitems": unique_items}
 
-#     # Filter all monsters where their id isn't in the list
-#     unique_items = [item for item in unique_items if item['Id'] in item_indexes_to_keep]
+    # Write the full results.json file
+    with open(os.path.join(data_dir, "results.json"), "w") as f:
+        f.write(json.dumps(results, indent=2))
 
-
-
-#bosses = parse_MonStats()
-#uniques = parse_UniqueItems()
-bosses = parse_d2_file("MonStats.txt",
-                        column_to_filter_rows_by='Id',
-                        rows_to_keep=['andariel'],
-                        columns_to_keep=['Id', 'Level', 'Level(N)', 'Level(H)'])
-
-unique_items = parse_d2_file("UniqueItems.txt",
-                        column_to_filter_rows_by='index',
-                        rows_to_keep=['Harlequin Crest', 'The Stone of Jordan'],
-                        columns_to_keep=['index', 'lvl'])
-
-results = {"bosses": bosses, "uniqueitems": unique_items}
-
-# Write the full results.json file
-with open(os.path.join(data_dir, "results.json"), "w") as f:
-    f.write(json.dumps(results, indent=2))
-
-print("Finished parsing files")
+    print("Finished parsing files")
