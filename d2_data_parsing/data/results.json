@@ -1584,5 +1584,819 @@
       "index": "Hellfire Torch",
       "lvl": 110.0
     }
+  ],
+  "armors": [
+    {
+      "name": "Cap/hat",
+      "level": 1.0
+    },
+    {
+      "name": "Skull Cap",
+      "level": 5.0
+    },
+    {
+      "name": "Helm",
+      "level": 11.0
+    },
+    {
+      "name": "Full Helm",
+      "level": 15.0
+    },
+    {
+      "name": "Great Helm",
+      "level": 23.0
+    },
+    {
+      "name": "Crown",
+      "level": 29.0
+    },
+    {
+      "name": "Mask",
+      "level": 19.0
+    },
+    {
+      "name": "Quilted Armor",
+      "level": 1.0
+    },
+    {
+      "name": "Leather Armor",
+      "level": 3.0
+    },
+    {
+      "name": "Hard Leather Armor",
+      "level": 5.0
+    },
+    {
+      "name": "Studded Leather ",
+      "level": 8.0
+    },
+    {
+      "name": "Ring Mail",
+      "level": 11.0
+    },
+    {
+      "name": "Scale Mail",
+      "level": 13.0
+    },
+    {
+      "name": "Chain Mail",
+      "level": 15.0
+    },
+    {
+      "name": "Breast Plate",
+      "level": 18.0
+    },
+    {
+      "name": "Splint Mail",
+      "level": 20.0
+    },
+    {
+      "name": "Plate Mail",
+      "level": 24.0
+    },
+    {
+      "name": "Field Plate",
+      "level": 28.0
+    },
+    {
+      "name": "Gothic Plate",
+      "level": 32.0
+    },
+    {
+      "name": "Full Plate Mail",
+      "level": 37.0
+    },
+    {
+      "name": "Ancient Armor",
+      "level": 40.0
+    },
+    {
+      "name": "Light Plate",
+      "level": 35.0
+    },
+    {
+      "name": "Buckler",
+      "level": 1.0
+    },
+    {
+      "name": "Small Shield",
+      "level": 5.0
+    },
+    {
+      "name": "Large Shield",
+      "level": 11.0
+    },
+    {
+      "name": "Kite Shield",
+      "level": 15.0
+    },
+    {
+      "name": "Tower Shield",
+      "level": 22.0
+    },
+    {
+      "name": "Gothic Shield",
+      "level": 30.0
+    },
+    {
+      "name": "Gloves(L)",
+      "level": 3.0
+    },
+    {
+      "name": "Heavy Gloves",
+      "level": 7.0
+    },
+    {
+      "name": "Bracers(M)",
+      "level": 12.0
+    },
+    {
+      "name": "Light Gauntlets",
+      "level": 20.0
+    },
+    {
+      "name": "Gaunlets(H)",
+      "level": 27.0
+    },
+    {
+      "name": "Leather Boots",
+      "level": 3.0
+    },
+    {
+      "name": "Heavy Boots",
+      "level": 7.0
+    },
+    {
+      "name": "Chain Boots",
+      "level": 12.0
+    },
+    {
+      "name": "Light Plate Boots",
+      "level": 20.0
+    },
+    {
+      "name": "Plate Boots",
+      "level": 27.0
+    },
+    {
+      "name": "Sash(L)",
+      "level": 3.0
+    },
+    {
+      "name": "Light Belt",
+      "level": 7.0
+    },
+    {
+      "name": "Belt(M)",
+      "level": 12.0
+    },
+    {
+      "name": "Heavy Belt",
+      "level": 20.0
+    },
+    {
+      "name": "Girdle(H)",
+      "level": 27.0
+    },
+    {
+      "name": "Bone Helm",
+      "level": 22.0
+    },
+    {
+      "name": "Bone Shield",
+      "level": 19.0
+    },
+    {
+      "name": "Spiked Shield",
+      "level": 11.0
+    },
+    {
+      "name": "War Hat",
+      "level": 34.0
+    },
+    {
+      "name": "Sallet",
+      "level": 37.0
+    },
+    {
+      "name": "Casque",
+      "level": 42.0
+    },
+    {
+      "name": "Basinet",
+      "level": 45.0
+    },
+    {
+      "name": "Winged Helm",
+      "level": 51.0
+    },
+    {
+      "name": "Grand Crown",
+      "level": 55.0
+    },
+    {
+      "name": "Death Mask",
+      "level": 48.0
+    },
+    {
+      "name": "Ghost Armor",
+      "level": 34.0
+    },
+    {
+      "name": "Serpentskin Armor",
+      "level": 36.0
+    },
+    {
+      "name": "Demonhide Armor",
+      "level": 37.0
+    },
+    {
+      "name": "Trellised Armor",
+      "level": 40.0
+    },
+    {
+      "name": "Linked Mail",
+      "level": 42.0
+    },
+    {
+      "name": "Tigulated Mail",
+      "level": 43.0
+    },
+    {
+      "name": "Mesh Armor",
+      "level": 45.0
+    },
+    {
+      "name": "Cuirass",
+      "level": 47.0
+    },
+    {
+      "name": "Russet Armor",
+      "level": 49.0
+    },
+    {
+      "name": "Templar Coat",
+      "level": 52.0
+    },
+    {
+      "name": "Sharktooth Armor",
+      "level": 55.0
+    },
+    {
+      "name": "Embossed Plate",
+      "level": 58.0
+    },
+    {
+      "name": "Chaos Armor",
+      "level": 61.0
+    },
+    {
+      "name": "Ornate Armor",
+      "level": 64.0
+    },
+    {
+      "name": "Mage Plate",
+      "level": 60.0
+    },
+    {
+      "name": "Defender",
+      "level": 34.0
+    },
+    {
+      "name": "Round Shield",
+      "level": 37.0
+    },
+    {
+      "name": "Scutum",
+      "level": 42.0
+    },
+    {
+      "name": "Dragon Shield",
+      "level": 45.0
+    },
+    {
+      "name": "Pavise",
+      "level": 50.0
+    },
+    {
+      "name": "Ancient Shield",
+      "level": 56.0
+    },
+    {
+      "name": "Demonhide Gloves",
+      "level": 33.0
+    },
+    {
+      "name": "Sharkskin Gloves",
+      "level": 39.0
+    },
+    {
+      "name": "Heavy Bracers",
+      "level": 43.0
+    },
+    {
+      "name": "Battle Gauntlets",
+      "level": 49.0
+    },
+    {
+      "name": "War Gauntlets",
+      "level": 54.0
+    },
+    {
+      "name": "Demonhide Boots",
+      "level": 36.0
+    },
+    {
+      "name": "Sharkskin Boots",
+      "level": 39.0
+    },
+    {
+      "name": "Mesh Boots",
+      "level": 43.0
+    },
+    {
+      "name": "Battle Boots",
+      "level": 49.0
+    },
+    {
+      "name": "War Boots",
+      "level": 54.0
+    },
+    {
+      "name": "Demonhide Sash",
+      "level": 36.0
+    },
+    {
+      "name": "Sharkskin Belt",
+      "level": 39.0
+    },
+    {
+      "name": "Mesh Belt",
+      "level": 43.0
+    },
+    {
+      "name": "Battle Belt",
+      "level": 49.0
+    },
+    {
+      "name": "War Belt",
+      "level": 54.0
+    },
+    {
+      "name": "Grim Helm",
+      "level": 50.0
+    },
+    {
+      "name": "Grim Shield",
+      "level": 48.0
+    },
+    {
+      "name": "Barbed Shield",
+      "level": 42.0
+    },
+    {
+      "name": "Expansion",
+      "level": NaN
+    },
+    {
+      "name": "Wolf Head",
+      "level": 4.0
+    },
+    {
+      "name": "Hawk Helm",
+      "level": 8.0
+    },
+    {
+      "name": "Antlers",
+      "level": 16.0
+    },
+    {
+      "name": "Falcon Mask",
+      "level": 20.0
+    },
+    {
+      "name": "Spirit Mask",
+      "level": 24.0
+    },
+    {
+      "name": "Jawbone Cap",
+      "level": 4.0
+    },
+    {
+      "name": "Fanged Helm",
+      "level": 8.0
+    },
+    {
+      "name": "Horned Helm",
+      "level": 16.0
+    },
+    {
+      "name": "Assault Helmet",
+      "level": 20.0
+    },
+    {
+      "name": "Avenger Guard",
+      "level": 24.0
+    },
+    {
+      "name": "Targe",
+      "level": 4.0
+    },
+    {
+      "name": "Rondache",
+      "level": 8.0
+    },
+    {
+      "name": "Heraldic Shield",
+      "level": 16.0
+    },
+    {
+      "name": "Aerin Shield",
+      "level": 20.0
+    },
+    {
+      "name": "Crown Shield",
+      "level": 24.0
+    },
+    {
+      "name": "Preserved Head",
+      "level": 4.0
+    },
+    {
+      "name": "Zombie Head",
+      "level": 8.0
+    },
+    {
+      "name": "Unraveller Head",
+      "level": 16.0
+    },
+    {
+      "name": "Gargoyle Head",
+      "level": 20.0
+    },
+    {
+      "name": "Demon Head",
+      "level": 24.0
+    },
+    {
+      "name": "Circlet",
+      "level": 24.0
+    },
+    {
+      "name": "Coronet",
+      "level": 52.0
+    },
+    {
+      "name": "Tiara",
+      "level": 70.0
+    },
+    {
+      "name": "Diadem",
+      "level": 85.0
+    },
+    {
+      "name": "Shako",
+      "level": 58.0
+    },
+    {
+      "name": "Hydraskull",
+      "level": 63.0
+    },
+    {
+      "name": "Armet",
+      "level": 68.0
+    },
+    {
+      "name": "Giant Conch",
+      "level": 54.0
+    },
+    {
+      "name": "Spired Helm",
+      "level": 79.0
+    },
+    {
+      "name": "Corona",
+      "level": 85.0
+    },
+    {
+      "name": "Demonhead",
+      "level": 74.0
+    },
+    {
+      "name": "Dusk Shroud",
+      "level": 65.0
+    },
+    {
+      "name": "Wyrmhide",
+      "level": 67.0
+    },
+    {
+      "name": "Scarab Husk",
+      "level": 68.0
+    },
+    {
+      "name": "Wire Fleece",
+      "level": 70.0
+    },
+    {
+      "name": "Diamond Mail",
+      "level": 72.0
+    },
+    {
+      "name": "Loricated Mail",
+      "level": 73.0
+    },
+    {
+      "name": "Boneweave",
+      "level": 62.0
+    },
+    {
+      "name": "Great Hauberk",
+      "level": 75.0
+    },
+    {
+      "name": "Balrog Skin",
+      "level": 76.0
+    },
+    {
+      "name": "Hellforged Plate",
+      "level": 78.0
+    },
+    {
+      "name": "Kraken Shell",
+      "level": 81.0
+    },
+    {
+      "name": "Lacquered Plate",
+      "level": 82.0
+    },
+    {
+      "name": "Shadow Plate",
+      "level": 83.0
+    },
+    {
+      "name": "Sacred Armor",
+      "level": 85.0
+    },
+    {
+      "name": "Archon Plate",
+      "level": 84.0
+    },
+    {
+      "name": "Heater",
+      "level": 58.0
+    },
+    {
+      "name": "Luna",
+      "level": 61.0
+    },
+    {
+      "name": "Hyperion",
+      "level": 64.0
+    },
+    {
+      "name": "Monarch",
+      "level": 72.0
+    },
+    {
+      "name": "Aegis",
+      "level": 79.0
+    },
+    {
+      "name": "Ward",
+      "level": 84.0
+    },
+    {
+      "name": "Bramble Mitts",
+      "level": 57.0
+    },
+    {
+      "name": "Vampirebone Gloves",
+      "level": 63.0
+    },
+    {
+      "name": "Vambraces",
+      "level": 69.0
+    },
+    {
+      "name": "Crusader Gauntlets",
+      "level": 76.0
+    },
+    {
+      "name": "Ogre Gauntlets",
+      "level": 85.0
+    },
+    {
+      "name": "Wyrmhide Boots",
+      "level": 60.0
+    },
+    {
+      "name": "Scarabshell Boots",
+      "level": 66.0
+    },
+    {
+      "name": "Boneweave Boots",
+      "level": 72.0
+    },
+    {
+      "name": "Mirrored Boots",
+      "level": 81.0
+    },
+    {
+      "name": "Myrmidon Greaves",
+      "level": 85.0
+    },
+    {
+      "name": "Spiderweb Sash",
+      "level": 61.0
+    },
+    {
+      "name": "Vampirefang Belt",
+      "level": 68.0
+    },
+    {
+      "name": "Mithril Coil",
+      "level": 75.0
+    },
+    {
+      "name": "Troll Belt",
+      "level": 82.0
+    },
+    {
+      "name": "Colossus Girdle",
+      "level": 85.0
+    },
+    {
+      "name": "Bone Visage",
+      "level": 84.0
+    },
+    {
+      "name": "Troll Nest",
+      "level": 76.0
+    },
+    {
+      "name": "Blade Barrier",
+      "level": 68.0
+    },
+    {
+      "name": "Alpha Helm",
+      "level": 35.0
+    },
+    {
+      "name": "Griffon Headress",
+      "level": 40.0
+    },
+    {
+      "name": "Hunter's Guise",
+      "level": 46.0
+    },
+    {
+      "name": "Sacred Feathers",
+      "level": 50.0
+    },
+    {
+      "name": "Totemic Mask",
+      "level": 55.0
+    },
+    {
+      "name": "Jawbone Visor",
+      "level": 33.0
+    },
+    {
+      "name": "Lion Helm",
+      "level": 38.0
+    },
+    {
+      "name": "Rage Mask",
+      "level": 44.0
+    },
+    {
+      "name": "Savage Helmet",
+      "level": 49.0
+    },
+    {
+      "name": "Slayer Guard",
+      "level": 54.0
+    },
+    {
+      "name": "Akaran Targe",
+      "level": 35.0
+    },
+    {
+      "name": "Akaran Rondache",
+      "level": 40.0
+    },
+    {
+      "name": "Protector Shield",
+      "level": 46.0
+    },
+    {
+      "name": "Guilded Shield",
+      "level": 51.0
+    },
+    {
+      "name": "Royal Shield",
+      "level": 55.0
+    },
+    {
+      "name": "Mummified Trophy",
+      "level": 33.0
+    },
+    {
+      "name": "Fetish Trophy",
+      "level": 39.0
+    },
+    {
+      "name": "Sexton Trophy",
+      "level": 45.0
+    },
+    {
+      "name": "Cantor Trophy",
+      "level": 49.0
+    },
+    {
+      "name": "Heirophant Trophy",
+      "level": 54.0
+    },
+    {
+      "name": "Blood Spirt",
+      "level": 62.0
+    },
+    {
+      "name": "Sun Spirit",
+      "level": 69.0
+    },
+    {
+      "name": "Earth Spirit",
+      "level": 76.0
+    },
+    {
+      "name": "Sky Spirit",
+      "level": 83.0
+    },
+    {
+      "name": "Dream Spirit",
+      "level": 85.0
+    },
+    {
+      "name": "Carnage Helm",
+      "level": 60.0
+    },
+    {
+      "name": "Fury Visor",
+      "level": 66.0
+    },
+    {
+      "name": "Destroyer Helm",
+      "level": 73.0
+    },
+    {
+      "name": "Conquerer Crown",
+      "level": 80.0
+    },
+    {
+      "name": "Guardian Crown",
+      "level": 85.0
+    },
+    {
+      "name": "Sacred Targe",
+      "level": 63.0
+    },
+    {
+      "name": "Sacred Rondache",
+      "level": 70.0
+    },
+    {
+      "name": "Ancient Shield",
+      "level": 74.0
+    },
+    {
+      "name": "Zakarum Shield",
+      "level": 82.0
+    },
+    {
+      "name": "Vortex Shield",
+      "level": 85.0
+    },
+    {
+      "name": "Minion Skull",
+      "level": 59.0
+    },
+    {
+      "name": "Hellspawn Skull",
+      "level": 67.0
+    },
+    {
+      "name": "Overseer Skull",
+      "level": 66.0
+    },
+    {
+      "name": "Succubae Skull",
+      "level": 81.0
+    },
+    {
+      "name": "Bloodlord Skull",
+      "level": 85.0
+    }
   ]
 }
