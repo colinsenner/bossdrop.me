@@ -11,7 +11,7 @@ treasureClassEx = common.create_dictionary(os.path.join(data_dir, "TreasureClass
 
 def main():
     boss = 'Duriel'
-    boss_tcs = AllTreasureClasses('Duriel')
+    boss_tcs = AllTreasureClasses(boss)
 
     print(f"{boss} - TCs")
     print("--------------")
@@ -74,7 +74,7 @@ def AllTreasureClasses(treasure_class_name):
     return all_treasure_classes
 
 
-def AllTreasureClassesRecursive(treasure_class_name, all_treasure_classes):
+def AllTreasureClassesRecursive(treasure_class_name, all_treasure_classes=[]):
     """Returns every droppable Treasure Class for a given Treasure Class
 
     Args:
@@ -83,12 +83,12 @@ def AllTreasureClassesRecursive(treasure_class_name, all_treasure_classes):
     Returns:
         [str]: List of every Treasure Class including all sub TCs for a given string
     """
-    all_treasure_classes.append(treasure_class_name)
-
     # Base case
     # Some values in 'Item#' are empty, pandas returns NaN
     if pd.isna(treasure_class_name):
         return
+
+    all_treasure_classes.append(treasure_class_name)
 
     for row in treasureClassEx:
         if row['Treasure Class'] == treasure_class_name:
