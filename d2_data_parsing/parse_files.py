@@ -55,11 +55,23 @@ def parse_uniqueitems():
 
     return unique_items
 
+def parse_armor():
+    columns_to_keep=['name', 'level']
+
+    all_armors = common.create_dictionary(os.path.join(data_dir, "Armor.txt"))
+
+    filtered_entries = []
+    for item in all_armors:
+        filtered_entries.append(common.filter_columns(item, columns_to_keep))
+
+    return filtered_entries
+
 if __name__ == "__main__":
     bosses = parse_monstats()
     unique_items = parse_uniqueitems()
+    armors = parse_armor()
 
-    results = {"bosses": bosses, "uniqueitems": unique_items}
+    results = {"bosses": bosses, "uniqueitems": unique_items, "armors": armors}
 
     # Write the full results.json file
     with open(os.path.join(data_dir, "results.json"), "w") as f:
