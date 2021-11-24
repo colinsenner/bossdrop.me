@@ -27,6 +27,7 @@
         @apply max-w-6xl;
     }
 
-    .result {
+    #searchresult ul li {
+        @apply pt-2 hover:text-yellow-800 cursor-pointer;
     }
 }
