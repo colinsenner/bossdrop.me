@@ -9,13 +9,29 @@ data_dir = os.path.join(os.path.dirname(__file__), 'data')
 
 treasureClassEx = common.create_dictionary(os.path.join(data_dir, "TreasureClassEx.txt"))
 
+
 def main():
-    boss = 'Duriel'
+    boss = 'Mephisto (H)'
+    item = "Tyrael's Might"
     boss_tcs = AllTreasureClasses(boss)
 
-    print(f"{boss} - TCs")
-    print("--------------")
     print(boss_tcs)
+
+    equip_group = DropGroupName("armo", 85)
+
+    print("--------------------")
+    print(f"Can {boss} drop {item}?")
+    print(f"{equip_group in boss_tcs}")
+
+
+
+def EquipGroupLevel(level):
+    return level + (3 - (level % 3))
+
+
+def DropGroupName(prefix, level):
+    group_level = EquipGroupLevel(level)
+    return f'{prefix}{group_level}'
 
 
 def GetSubTreasureClasses(treasure_class_name):
