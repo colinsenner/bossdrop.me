@@ -11,21 +11,32 @@ treasureClassEx = common.create_dictionary(os.path.join(data_dir, "TreasureClass
 
 
 def main():
-    boss = 'Mephisto (H)'
-    item = "Tyrael's Might"
-    boss_tcs = AllTreasureClasses(boss)
+    boss = { "name":'Pindleskin', "level":86, "Treasure Class":"Act 5 (H) Unique C" }
+    #boss = { "name":'Baal (H)', "level":99, "Treasure Class":"Baal (H)" }
+    #item = { "name": "Tyrael's Might", "level":87, "type":"armor" }
+    item = { "name": "Templar's Might", "level":82, "type":"armor" }
 
-    print(boss_tcs)
+    equip_group = DropGroupName("armo", item['level'])
 
-    equip_group = DropGroupName("armo", 85)
+    item['equip_group'] = equip_group
 
     print("--------------------")
-    print(f"Can {boss} drop {item}?")
-    print(f"{equip_group in boss_tcs}")
+    print(f"Can {boss['name']} drop {item['name']}?")
+    print(f"{CanBossDropItem(boss, item)}")
 
+
+def CanBossDropItem(boss, item):
+    boss_treasure_classes = AllTreasureClasses(boss['Treasure Class'])
+
+    boss_is_high_enough_level = boss['level'] >= item['level']
+    treasure_class_can_drop_the_type = item['equip_group'] in boss_treasure_classes
+
+    return boss_is_high_enough_level and treasure_class_can_drop_the_type
 
 
 def EquipGroupLevel(level):
+    if level % 3 == 0:
+        return level
     return level + (3 - (level % 3))
 
 
