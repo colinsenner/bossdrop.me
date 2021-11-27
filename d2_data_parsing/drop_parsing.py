@@ -11,10 +11,12 @@ treasureClassEx = common.create_dictionary(os.path.join(data_dir, "TreasureClass
 
 
 def main():
-    boss = { "name":'Pindleskin', "level":86, "Treasure Class":"Act 5 (H) Unique C" }
+    #boss = { "name":'Pindleskin', "level":86, "Treasure Class":"Act 5 (H) Unique C" }
     #boss = { "name":'Baal (H)', "level":99, "Treasure Class":"Baal (H)" }
+    boss = { "name":'Mephisto', "level":87, "Treasure Class":"Mephisto (H)" }
     #item = { "name": "Tyrael's Might", "level":87, "type":"armor" }
-    item = { "name": "Templar's Might", "level":82, "type":"armor" }
+    #item = { "name": "Templar's Might", "level":82, "type":"armor" }
+    item = { "name": "Arachnid Mesh", "level":87, "type":"armor" }
 
     equip_group = DropGroupName("armo", item['level'])
 
@@ -26,10 +28,15 @@ def main():
 
 
 def CanBossDropItem(boss, item):
-    boss_treasure_classes = AllTreasureClasses(boss['Treasure Class'])
+    boss_treasure_classes = set(AllTreasureClasses(boss['Treasure Class']))
+
+    print(boss_treasure_classes)
 
     boss_is_high_enough_level = boss['level'] >= item['level']
     treasure_class_can_drop_the_type = item['equip_group'] in boss_treasure_classes
+
+    print(f"  Is high enough level: {boss_is_high_enough_level}")
+    print(f"  TC can drop type    : {treasure_class_can_drop_the_type}")
 
     return boss_is_high_enough_level and treasure_class_can_drop_the_type
 
