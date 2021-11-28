@@ -18,6 +18,7 @@ def main():
     #item = { "name": "Templar's Might", "level":82, "type":"armor" }
     item = { "name": "Arachnid Mesh", "level":87, "type":"armor" }
 
+    ### WRONG, TC USES BASE ITEM TYPE LEVEL NOT UniqueItems lvl
     equip_group = DropGroupName("armo", item['level'])
 
     item['equip_group'] = equip_group
