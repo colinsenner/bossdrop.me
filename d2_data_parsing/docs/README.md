@@ -1,5 +1,8 @@
 # Files
 
+https://d2mods.info/forum/kb/index?c=4
+https://dropcalc.silospen.com/item.php
+
 ## MonStats.txt
 Used to get monsters (Bosses) and their TCs
 

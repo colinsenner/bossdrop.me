@@ -33,5 +33,5 @@ Mephisto's level (87) vs Arachnid Mesh lvl (87)
 
 AND
 
-TC of the Base item level (Spiderweb Sash, 61) rounded to (63) `armo63`
+TC of the Base item level (Spiderweb Sash, 61) rounded to (63) `armo63` must be in Mephisto's TCs.
 ```
