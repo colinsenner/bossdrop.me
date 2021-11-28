@@ -7,6 +7,7 @@
         {
             "name": "Generate Results",
             "type": "python",
+            "cwd": "${workspaceFolder}/d2r",
             "request": "launch",
             "program": "${workspaceFolder}/d2r/generate_results.py",
             "console": "integratedTerminal"
