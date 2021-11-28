@@ -1,0 +1,2057 @@
+{
+  "The Gnasher":{
+    "lvl":7.0,
+    "base_item_level":3.0,
+    "code":"hax"
+  },
+  "Deathspade":{
+    "lvl":12.0,
+    "base_item_level":7.0,
+    "code":"axe"
+  },
+  "Bladebone":{
+    "lvl":20.0,
+    "base_item_level":13.0,
+    "code":"2ax"
+  },
+  "Mindrend":{
+    "lvl":28.0,
+    "base_item_level":19.0,
+    "code":"mpi"
+  },
+  "Rakescar":{
+    "lvl":36.0,
+    "base_item_level":25.0,
+    "code":"wax"
+  },
+  "Fechmars Axe":{
+    "lvl":11.0,
+    "base_item_level":6.0,
+    "code":"lax"
+  },
+  "Goreshovel":{
+    "lvl":19.0,
+    "base_item_level":12.0,
+    "code":"bax"
+  },
+  "The Chieftan":{
+    "lvl":26.0,
+    "base_item_level":17.0,
+    "code":"btx"
+  },
+  "Brainhew":{
+    "lvl":34.0,
+    "base_item_level":23.0,
+    "code":"gax"
+  },
+  "The Humongous":{
+    "lvl":39.0,
+    "base_item_level":27.0,
+    "code":"gix"
+  },
+  "Iros Torch":{
+    "lvl":7.0,
+    "base_item_level":2.0,
+    "code":"wnd"
+  },
+  "Maelstromwrath":{
+    "lvl":19.0,
+    "base_item_level":12.0,
+    "code":"ywn"
+  },
+  "Gravenspine":{
+    "lvl":27.0,
+    "base_item_level":18.0,
+    "code":"bwn"
+  },
+  "Umes Lament":{
+    "lvl":38.0,
+    "base_item_level":26.0,
+    "code":"gwn"
+  },
+  "Felloak":{
+    "lvl":4.0,
+    "base_item_level":1.0,
+    "code":"clb"
+  },
+  "Knell Striker":{
+    "lvl":7.0,
+    "base_item_level":3.0,
+    "code":"scp"
+  },
+  "Rusthandle":{
+    "lvl":23.0,
+    "base_item_level":15.0,
+    "code":"gsc"
+  },
+  "Stormeye":{
+    "lvl":31.0,
+    "base_item_level":21.0,
+    "code":"wsp"
+  },
+  "Stoutnail":{
+    "lvl":7.0,
+    "base_item_level":4.0,
+    "code":"spc"
+  },
+  "Crushflange":{
+    "lvl":12.0,
+    "base_item_level":8.0,
+    "code":"mac"
+  },
+  "Bloodrise":{
+    "lvl":20.0,
+    "base_item_level":13.0,
+    "code":"mst"
+  },
+  "The Generals Tan Do Li Ga":{
+    "lvl":28.0,
+    "base_item_level":19.0,
+    "code":"fla"
+  },
+  "Ironstone":{
+    "lvl":36.0,
+    "base_item_level":25.0,
+    "code":"whm"
+  },
+  "Bonesob":{
+    "lvl":32.0,
+    "base_item_level":21.0,
+    "code":"mau"
+  },
+  "Steeldriver":{
+    "lvl":39.0,
+    "base_item_level":32.0,
+    "code":"gma"
+  },
+  "Rixots Keen":{
+    "lvl":3.0,
+    "base_item_level":1.0,
+    "code":"ssd"
+  },
+  "Blood Crescent":{
+    "lvl":10.0,
+    "base_item_level":5.0,
+    "code":"scm"
+  },
+  "Krintizs Skewer":{
+    "lvl":14.0,
+    "base_item_level":8.0,
+    "code":"sbr"
+  },
+  "Gleamscythe":{
+    "lvl":18.0,
+    "base_item_level":11.0,
+    "code":"flc"
+  },
+  "Griswolds Edge":{
+    "lvl":23.0,
+    "base_item_level":15.0,
+    "code":"bsd"
+  },
+  "Hellplague":{
+    "lvl":30.0,
+    "base_item_level":20.0,
+    "code":"lsd"
+  },
+  "Culwens Point":{
+    "lvl":39.0,
+    "base_item_level":27.0,
+    "code":"wsd"
+  },
+  "Shadowfang":{
+    "lvl":16.0,
+    "base_item_level":10.0,
+    "code":"2hs"
+  },
+  "Soulflay":{
+    "lvl":26.0,
+    "base_item_level":17.0,
+    "code":"clm"
+  },
+  "Kinemils Awl":{
+    "lvl":31.0,
+    "base_item_level":21.0,
+    "code":"gis"
+  },
+  "Blacktongue":{
+    "lvl":35.0,
+    "base_item_level":24.0,
+    "code":"bsw"
+  },
+  "Ripsaw":{
+    "lvl":35.0,
+    "base_item_level":27.0,
+    "code":"flb"
+  },
+  "The Patriarch":{
+    "lvl":39.0,
+    "base_item_level":33.0,
+    "code":"gsd"
+  },
+  "Gull":{
+    "lvl":6.0,
+    "base_item_level":3.0,
+    "code":"dgr"
+  },
+  "The Diggler":{
+    "lvl":15.0,
+    "base_item_level":9.0,
+    "code":"dir"
+  },
+  "The Jade Tan Do":{
+    "lvl":26.0,
+    "base_item_level":17.0,
+    "code":"kri"
+  },
+  "Irices Shard":{
+    "lvl":34.0,
+    "base_item_level":23.0,
+    "code":"bld"
+  },
+  "The Dragon Chang":{
+    "lvl":11.0,
+    "base_item_level":5.0,
+    "code":"spr"
+  },
+  "Razortine":{
+    "lvl":16.0,
+    "base_item_level":9.0,
+    "code":"tri"
+  },
+  "Bloodthief":{
+    "lvl":23.0,
+    "base_item_level":16.0,
+    "code":"brn"
+  },
+  "Lance of Yaggai":{
+    "lvl":30.0,
+    "base_item_level":20.0,
+    "code":"spt"
+  },
+  "The Tannr Gorerod":{
+    "lvl":36.0,
+    "base_item_level":24.0,
+    "code":"pik"
+  },
+  "Dimoaks Hew":{
+    "lvl":11.0,
+    "base_item_level":5.0,
+    "code":"bar"
+  },
+  "Steelgoad":{
+    "lvl":19.0,
+    "base_item_level":11.0,
+    "code":"vou"
+  },
+  "Soul Harvest":{
+    "lvl":26.0,
+    "base_item_level":15.0,
+    "code":"scy"
+  },
+  "The Battlebranch":{
+    "lvl":34.0,
+    "base_item_level":21.0,
+    "code":"pax"
+  },
+  "Woestave":{
+    "lvl":38.0,
+    "base_item_level":29.0,
+    "code":"hal"
+  },
+  "The Grim Reaper":{
+    "lvl":39.0,
+    "base_item_level":34.0,
+    "code":"wsc"
+  },
+  "Bane Ash":{
+    "lvl":7.0,
+    "base_item_level":1.0,
+    "code":"sst"
+  },
+  "Serpent Lord":{
+    "lvl":12.0,
+    "base_item_level":8.0,
+    "code":"lst"
+  },
+  "Lazarus Spire":{
+    "lvl":24.0,
+    "base_item_level":12.0,
+    "code":"cst"
+  },
+  "The Salamander":{
+    "lvl":28.0,
+    "base_item_level":17.0,
+    "code":"bst"
+  },
+  "The Iron Jang Bong":{
+    "lvl":38.0,
+    "base_item_level":24.0,
+    "code":"wst"
+  },
+  "Pluckeye":{
+    "lvl":10.0,
+    "base_item_level":1.0,
+    "code":"sbw"
+  },
+  "Witherstring":{
+    "lvl":18.0,
+    "base_item_level":5.0,
+    "code":"hbw"
+  },
+  "Rimeraven":{
+    "lvl":20.0,
+    "base_item_level":8.0,
+    "code":"lbw"
+  },
+  "Piercerib":{
+    "lvl":27.0,
+    "base_item_level":12.0,
+    "code":"cbw"
+  },
+  "Pullspite":{
+    "lvl":34.0,
+    "base_item_level":18.0,
+    "code":"sbb"
+  },
+  "Wizendraw":{
+    "lvl":35.0,
+    "base_item_level":23.0,
+    "code":"lbb"
+  },
+  "Hellclap":{
+    "lvl":36.0,
+    "base_item_level":27.0,
+    "code":"swb"
+  },
+  "Blastbark":{
+    "lvl":38.0,
+    "base_item_level":31.0,
+    "code":"lwb"
+  },
+  "Leadcrow":{
+    "lvl":12.0,
+    "base_item_level":6.0,
+    "code":"lxb"
+  },
+  "Ichorsting":{
+    "lvl":24.0,
+    "base_item_level":15.0,
+    "code":"mxb"
+  },
+  "Hellcast":{
+    "lvl":36.0,
+    "base_item_level":24.0,
+    "code":"hxb"
+  },
+  "Doomspittle":{
+    "lvl":38.0,
+    "base_item_level":33.0,
+    "code":"rxb"
+  },
+  "War Bonnet":{
+    "lvl":4.0,
+    "base_item_level":1.0,
+    "code":"cap"
+  },
+  "Tarnhelm":{
+    "lvl":20.0,
+    "base_item_level":5.0,
+    "code":"skp"
+  },
+  "Coif of Glory":{
+    "lvl":19.0,
+    "base_item_level":11.0,
+    "code":"hlm"
+  },
+  "Duskdeep":{
+    "lvl":23.0,
+    "base_item_level":15.0,
+    "code":"fhl"
+  },
+  "Wormskull":{
+    "lvl":28.0,
+    "base_item_level":22.0,
+    "code":"bhm"
+  },
+  "Howltusk":{
+    "lvl":34.0,
+    "base_item_level":23.0,
+    "code":"ghm"
+  },
+  "Undead Crown":{
+    "lvl":39.0,
+    "base_item_level":29.0,
+    "code":"crn"
+  },
+  "The Face of Horror":{
+    "lvl":27.0,
+    "base_item_level":19.0,
+    "code":"msk"
+  },
+  "Greyform":{
+    "lvl":10.0,
+    "base_item_level":1.0,
+    "code":"qui"
+  },
+  "Blinkbats Form":{
+    "lvl":16.0,
+    "base_item_level":3.0,
+    "code":"lea"
+  },
+  "The Centurion":{
+    "lvl":19.0,
+    "base_item_level":5.0,
+    "code":"hla"
+  },
+  "Twitchthroe":{
+    "lvl":22.0,
+    "base_item_level":8.0,
+    "code":"stu"
+  },
+  "Darkglow":{
+    "lvl":19.0,
+    "base_item_level":11.0,
+    "code":"rng"
+  },
+  "Hawkmail":{
+    "lvl":20.0,
+    "base_item_level":13.0,
+    "code":"scl"
+  },
+  "Sparking Mail":{
+    "lvl":23.0,
+    "base_item_level":15.0,
+    "code":"chn"
+  },
+  "Venomsward":{
+    "lvl":27.0,
+    "base_item_level":18.0,
+    "code":"brs"
+  },
+  "Iceblink":{
+    "lvl":30.0,
+    "base_item_level":20.0,
+    "code":"spl"
+  },
+  "Boneflesh":{
+    "lvl":35.0,
+    "base_item_level":24.0,
+    "code":"plt"
+  },
+  "Rockfleece":{
+    "lvl":38.0,
+    "base_item_level":28.0,
+    "code":"fld"
+  },
+  "Rattlecage":{
+    "lvl":39.0,
+    "base_item_level":32.0,
+    "code":"gth"
+  },
+  "Goldskin":{
+    "lvl":38.0,
+    "base_item_level":37.0,
+    "code":"ful"
+  },
+  "Victors Silk":{
+    "lvl":38.0,
+    "base_item_level":40.0,
+    "code":"aar"
+  },
+  "Heavenly Garb":{
+    "lvl":39.0,
+    "base_item_level":35.0,
+    "code":"ltp"
+  },
+  "Pelta Lunata":{
+    "lvl":3.0,
+    "base_item_level":1.0,
+    "code":"buc"
+  },
+  "Umbral Disk":{
+    "lvl":12.0,
+    "base_item_level":5.0,
+    "code":"sml"
+  },
+  "Stormguild":{
+    "lvl":18.0,
+    "base_item_level":11.0,
+    "code":"lrg"
+  },
+  "Wall of the Eyeless":{
+    "lvl":27.0,
+    "base_item_level":19.0,
+    "code":"bsh"
+  },
+  "Swordback Hold":{
+    "lvl":20.0,
+    "base_item_level":11.0,
+    "code":"spk"
+  },
+  "Steelclash":{
+    "lvl":23.0,
+    "base_item_level":15.0,
+    "code":"kit"
+  },
+  "Bverrit Keep":{
+    "lvl":26.0,
+    "base_item_level":22.0,
+    "code":"tow"
+  },
+  "The Ward":{
+    "lvl":35.0,
+    "base_item_level":30.0,
+    "code":"gts"
+  },
+  "The Hand of Broc":{
+    "lvl":7.0,
+    "base_item_level":3.0,
+    "code":"lgl"
+  },
+  "Bloodfist":{
+    "lvl":12.0,
+    "base_item_level":7.0,
+    "code":"vgl"
+  },
+  "Chance Guards":{
+    "lvl":20.0,
+    "base_item_level":12.0,
+    "code":"mgl"
+  },
+  "Magefist":{
+    "lvl":31.0,
+    "base_item_level":20.0,
+    "code":"tgl"
+  },
+  "Frostburn":{
+    "lvl":39.0,
+    "base_item_level":27.0,
+    "code":"hgl"
+  },
+  "Hotspur":{
+    "lvl":7.0,
+    "base_item_level":3.0,
+    "code":"lbt"
+  },
+  "Gorefoot":{
+    "lvl":12.0,
+    "base_item_level":7.0,
+    "code":"vbt"
+  },
+  "Treads of Cthon":{
+    "lvl":20.0,
+    "base_item_level":12.0,
+    "code":"mbt"
+  },
+  "Goblin Toe":{
+    "lvl":30.0,
+    "base_item_level":20.0,
+    "code":"tbt"
+  },
+  "Tearhaunch":{
+    "lvl":39.0,
+    "base_item_level":27.0,
+    "code":"hbt"
+  },
+  "Lenyms Cord":{
+    "lvl":10.0,
+    "base_item_level":3.0,
+    "code":"lbl"
+  },
+  "Snakecord":{
+    "lvl":16.0,
+    "base_item_level":7.0,
+    "code":"vbl"
+  },
+  "Nightsmoke":{
+    "lvl":27.0,
+    "base_item_level":12.0,
+    "code":"mbl"
+  },
+  "Goldwrap":{
+    "lvl":36.0,
+    "base_item_level":20.0,
+    "code":"tbl"
+  },
+  "Bladebuckle":{
+    "lvl":39.0,
+    "base_item_level":27.0,
+    "code":"hbl"
+  },
+  "Nokozan Relic":{
+    "lvl":14.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "The Eye of Etlich":{
+    "lvl":20.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "The Mahim-Oak Curio":{
+    "lvl":34.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "Nagelring":{
+    "lvl":10.0,
+    "base_item_level":1.0,
+    "code":"rin"
+  },
+  "Manald Heal":{
+    "lvl":20.0,
+    "base_item_level":1.0,
+    "code":"rin"
+  },
+  "The Stone of Jordan":{
+    "lvl":39.0,
+    "base_item_level":1.0,
+    "code":"rin"
+  },
+  "Amulet of the Viper":{
+    "lvl":0.0,
+    "base_item_level":15.0,
+    "code":"vip"
+  },
+  "Staff of Kings":{
+    "lvl":0.0,
+    "base_item_level":0.0,
+    "code":"msf"
+  },
+  "Horadric Staff":{
+    "lvl":0.0,
+    "base_item_level":0.0,
+    "code":"hst"
+  },
+  "Hell Forge Hammer":{
+    "lvl":0.0,
+    "base_item_level":0.0,
+    "code":"hfh"
+  },
+  "KhalimFlail":{
+    "lvl":0.0,
+    "base_item_level":0.0,
+    "code":"qf1"
+  },
+  "SuperKhalimFlail":{
+    "lvl":0.0,
+    "base_item_level":0.0,
+    "code":"qf2"
+  },
+  "Coldkill":{
+    "lvl":44.0,
+    "base_item_level":31.0,
+    "code":"9ha"
+  },
+  "Butcher's Pupil":{
+    "lvl":47.0,
+    "base_item_level":34.0,
+    "code":"9ax"
+  },
+  "Islestrike":{
+    "lvl":51.0,
+    "base_item_level":39.0,
+    "code":"92a"
+  },
+  "Pompe's Wrath":{
+    "lvl":53.0,
+    "base_item_level":43.0,
+    "code":"9mp"
+  },
+  "Guardian Naga":{
+    "lvl":56.0,
+    "base_item_level":48.0,
+    "code":"9wa"
+  },
+  "Warlord's Trust":{
+    "lvl":43.0,
+    "base_item_level":34.0,
+    "code":"9la"
+  },
+  "Spellsteel":{
+    "lvl":47.0,
+    "base_item_level":38.0,
+    "code":"9ba"
+  },
+  "Stormrider":{
+    "lvl":49.0,
+    "base_item_level":42.0,
+    "code":"9bt"
+  },
+  "Boneslayer Blade":{
+    "lvl":50.0,
+    "base_item_level":46.0,
+    "code":"9ga"
+  },
+  "The Minataur":{
+    "lvl":53.0,
+    "base_item_level":51.0,
+    "code":"9gi"
+  },
+  "Suicide Branch":{
+    "lvl":41.0,
+    "base_item_level":31.0,
+    "code":"9wn"
+  },
+  "Carin Shard":{
+    "lvl":43.0,
+    "base_item_level":38.0,
+    "code":"9yw"
+  },
+  "Arm of King Leoric":{
+    "lvl":44.0,
+    "base_item_level":43.0,
+    "code":"9bw"
+  },
+  "Blackhand Key":{
+    "lvl":49.0,
+    "base_item_level":49.0,
+    "code":"9gw"
+  },
+  "Dark Clan Crusher":{
+    "lvl":42.0,
+    "base_item_level":30.0,
+    "code":"9cl"
+  },
+  "Zakarum's Hand":{
+    "lvl":45.0,
+    "base_item_level":31.0,
+    "code":"9sc"
+  },
+  "The Fetid Sprinkler":{
+    "lvl":46.0,
+    "base_item_level":40.0,
+    "code":"9qs"
+  },
+  "Hand of Blessed Light":{
+    "lvl":50.0,
+    "base_item_level":45.0,
+    "code":"9ws"
+  },
+  "Fleshrender":{
+    "lvl":46.0,
+    "base_item_level":32.0,
+    "code":"9sp"
+  },
+  "Sureshrill Frost":{
+    "lvl":47.0,
+    "base_item_level":35.0,
+    "code":"9ma"
+  },
+  "Moonfall":{
+    "lvl":50.0,
+    "base_item_level":39.0,
+    "code":"9mt"
+  },
+  "Baezil's Vortex":{
+    "lvl":53.0,
+    "base_item_level":43.0,
+    "code":"9fl"
+  },
+  "Earthshaker":{
+    "lvl":51.0,
+    "base_item_level":48.0,
+    "code":"9wh"
+  },
+  "Bloodtree Stump":{
+    "lvl":56.0,
+    "base_item_level":45.0,
+    "code":"9m9"
+  },
+  "The Gavel of Pain":{
+    "lvl":53.0,
+    "base_item_level":53.0,
+    "code":"9gm"
+  },
+  "Bloodletter":{
+    "lvl":38.0,
+    "base_item_level":30.0,
+    "code":"9ss"
+  },
+  "Coldsteel Eye":{
+    "lvl":39.0,
+    "base_item_level":43.0,
+    "code":"9sm"
+  },
+  "Hexfire":{
+    "lvl":41.0,
+    "base_item_level":35.0,
+    "code":"9sb"
+  },
+  "Blade of Ali Baba":{
+    "lvl":43.0,
+    "base_item_level":37.0,
+    "code":"9fc"
+  },
+  "Ginther's Rift":{
+    "lvl":45.0,
+    "base_item_level":37.0,
+    "code":"9cr"
+  },
+  "Headstriker":{
+    "lvl":47.0,
+    "base_item_level":40.0,
+    "code":"9bs"
+  },
+  "Plague Bearer":{
+    "lvl":49.0,
+    "base_item_level":44.0,
+    "code":"9ls"
+  },
+  "The Atlantian":{
+    "lvl":50.0,
+    "base_item_level":49.0,
+    "code":"9wd"
+  },
+  "Crainte Vomir":{
+    "lvl":50.0,
+    "base_item_level":37.0,
+    "code":"92h"
+  },
+  "Bing Sz Wang":{
+    "lvl":51.0,
+    "base_item_level":42.0,
+    "code":"9cm"
+  },
+  "The Vile Husk":{
+    "lvl":52.0,
+    "base_item_level":45.0,
+    "code":"9gs"
+  },
+  "Cloudcrack":{
+    "lvl":53.0,
+    "base_item_level":48.0,
+    "code":"9b9"
+  },
+  "Todesfaelle Flamme":{
+    "lvl":54.0,
+    "base_item_level":49.0,
+    "code":"9fb"
+  },
+  "Swordguard":{
+    "lvl":55.0,
+    "base_item_level":54.0,
+    "code":"9gd"
+  },
+  "Spineripper":{
+    "lvl":40.0,
+    "base_item_level":31.0,
+    "code":"9dg"
+  },
+  "Heart Carver":{
+    "lvl":44.0,
+    "base_item_level":36.0,
+    "code":"9di"
+  },
+  "Blackbog's Sharp":{
+    "lvl":46.0,
+    "base_item_level":42.0,
+    "code":"9kr"
+  },
+  "Stormspike":{
+    "lvl":49.0,
+    "base_item_level":46.0,
+    "code":"9bl"
+  },
+  "The Impaler":{
+    "lvl":39.0,
+    "base_item_level":33.0,
+    "code":"9sr"
+  },
+  "Kelpie Snare":{
+    "lvl":41.0,
+    "base_item_level":36.0,
+    "code":"9tr"
+  },
+  "Soulfeast Tine":{
+    "lvl":43.0,
+    "base_item_level":41.0,
+    "code":"9br"
+  },
+  "Hone Sundan":{
+    "lvl":45.0,
+    "base_item_level":44.0,
+    "code":"9st"
+  },
+  "Spire of Honor":{
+    "lvl":47.0,
+    "base_item_level":47.0,
+    "code":"9p9"
+  },
+  "The Meat Scraper":{
+    "lvl":49.0,
+    "base_item_level":33.0,
+    "code":"9b7"
+  },
+  "Blackleach Blade":{
+    "lvl":50.0,
+    "base_item_level":37.0,
+    "code":"9vo"
+  },
+  "Athena's Wrath":{
+    "lvl":50.0,
+    "base_item_level":40.0,
+    "code":"9s8"
+  },
+  "Pierre Tombale Couant":{
+    "lvl":51.0,
+    "base_item_level":35.0,
+    "code":"9pa"
+  },
+  "Husoldal Evo":{
+    "lvl":52.0,
+    "base_item_level":51.0,
+    "code":"9h9"
+  },
+  "Grim's Burning Dead":{
+    "lvl":52.0,
+    "base_item_level":55.0,
+    "code":"9wc"
+  },
+  "Razorswitch":{
+    "lvl":36.0,
+    "base_item_level":30.0,
+    "code":"8ss"
+  },
+  "Ribcracker":{
+    "lvl":39.0,
+    "base_item_level":35.0,
+    "code":"8ls"
+  },
+  "Chromatic Ire":{
+    "lvl":43.0,
+    "base_item_level":38.0,
+    "code":"8cs"
+  },
+  "Warpspear":{
+    "lvl":47.0,
+    "base_item_level":42.0,
+    "code":"8bs"
+  },
+  "Skullcollector":{
+    "lvl":49.0,
+    "base_item_level":47.0,
+    "code":"8ws"
+  },
+  "Skystrike":{
+    "lvl":36.0,
+    "base_item_level":30.0,
+    "code":"8sb"
+  },
+  "Riphook":{
+    "lvl":39.0,
+    "base_item_level":33.0,
+    "code":"8hb"
+  },
+  "Kuko Shakaku":{
+    "lvl":41.0,
+    "base_item_level":35.0,
+    "code":"8lb"
+  },
+  "Endlesshail":{
+    "lvl":44.0,
+    "base_item_level":39.0,
+    "code":"8cb"
+  },
+  "Whichwild String":{
+    "lvl":47.0,
+    "base_item_level":43.0,
+    "code":"8s8"
+  },
+  "Cliffkiller":{
+    "lvl":49.0,
+    "base_item_level":46.0,
+    "code":"8l8"
+  },
+  "Magewrath":{
+    "lvl":51.0,
+    "base_item_level":49.0,
+    "code":"8sw"
+  },
+  "Godstrike Arch":{
+    "lvl":54.0,
+    "base_item_level":52.0,
+    "code":"8lw"
+  },
+  "Langer Briser":{
+    "lvl":40.0,
+    "base_item_level":34.0,
+    "code":"8lx"
+  },
+  "Pus Spiter":{
+    "lvl":44.0,
+    "base_item_level":40.0,
+    "code":"8mx"
+  },
+  "Buriza-Do Kyanon":{
+    "lvl":59.0,
+    "base_item_level":47.0,
+    "code":"8hx"
+  },
+  "Demon Machine":{
+    "lvl":57.0,
+    "base_item_level":54.0,
+    "code":"8rx"
+  },
+  "Peasent Crown":{
+    "lvl":36.0,
+    "base_item_level":34.0,
+    "code":"xap"
+  },
+  "Rockstopper":{
+    "lvl":39.0,
+    "base_item_level":37.0,
+    "code":"xkp"
+  },
+  "Stealskull":{
+    "lvl":43.0,
+    "base_item_level":42.0,
+    "code":"xlm"
+  },
+  "Darksight Helm":{
+    "lvl":46.0,
+    "base_item_level":45.0,
+    "code":"xhl"
+  },
+  "Valkiry Wing":{
+    "lvl":52.0,
+    "base_item_level":51.0,
+    "code":"xhm"
+  },
+  "Crown of Thieves":{
+    "lvl":57.0,
+    "base_item_level":55.0,
+    "code":"xrn"
+  },
+  "Blackhorn's Face":{
+    "lvl":49.0,
+    "base_item_level":48.0,
+    "code":"xsk"
+  },
+  "Vampiregaze":{
+    "lvl":49.0,
+    "base_item_level":50.0,
+    "code":"xh9"
+  },
+  "The Spirit Shroud":{
+    "lvl":36.0,
+    "base_item_level":34.0,
+    "code":"xui"
+  },
+  "Skin of the Vipermagi":{
+    "lvl":37.0,
+    "base_item_level":36.0,
+    "code":"xea"
+  },
+  "Skin of the Flayerd One":{
+    "lvl":39.0,
+    "base_item_level":37.0,
+    "code":"xla"
+  },
+  "Ironpelt":{
+    "lvl":41.0,
+    "base_item_level":40.0,
+    "code":"xtu"
+  },
+  "Spiritforge":{
+    "lvl":43.0,
+    "base_item_level":42.0,
+    "code":"xng"
+  },
+  "Crow Caw":{
+    "lvl":45.0,
+    "base_item_level":43.0,
+    "code":"xcl"
+  },
+  "Shaftstop":{
+    "lvl":46.0,
+    "base_item_level":45.0,
+    "code":"xhn"
+  },
+  "Duriel's Shell":{
+    "lvl":49.0,
+    "base_item_level":47.0,
+    "code":"xrs"
+  },
+  "Skullder's Ire":{
+    "lvl":50.0,
+    "base_item_level":49.0,
+    "code":"xpl"
+  },
+  "Guardian Angel":{
+    "lvl":53.0,
+    "base_item_level":52.0,
+    "code":"xlt"
+  },
+  "Toothrow":{
+    "lvl":56.0,
+    "base_item_level":55.0,
+    "code":"xld"
+  },
+  "Atma's Wail":{
+    "lvl":59.0,
+    "base_item_level":58.0,
+    "code":"xth"
+  },
+  "Black Hades":{
+    "lvl":61.0,
+    "base_item_level":61.0,
+    "code":"xul"
+  },
+  "Corpsemourn":{
+    "lvl":63.0,
+    "base_item_level":64.0,
+    "code":"xar"
+  },
+  "Que-Hegan's Wisdon":{
+    "lvl":59.0,
+    "base_item_level":60.0,
+    "code":"xtp"
+  },
+  "Visceratuant":{
+    "lvl":36.0,
+    "base_item_level":34.0,
+    "code":"xuc"
+  },
+  "Mosers Blessed Circle":{
+    "lvl":39.0,
+    "base_item_level":37.0,
+    "code":"xml"
+  },
+  "Stormchaser":{
+    "lvl":43.0,
+    "base_item_level":42.0,
+    "code":"xrg"
+  },
+  "Tiamat's Rebuke":{
+    "lvl":46.0,
+    "base_item_level":45.0,
+    "code":"xit"
+  },
+  "Kerke's Sanctuary":{
+    "lvl":52.0,
+    "base_item_level":50.0,
+    "code":"xow"
+  },
+  "Radimant's Sphere":{
+    "lvl":58.0,
+    "base_item_level":56.0,
+    "code":"xts"
+  },
+  "Lidless Wall":{
+    "lvl":49.0,
+    "base_item_level":48.0,
+    "code":"xsh"
+  },
+  "Lance Guard":{
+    "lvl":43.0,
+    "base_item_level":42.0,
+    "code":"xpk"
+  },
+  "Venom Grip":{
+    "lvl":37.0,
+    "base_item_level":33.0,
+    "code":"xlg"
+  },
+  "Gravepalm":{
+    "lvl":39.0,
+    "base_item_level":39.0,
+    "code":"xvg"
+  },
+  "Ghoulhide":{
+    "lvl":44.0,
+    "base_item_level":43.0,
+    "code":"xmg"
+  },
+  "Lavagout":{
+    "lvl":50.0,
+    "base_item_level":49.0,
+    "code":"xtg"
+  },
+  "Hellmouth":{
+    "lvl":55.0,
+    "base_item_level":54.0,
+    "code":"xhg"
+  },
+  "Infernostride":{
+    "lvl":37.0,
+    "base_item_level":36.0,
+    "code":"xlb"
+  },
+  "Waterwalk":{
+    "lvl":40.0,
+    "base_item_level":39.0,
+    "code":"xvb"
+  },
+  "Silkweave":{
+    "lvl":44.0,
+    "base_item_level":43.0,
+    "code":"xmb"
+  },
+  "Wartraveler":{
+    "lvl":50.0,
+    "base_item_level":49.0,
+    "code":"xtb"
+  },
+  "Gorerider":{
+    "lvl":55.0,
+    "base_item_level":54.0,
+    "code":"xhb"
+  },
+  "String of Ears":{
+    "lvl":37.0,
+    "base_item_level":36.0,
+    "code":"zlb"
+  },
+  "Razortail":{
+    "lvl":39.0,
+    "base_item_level":39.0,
+    "code":"zvb"
+  },
+  "Gloomstrap":{
+    "lvl":45.0,
+    "base_item_level":43.0,
+    "code":"zmb"
+  },
+  "Snowclash":{
+    "lvl":49.0,
+    "base_item_level":49.0,
+    "code":"ztb"
+  },
+  "Thudergod's Vigor":{
+    "lvl":55.0,
+    "base_item_level":54.0,
+    "code":"zhb"
+  },
+  "Harlequin Crest":{
+    "lvl":69.0,
+    "base_item_level":58.0,
+    "code":"uap"
+  },
+  "Veil of Steel":{
+    "lvl":77.0,
+    "base_item_level":79.0,
+    "code":"uhm"
+  },
+  "The Gladiator's Bane":{
+    "lvl":85.0,
+    "base_item_level":70.0,
+    "code":"utu"
+  },
+  "Arkaine's Valor":{
+    "lvl":85.0,
+    "base_item_level":76.0,
+    "code":"upl"
+  },
+  "Blackoak Shield":{
+    "lvl":67.0,
+    "base_item_level":61.0,
+    "code":"uml"
+  },
+  "Stormshield":{
+    "lvl":77.0,
+    "base_item_level":72.0,
+    "code":"uit"
+  },
+  "Hellslayer":{
+    "lvl":71.0,
+    "base_item_level":73.0,
+    "code":"7bt"
+  },
+  "Messerschmidt's Reaver":{
+    "lvl":75.0,
+    "base_item_level":82.0,
+    "code":"7ga"
+  },
+  "Baranar's Star":{
+    "lvl":70.0,
+    "base_item_level":70.0,
+    "code":"7mt"
+  },
+  "Schaefer's Hammer":{
+    "lvl":83.0,
+    "base_item_level":82.0,
+    "code":"7wh"
+  },
+  "The Cranium Basher":{
+    "lvl":85.0,
+    "base_item_level":85.0,
+    "code":"7gm"
+  },
+  "Lightsabre":{
+    "lvl":66.0,
+    "base_item_level":73.0,
+    "code":"7cr"
+  },
+  "Doombringer":{
+    "lvl":75.0,
+    "base_item_level":77.0,
+    "code":"7b7"
+  },
+  "The Grandfather":{
+    "lvl":85.0,
+    "base_item_level":85.0,
+    "code":"7gd"
+  },
+  "Wizardspike":{
+    "lvl":69.0,
+    "base_item_level":58.0,
+    "code":"7dg"
+  },
+  "Stormspire":{
+    "lvl":78.0,
+    "base_item_level":85.0,
+    "code":"7wc"
+  },
+  "Eaglehorn":{
+    "lvl":77.0,
+    "base_item_level":77.0,
+    "code":"6l7"
+  },
+  "Windforce":{
+    "lvl":80.0,
+    "base_item_level":85.0,
+    "code":"6lw"
+  },
+  "Bul Katho's Wedding Band":{
+    "lvl":66.0,
+    "base_item_level":1.0,
+    "code":"rin"
+  },
+  "The Cat's Eye":{
+    "lvl":58.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "The Rising Sun":{
+    "lvl":73.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "Crescent Moon":{
+    "lvl":58.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "Mara's Kaleidoscope":{
+    "lvl":80.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "Atma's Scarab":{
+    "lvl":60.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "Dwarf Star":{
+    "lvl":53.0,
+    "base_item_level":1.0,
+    "code":"rin"
+  },
+  "Raven Frost":{
+    "lvl":53.0,
+    "base_item_level":1.0,
+    "code":"rin"
+  },
+  "Highlord's Wrath":{
+    "lvl":73.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "Saracen's Chance":{
+    "lvl":55.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "Arreat's Face":{
+    "lvl":50.0,
+    "base_item_level":54.0,
+    "code":"baa"
+  },
+  "Homunculus":{
+    "lvl":50.0,
+    "base_item_level":54.0,
+    "code":"nea"
+  },
+  "Titan's Revenge":{
+    "lvl":50.0,
+    "base_item_level":35.0,
+    "code":"ama"
+  },
+  "Lycander's Aim":{
+    "lvl":50.0,
+    "base_item_level":47.0,
+    "code":"am7"
+  },
+  "Lycander's Flank":{
+    "lvl":50.0,
+    "base_item_level":51.0,
+    "code":"am9"
+  },
+  "The Oculus":{
+    "lvl":50.0,
+    "base_item_level":50.0,
+    "code":"oba"
+  },
+  "Herald of Zakarum":{
+    "lvl":50.0,
+    "base_item_level":51.0,
+    "code":"pa9"
+  },
+  "Cutthroat1":{
+    "lvl":50.0,
+    "base_item_level":50.0,
+    "code":"9tw"
+  },
+  "Jalal's Mane":{
+    "lvl":50.0,
+    "base_item_level":55.0,
+    "code":"dra"
+  },
+  "The Scalper":{
+    "lvl":65.0,
+    "base_item_level":34.0,
+    "code":"9ta"
+  },
+  "Bloodmoon":{
+    "lvl":69.0,
+    "base_item_level":63.0,
+    "code":"7sb"
+  },
+  "Djinnslayer":{
+    "lvl":73.0,
+    "base_item_level":61.0,
+    "code":"7sm"
+  },
+  "Deathbit":{
+    "lvl":52.0,
+    "base_item_level":31.0,
+    "code":"9tk"
+  },
+  "Warshrike":{
+    "lvl":83.0,
+    "base_item_level":77.0,
+    "code":"7bk"
+  },
+  "Gutsiphon":{
+    "lvl":79.0,
+    "base_item_level":84.0,
+    "code":"6rx"
+  },
+  "Razoredge":{
+    "lvl":75.0,
+    "base_item_level":54.0,
+    "code":"7ha"
+  },
+  "Demonlimb":{
+    "lvl":71.0,
+    "base_item_level":57.0,
+    "code":"7sp"
+  },
+  "Steelshade":{
+    "lvl":70.0,
+    "base_item_level":68.0,
+    "code":"ulm"
+  },
+  "Tomb Reaver":{
+    "lvl":86.0,
+    "base_item_level":79.0,
+    "code":"7pa"
+  },
+  "Deaths's Web":{
+    "lvl":74.0,
+    "base_item_level":86.0,
+    "code":"7gw"
+  },
+  "Nature's Peace":{
+    "lvl":77.0,
+    "base_item_level":1.0,
+    "code":"rin"
+  },
+  "Azurewrath":{
+    "lvl":87.0,
+    "base_item_level":73.0,
+    "code":"7cr"
+  },
+  "Seraph's Hymn":{
+    "lvl":73.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "Fleshripper":{
+    "lvl":76.0,
+    "base_item_level":83.0,
+    "code":"7kr"
+  },
+  "Horizon's Tornado":{
+    "lvl":72.0,
+    "base_item_level":76.0,
+    "code":"7fl"
+  },
+  "Stone Crusher":{
+    "lvl":76.0,
+    "base_item_level":82.0,
+    "code":"7wh"
+  },
+  "Jadetalon":{
+    "lvl":74.0,
+    "base_item_level":62.0,
+    "code":"7wb"
+  },
+  "Shadowdancer":{
+    "lvl":79.0,
+    "base_item_level":85.0,
+    "code":"uhb"
+  },
+  "Cerebus":{
+    "lvl":71.0,
+    "base_item_level":62.0,
+    "code":"drb"
+  },
+  "Tyrael's Might":{
+    "lvl":87.0,
+    "base_item_level":85.0,
+    "code":"uar"
+  },
+  "Souldrain":{
+    "lvl":82.0,
+    "base_item_level":69.0,
+    "code":"umg"
+  },
+  "Runemaster":{
+    "lvl":80.0,
+    "base_item_level":70.0,
+    "code":"72a"
+  },
+  "Deathcleaver":{
+    "lvl":78.0,
+    "base_item_level":85.0,
+    "code":"7wa"
+  },
+  "Executioner's Justice":{
+    "lvl":83.0,
+    "base_item_level":85.0,
+    "code":"7gi"
+  },
+  "Stoneraven":{
+    "lvl":72.0,
+    "base_item_level":61.0,
+    "code":"amd"
+  },
+  "Leviathan":{
+    "lvl":73.0,
+    "base_item_level":81.0,
+    "code":"uld"
+  },
+  "Wisp":{
+    "lvl":84.0,
+    "base_item_level":1.0,
+    "code":"rin"
+  },
+  "Gargoyle's Bite":{
+    "lvl":78.0,
+    "base_item_level":85.0,
+    "code":"7ts"
+  },
+  "Lacerator":{
+    "lvl":76.0,
+    "base_item_level":80.0,
+    "code":"7b8"
+  },
+  "Mang Song's Lesson":{
+    "lvl":86.0,
+    "base_item_level":85.0,
+    "code":"6ws"
+  },
+  "Viperfork":{
+    "lvl":79.0,
+    "base_item_level":74.0,
+    "code":"7br"
+  },
+  "Ethereal Edge":{
+    "lvl":82.0,
+    "base_item_level":65.0,
+    "code":"7ba"
+  },
+  "Demonhorn's Edge":{
+    "lvl":69.0,
+    "base_item_level":73.0,
+    "code":"bad"
+  },
+  "The Reaper's Toll":{
+    "lvl":83.0,
+    "base_item_level":71.0,
+    "code":"7s8"
+  },
+  "Spiritkeeper":{
+    "lvl":75.0,
+    "base_item_level":76.0,
+    "code":"drd"
+  },
+  "Hellrack":{
+    "lvl":84.0,
+    "base_item_level":75.0,
+    "code":"6hx"
+  },
+  "Alma Negra":{
+    "lvl":85.0,
+    "base_item_level":70.0,
+    "code":"pac"
+  },
+  "Darkforge Spawn":{
+    "lvl":72.0,
+    "base_item_level":85.0,
+    "code":"nef"
+  },
+  "Widowmaker":{
+    "lvl":73.0,
+    "base_item_level":80.0,
+    "code":"6sw"
+  },
+  "Bloodraven's Charge":{
+    "lvl":79.0,
+    "base_item_level":53.0,
+    "code":"amb"
+  },
+  "Ghostflame":{
+    "lvl":70.0,
+    "base_item_level":85.0,
+    "code":"7bl"
+  },
+  "Shadowkiller":{
+    "lvl":85.0,
+    "base_item_level":73.0,
+    "code":"7cs"
+  },
+  "Gimmershred":{
+    "lvl":78.0,
+    "base_item_level":56.0,
+    "code":"7ta"
+  },
+  "Griffon's Eye":{
+    "lvl":84.0,
+    "base_item_level":85.0,
+    "code":"ci3"
+  },
+  "Windhammer":{
+    "lvl":76.0,
+    "base_item_level":69.0,
+    "code":"7m7"
+  },
+  "Thunderstroke":{
+    "lvl":77.0,
+    "base_item_level":65.0,
+    "code":"amf"
+  },
+  "Demon's Arch":{
+    "lvl":76.0,
+    "base_item_level":71.0,
+    "code":"7s7"
+  },
+  "Boneflame":{
+    "lvl":80.0,
+    "base_item_level":81.0,
+    "code":"nee"
+  },
+  "Steelpillar":{
+    "lvl":77.0,
+    "base_item_level":85.0,
+    "code":"7p7"
+  },
+  "Nightwing's Veil":{
+    "lvl":75.0,
+    "base_item_level":79.0,
+    "code":"uhm"
+  },
+  "Crown of Ages":{
+    "lvl":86.0,
+    "base_item_level":85.0,
+    "code":"urn"
+  },
+  "Andariel's Visage":{
+    "lvl":85.0,
+    "base_item_level":74.0,
+    "code":"usk"
+  },
+  "Dragonscale":{
+    "lvl":84.0,
+    "base_item_level":82.0,
+    "code":"pae"
+  },
+  "Steel Carapice":{
+    "lvl":74.0,
+    "base_item_level":83.0,
+    "code":"uul"
+  },
+  "Medusa's Gaze":{
+    "lvl":84.0,
+    "base_item_level":79.0,
+    "code":"uow"
+  },
+  "Ravenlore":{
+    "lvl":82.0,
+    "base_item_level":83.0,
+    "code":"dre"
+  },
+  "Boneshade":{
+    "lvl":84.0,
+    "base_item_level":75.0,
+    "code":"7bw"
+  },
+  "Flamebellow":{
+    "lvl":79.0,
+    "base_item_level":71.0,
+    "code":"7gs"
+  },
+  "Fathom":{
+    "lvl":81.0,
+    "base_item_level":85.0,
+    "code":"obf"
+  },
+  "Wolfhowl":{
+    "lvl":85.0,
+    "base_item_level":66.0,
+    "code":"bac"
+  },
+  "Spirit Ward":{
+    "lvl":76.0,
+    "base_item_level":84.0,
+    "code":"uts"
+  },
+  "Kira's Guardian":{
+    "lvl":85.0,
+    "base_item_level":70.0,
+    "code":"ci2"
+  },
+  "Ormus' Robes":{
+    "lvl":83.0,
+    "base_item_level":65.0,
+    "code":"uui"
+  },
+  "Gheed's Fortune":{
+    "lvl":70.0,
+    "base_item_level":1.0,
+    "code":"cm3"
+  },
+  "Stormlash":{
+    "lvl":86.0,
+    "base_item_level":76.0,
+    "code":"7fl"
+  },
+  "Halaberd's Reign":{
+    "lvl":85.0,
+    "base_item_level":80.0,
+    "code":"bae"
+  },
+  "Spike Thorn":{
+    "lvl":78.0,
+    "base_item_level":68.0,
+    "code":"upk"
+  },
+  "Dracul's Grasp":{
+    "lvl":84.0,
+    "base_item_level":63.0,
+    "code":"uvg"
+  },
+  "Frostwind":{
+    "lvl":78.0,
+    "base_item_level":82.0,
+    "code":"7ls"
+  },
+  "Templar's Might":{
+    "lvl":82.0,
+    "base_item_level":85.0,
+    "code":"uar"
+  },
+  "Eschuta's temper":{
+    "lvl":80.0,
+    "base_item_level":67.0,
+    "code":"obc"
+  },
+  "Firelizard's Talons":{
+    "lvl":75.0,
+    "base_item_level":78.0,
+    "code":"7lw"
+  },
+  "Sandstorm Trek":{
+    "lvl":72.0,
+    "base_item_level":66.0,
+    "code":"uvb"
+  },
+  "Marrowwalk":{
+    "lvl":74.0,
+    "base_item_level":72.0,
+    "code":"umb"
+  },
+  "Heaven's Light":{
+    "lvl":69.0,
+    "base_item_level":62.0,
+    "code":"7sc"
+  },
+  "Arachnid Mesh":{
+    "lvl":87.0,
+    "base_item_level":61.0,
+    "code":"ulc"
+  },
+  "Nosferatu's Coil":{
+    "lvl":68.0,
+    "base_item_level":68.0,
+    "code":"uvc"
+  },
+  "Metalgrid":{
+    "lvl":85.0,
+    "base_item_level":1.0,
+    "code":"amu"
+  },
+  "Verdugo's Hearty Cord":{
+    "lvl":71.0,
+    "base_item_level":75.0,
+    "code":"umc"
+  },
+  "Carrion Wind":{
+    "lvl":68.0,
+    "base_item_level":1.0,
+    "code":"rin"
+  },
+  "Giantskull":{
+    "lvl":73.0,
+    "base_item_level":84.0,
+    "code":"uh9"
+  },
+  "Ironward":{
+    "lvl":68.0,
+    "base_item_level":85.0,
+    "code":"7ws"
+  },
+  "Annihilus":{
+    "lvl":110.0,
+    "base_item_level":28.0,
+    "code":"cm1"
+  },
+  "Arioc's Needle":{
+    "lvl":85.0,
+    "base_item_level":58.0,
+    "code":"7sr"
+  },
+  "Cranebeak":{
+    "lvl":71.0,
+    "base_item_level":79.0,
+    "code":"7mp"
+  },
+  "Nord's Tenderizer":{
+    "lvl":76.0,
+    "base_item_level":52.0,
+    "code":"7cl"
+  },
+  "Earthshifter":{
+    "lvl":77.0,
+    "base_item_level":85.0,
+    "code":"7gm"
+  },
+  "Wraithflight":{
+    "lvl":84.0,
+    "base_item_level":79.0,
+    "code":"7gl"
+  },
+  "Bonehew":{
+    "lvl":72.0,
+    "base_item_level":60.0,
+    "code":"7o7"
+  },
+  "Ondal's Wisdom":{
+    "lvl":74.0,
+    "base_item_level":74.0,
+    "code":"6cs"
+  },
+  "The Reedeemer":{
+    "lvl":80.0,
+    "base_item_level":62.0,
+    "code":"7sc"
+  },
+  "Headhunter's Glory":{
+    "lvl":83.0,
+    "base_item_level":76.0,
+    "code":"ush"
+  },
+  "Steelrend":{
+    "lvl":78.0,
+    "base_item_level":85.0,
+    "code":"uhg"
+  },
+  "Rainbow Facet":{
+    "lvl":85.0,
+    "base_item_level":1.0,
+    "code":"jew"
+  },
+  "Hellfire Torch":{
+    "lvl":110.0,
+    "base_item_level":14.0,
+    "code":"cm2"
+  },
+  "El Rune":{
+    "lvl":null,
+    "base_item_level":11.0,
+    "code":"r01"
+  },
+  "Eld Rune":{
+    "lvl":null,
+    "base_item_level":11.0,
+    "code":"r02"
+  },
+  "Tir Rune":{
+    "lvl":null,
+    "base_item_level":13.0,
+    "code":"r03"
+  },
+  "Nef Rune":{
+    "lvl":null,
+    "base_item_level":13.0,
+    "code":"r04"
+  },
+  "Eth Rune":{
+    "lvl":null,
+    "base_item_level":15.0,
+    "code":"r05"
+  },
+  "Ith Rune":{
+    "lvl":null,
+    "base_item_level":15.0,
+    "code":"r06"
+  },
+  "Tal Rune":{
+    "lvl":null,
+    "base_item_level":17.0,
+    "code":"r07"
+  },
+  "Ral Rune":{
+    "lvl":null,
+    "base_item_level":19.0,
+    "code":"r08"
+  },
+  "Ort Rune":{
+    "lvl":null,
+    "base_item_level":21.0,
+    "code":"r09"
+  },
+  "Thul Rune":{
+    "lvl":null,
+    "base_item_level":23.0,
+    "code":"r10"
+  },
+  "Amn Rune":{
+    "lvl":null,
+    "base_item_level":25.0,
+    "code":"r11"
+  },
+  "Sol Rune":{
+    "lvl":null,
+    "base_item_level":27.0,
+    "code":"r12"
+  },
+  "Shael Rune":{
+    "lvl":null,
+    "base_item_level":29.0,
+    "code":"r13"
+  },
+  "Dol Rune":{
+    "lvl":null,
+    "base_item_level":31.0,
+    "code":"r14"
+  },
+  "Hel Rune":{
+    "lvl":null,
+    "base_item_level":33.0,
+    "code":"r15"
+  },
+  "Io Rune":{
+    "lvl":null,
+    "base_item_level":35.0,
+    "code":"r16"
+  },
+  "Lum Rune":{
+    "lvl":null,
+    "base_item_level":37.0,
+    "code":"r17"
+  },
+  "Ko Rune":{
+    "lvl":null,
+    "base_item_level":39.0,
+    "code":"r18"
+  },
+  "Fal Rune":{
+    "lvl":null,
+    "base_item_level":41.0,
+    "code":"r19"
+  },
+  "Lem Rune":{
+    "lvl":null,
+    "base_item_level":43.0,
+    "code":"r20"
+  },
+  "Pul Rune":{
+    "lvl":null,
+    "base_item_level":45.0,
+    "code":"r21"
+  },
+  "Um Rune":{
+    "lvl":null,
+    "base_item_level":47.0,
+    "code":"r22"
+  },
+  "Mal Rune":{
+    "lvl":null,
+    "base_item_level":49.0,
+    "code":"r23"
+  },
+  "Ist Rune":{
+    "lvl":null,
+    "base_item_level":51.0,
+    "code":"r24"
+  },
+  "Gul Rune":{
+    "lvl":null,
+    "base_item_level":53.0,
+    "code":"r25"
+  },
+  "Vex Rune":{
+    "lvl":null,
+    "base_item_level":55.0,
+    "code":"r26"
+  },
+  "Ohm Rune":{
+    "lvl":null,
+    "base_item_level":57.0,
+    "code":"r27"
+  },
+  "Lo Rune":{
+    "lvl":null,
+    "base_item_level":59.0,
+    "code":"r28"
+  },
+  "Sur Rune":{
+    "lvl":null,
+    "base_item_level":61.0,
+    "code":"r29"
+  },
+  "Ber Rune":{
+    "lvl":null,
+    "base_item_level":63.0,
+    "code":"r30"
+  },
+  "Jah Rune":{
+    "lvl":null,
+    "base_item_level":65.0,
+    "code":"r31"
+  },
+  "Cham Rune":{
+    "lvl":null,
+    "base_item_level":67.0,
+    "code":"r32"
+  },
+  "Zod Rune":{
+    "lvl":null,
+    "base_item_level":69.0,
+    "code":"r33"
+  }
+}
