@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import json
+import numpy as np
 from .common import get_data_dir
 
 
@@ -24,11 +25,42 @@ def get_unique_items():
     #
     df_weapons = pd.read_csv(os.path.join(get_data_dir(), 'Weapons.txt'), sep='\t')
 
-    # Merge both dfs together, on key 'code'
-    df = df.merge(df_weapons, how='outer', on='code', validate='many_to_one')
-    df['base_tc_group'] = 'weap'
+    keep_columns = ['name', 'type', 'code', 'level']
+    df = df.merge(df_weapons[keep_columns], how='left', on='code', validate='many_to_one')
 
-    df = df[['index', 'lvl', 'code', 'name', 'level', 'base_tc_group']]
+    #
+    # Read Armor.txt to find the base item type's level
+    #
+    df_armor = pd.read_csv(os.path.join(get_data_dir(), 'Armor.txt'), sep='\t')
+
+    df = df.merge(df_armor[keep_columns], how='left', on='code', validate='many_to_one')
+
+    print(df.head())
+    print()
+
+    # for index, row in df.iterrows():
+    #     item_name = row['index']
+
+    #     base_item = df_weapons.loc[df_weapons.code == row.code]
+
+    #     print(base_item['level'])
+
+    #     assert len(base_item) == 0 or len(base_item) == 1, f"Multiple items found in 'Weapons.txt' with code '{row.code}'"
+
+    #     # Not found in this file
+    #     if base_item.empty:
+    #         continue
+
+    #     # assert not base_item.empty, f"Couldn't find item code '{row.code}' for UniqueItem '{item_name}' in 'Weapons.txt'"
+
+    #     df.at[index, 'base_item_level'] = base_item['level']
+    #     df.at[index, 'base_tc_class'] = f"weap{base_item.iloc[0].level}"
+
+    #
+    # Read Armor.txt to find the base item type's level
+    #
+
+
 
     print(df.head(100))
 

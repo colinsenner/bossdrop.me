@@ -48,3 +48,9 @@ Pre 1.10, Pindleskin used to be mlvl ** (reanimatedhorde5 = mlvl 85, superunique
 
 Edit: This also applies for patch 1.11, which didn't change anything from 1.10 with regards to this.
 ```
+
+Do you tell who can drop?
+```
+Hellfire Torch
+Rainbow Facet
+```
