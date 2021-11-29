@@ -44,23 +44,23 @@ function get_bosses_that_can_drop(item_name) {
 
     if (item !== undefined) {
         // Found the item
-        let ilvl = item.lvl;
-
         let bosses = []
 
+        console.log(`${item.index} lvl:${item.lvl}`)
+
         all_bosses.forEach((boss) => {
-            // Normal difficulty
-            if (boss['Level'] >= ilvl) {
-                bosses.push(boss['name']);
-            }
-            // Nightmare difficulty
-            if (boss['Level(N)'] >= ilvl) {
-                bosses.push(boss['name'] + " (NM)");
-            }
-            // Hell difficulty
-            if (boss['Level(H)'] >= ilvl) {
-                bosses.push(boss['name'] + " (H)");
-            }
+            ['', '(N)', '(H)'].forEach((difficulty) => {
+
+                let boss_level = boss['Level' + difficulty];
+                let boss_dropped_tcs = boss['treasure_drops' + difficulty];
+
+                let boss_is_high_enough_level = boss_level >= item.lvl;
+                let boss_can_drop_that_treasure_class = boss_dropped_tcs.includes(item['tc_group']);
+
+                if (boss_is_high_enough_level && boss_can_drop_that_treasure_class) {
+                    bosses.push(boss['Id'] + difficulty)
+                }
+            });
         });
 
         return bosses;
