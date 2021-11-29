@@ -1,6 +1,7 @@
 import json
 import os
 from os import path
+from shutil import copyfile
 
 import util.items
 import util.monsters
@@ -27,8 +28,12 @@ def main():
     results['bosses'] = bosses.to_dict(orient='records')
 
     # Write our file for the JS side
-    with open(path.join("generated", "results.json"), "wt", encoding='utf-8') as f:
+    results_file = path.join("generated", "results.json")
+    with open(results_file, "wt", encoding='utf-8') as f:
         json.dump(results, f, indent=2)
+
+    # Copy the results to the JS directory
+    copyfile(results_file, "../src/static/results.json")
 
 if __name__ == '__main__':
     main()

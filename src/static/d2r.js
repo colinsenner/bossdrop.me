@@ -38,13 +38,14 @@ function search_onsubmit() {
 
 function get_bosses_that_can_drop(item_name) {
     let all_bosses = d2data['bosses']
-    let all_items = d2data['uniqueitems'];
+    let all_items = d2data['unique_items'];
 
     let item = all_items.filter(item => item['index'] == item_name)[0];
 
     if (item !== undefined) {
         // Found the item
         let ilvl = item.lvl;
+
         let bosses = []
 
         all_bosses.forEach((boss) => {
@@ -76,7 +77,7 @@ function autocompleteMatch(input) {
     }
     var reg = new RegExp(input, "i")
 
-    let unique_items = d2data['uniqueitems'].map(x => x['index']);
+    let unique_items = d2data['unique_items'].map(x => x['index']);
 
     return unique_items.filter(function(term) {
         if (term.match(reg)) {
