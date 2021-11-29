@@ -1,8 +1,7 @@
 import pandas as pd
 import os
-import json
 import numpy as np
-from .common import get_data_dir, remove_duplicate_rows
+from .common import get_data_dir
 
 
 def EquipGroupLevel(level):
@@ -48,24 +47,14 @@ def get_tc_group(row):
 
 
 def get_runes():
-    #
-    # Read Misc.txt to find the base item type's level
-    #
     misc = pd.read_csv(os.path.join(get_data_dir(), 'Misc.txt'), sep='\t')
-    misc.set_index('code', inplace=True, drop=True, verify_integrity=True)
-
-    #
-    # Add runes to our items list
-    #
     runes = misc[misc.name.str.contains("Rune")]
 
-    # misc is indexed on 'code', so we need to assign it's code to another column
-    # so it'll propogate when appended to the other df
-    runes.loc[runes.index, 'code'] = runes.index
+    runes = runes.rename(columns={"code":"tc_group"})
 
-    # Only keep these columns
-    runes = runes[['name', 'code']]
-    runes.set_index('name', inplace=True)
+    # Only keep these columns, and format them the same as unique_items
+    runes = runes[['name', 'level', 'tc_group']]
+    runes = runes.rename(columns={"name":"index", "level":"lvl"})
 
     return runes
 
@@ -87,21 +76,15 @@ def get_unique_items():
     df1['base_item_type'] = np.nan
     df1['tc_group'] = np.nan
 
-    #
     # Read Weapons.txt to find the base item type's level
-    #
     weapons = pd.read_csv(os.path.join(get_data_dir(), 'Weapons.txt'), sep='\t')
     weapons.set_index('code', inplace=True, drop=True, verify_integrity=True)
 
-    #
     # Read Armor.txt to find the base item type's level
-    #
     armor = pd.read_csv(os.path.join(get_data_dir(), 'Armor.txt'), sep='\t')
     armor.set_index('code', inplace=True, drop=True, verify_integrity=True)
 
-    #
     # Read Misc.txt to find the base item type's level
-    #
     misc = pd.read_csv(os.path.join(get_data_dir(), 'Misc.txt'), sep='\t')
     misc.set_index('code', inplace=True, drop=True, verify_integrity=True)
 
@@ -127,6 +110,9 @@ def get_unique_items():
     df1['tc_group'] = df1.apply(get_tc_group, axis=1)
 
     # 'Rainbow Facet' - shows up multiple times, they're all the same level with the same code, remove them
-    df1 = remove_duplicate_rows(df1)
+    df1.drop_duplicates(subset="index", inplace=True)
+
+    # Keep only these
+    df1 = df1[['index', 'lvl', 'tc_group']]
 
     return df1

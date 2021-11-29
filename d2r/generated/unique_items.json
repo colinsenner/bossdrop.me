@@ -610,36 +610,6 @@
     "tc_group":"rin"
   },
   {
-    "index":"Amulet of the Viper",
-    "lvl":0.0,
-    "tc_group":"vip"
-  },
-  {
-    "index":"Staff of Kings",
-    "lvl":0.0,
-    "tc_group":"weap0"
-  },
-  {
-    "index":"Horadric Staff",
-    "lvl":0.0,
-    "tc_group":"weap0"
-  },
-  {
-    "index":"Hell Forge Hammer",
-    "lvl":0.0,
-    "tc_group":"weap0"
-  },
-  {
-    "index":"KhalimFlail",
-    "lvl":0.0,
-    "tc_group":"weap0"
-  },
-  {
-    "index":"SuperKhalimFlail",
-    "lvl":0.0,
-    "tc_group":"weap0"
-  },
-  {
     "index":"Coldkill",
     "lvl":44.0,
     "tc_group":"weap33"
@@ -1878,41 +1848,6 @@
     "index":"Steelrend",
     "lvl":78.0,
     "tc_group":"armo87"
-  },
-  {
-    "index":"Rainbow Facet",
-    "lvl":85.0,
-    "tc_group":"jew"
-  },
-  {
-    "index":"Rainbow Facet",
-    "lvl":85.0,
-    "tc_group":"jew"
-  },
-  {
-    "index":"Rainbow Facet",
-    "lvl":85.0,
-    "tc_group":"jew"
-  },
-  {
-    "index":"Rainbow Facet",
-    "lvl":85.0,
-    "tc_group":"jew"
-  },
-  {
-    "index":"Rainbow Facet",
-    "lvl":85.0,
-    "tc_group":"jew"
-  },
-  {
-    "index":"Rainbow Facet",
-    "lvl":85.0,
-    "tc_group":"jew"
-  },
-  {
-    "index":"Rainbow Facet",
-    "lvl":85.0,
-    "tc_group":"jew"
   },
   {
     "index":"Rainbow Facet",

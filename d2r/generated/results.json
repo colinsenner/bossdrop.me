@@ -611,36 +611,6 @@
       "tc_group": "rin"
     },
     {
-      "index": "Amulet of the Viper",
-      "lvl": 0.0,
-      "tc_group": "vip"
-    },
-    {
-      "index": "Staff of Kings",
-      "lvl": 0.0,
-      "tc_group": "weap0"
-    },
-    {
-      "index": "Horadric Staff",
-      "lvl": 0.0,
-      "tc_group": "weap0"
-    },
-    {
-      "index": "Hell Forge Hammer",
-      "lvl": 0.0,
-      "tc_group": "weap0"
-    },
-    {
-      "index": "KhalimFlail",
-      "lvl": 0.0,
-      "tc_group": "weap0"
-    },
-    {
-      "index": "SuperKhalimFlail",
-      "lvl": 0.0,
-      "tc_group": "weap0"
-    },
-    {
       "index": "Coldkill",
       "lvl": 44.0,
       "tc_group": "weap33"
@@ -1886,44 +1856,601 @@
       "tc_group": "jew"
     },
     {
-      "index": "Rainbow Facet",
-      "lvl": 85.0,
-      "tc_group": "jew"
-    },
-    {
-      "index": "Rainbow Facet",
-      "lvl": 85.0,
-      "tc_group": "jew"
-    },
-    {
-      "index": "Rainbow Facet",
-      "lvl": 85.0,
-      "tc_group": "jew"
-    },
-    {
-      "index": "Rainbow Facet",
-      "lvl": 85.0,
-      "tc_group": "jew"
-    },
-    {
-      "index": "Rainbow Facet",
-      "lvl": 85.0,
-      "tc_group": "jew"
-    },
-    {
-      "index": "Rainbow Facet",
-      "lvl": 85.0,
-      "tc_group": "jew"
-    },
-    {
-      "index": "Rainbow Facet",
-      "lvl": 85.0,
-      "tc_group": "jew"
-    },
-    {
       "index": "Hellfire Torch",
       "lvl": 110.0,
       "tc_group": "cm2"
+    },
+    {
+      "index": "El Rune",
+      "lvl": 11.0,
+      "tc_group": "r01"
+    },
+    {
+      "index": "Eld Rune",
+      "lvl": 11.0,
+      "tc_group": "r02"
+    },
+    {
+      "index": "Tir Rune",
+      "lvl": 13.0,
+      "tc_group": "r03"
+    },
+    {
+      "index": "Nef Rune",
+      "lvl": 13.0,
+      "tc_group": "r04"
+    },
+    {
+      "index": "Eth Rune",
+      "lvl": 15.0,
+      "tc_group": "r05"
+    },
+    {
+      "index": "Ith Rune",
+      "lvl": 15.0,
+      "tc_group": "r06"
+    },
+    {
+      "index": "Tal Rune",
+      "lvl": 17.0,
+      "tc_group": "r07"
+    },
+    {
+      "index": "Ral Rune",
+      "lvl": 19.0,
+      "tc_group": "r08"
+    },
+    {
+      "index": "Ort Rune",
+      "lvl": 21.0,
+      "tc_group": "r09"
+    },
+    {
+      "index": "Thul Rune",
+      "lvl": 23.0,
+      "tc_group": "r10"
+    },
+    {
+      "index": "Amn Rune",
+      "lvl": 25.0,
+      "tc_group": "r11"
+    },
+    {
+      "index": "Sol Rune",
+      "lvl": 27.0,
+      "tc_group": "r12"
+    },
+    {
+      "index": "Shael Rune",
+      "lvl": 29.0,
+      "tc_group": "r13"
+    },
+    {
+      "index": "Dol Rune",
+      "lvl": 31.0,
+      "tc_group": "r14"
+    },
+    {
+      "index": "Hel Rune",
+      "lvl": 33.0,
+      "tc_group": "r15"
+    },
+    {
+      "index": "Io Rune",
+      "lvl": 35.0,
+      "tc_group": "r16"
+    },
+    {
+      "index": "Lum Rune",
+      "lvl": 37.0,
+      "tc_group": "r17"
+    },
+    {
+      "index": "Ko Rune",
+      "lvl": 39.0,
+      "tc_group": "r18"
+    },
+    {
+      "index": "Fal Rune",
+      "lvl": 41.0,
+      "tc_group": "r19"
+    },
+    {
+      "index": "Lem Rune",
+      "lvl": 43.0,
+      "tc_group": "r20"
+    },
+    {
+      "index": "Pul Rune",
+      "lvl": 45.0,
+      "tc_group": "r21"
+    },
+    {
+      "index": "Um Rune",
+      "lvl": 47.0,
+      "tc_group": "r22"
+    },
+    {
+      "index": "Mal Rune",
+      "lvl": 49.0,
+      "tc_group": "r23"
+    },
+    {
+      "index": "Ist Rune",
+      "lvl": 51.0,
+      "tc_group": "r24"
+    },
+    {
+      "index": "Gul Rune",
+      "lvl": 53.0,
+      "tc_group": "r25"
+    },
+    {
+      "index": "Vex Rune",
+      "lvl": 55.0,
+      "tc_group": "r26"
+    },
+    {
+      "index": "Ohm Rune",
+      "lvl": 57.0,
+      "tc_group": "r27"
+    },
+    {
+      "index": "Lo Rune",
+      "lvl": 59.0,
+      "tc_group": "r28"
+    },
+    {
+      "index": "Sur Rune",
+      "lvl": 61.0,
+      "tc_group": "r29"
+    },
+    {
+      "index": "Ber Rune",
+      "lvl": 63.0,
+      "tc_group": "r30"
+    },
+    {
+      "index": "Jah Rune",
+      "lvl": 65.0,
+      "tc_group": "r31"
+    },
+    {
+      "index": "Cham Rune",
+      "lvl": 67.0,
+      "tc_group": "r32"
+    },
+    {
+      "index": "Zod Rune",
+      "lvl": 69.0,
+      "tc_group": "r33"
+    }
+  ],
+  "bosses": [
+    {
+      "Id": "andariel",
+      "NameStr": "Andariel",
+      "Level": 12.0,
+      "Level(N)": 49.0,
+      "Level(H)": 75.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "duriel",
+      "NameStr": "Duriel",
+      "Level": 22.0,
+      "Level(N)": 55.0,
+      "Level(H)": 88.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "radament",
+      "NameStr": "Radament",
+      "Level": 16.0,
+      "Level(N)": 49.0,
+      "Level(H)": 83.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "mephisto",
+      "NameStr": "Mephisto",
+      "Level": 26.0,
+      "Level(N)": 59.0,
+      "Level(H)": 87.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "diablo",
+      "NameStr": "Diablo",
+      "Level": 40.0,
+      "Level(N)": 62.0,
+      "Level(H)": 94.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "summoner",
+      "NameStr": "Summoner",
+      "Level": 18.0,
+      "Level(N)": 55.0,
+      "Level(H)": 80.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "izual",
+      "NameStr": "izual",
+      "Level": 29.0,
+      "Level(N)": 60.0,
+      "Level(H)": 86.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "bloodraven",
+      "NameStr": "Bloodraven",
+      "Level": 10.0,
+      "Level(N)": 43.0,
+      "Level(H)": 88.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "diabloclone",
+      "NameStr": "Diablo",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "griswold",
+      "NameStr": "Griswold",
+      "Level": 5.0,
+      "Level(N)": 39.0,
+      "Level(H)": 84.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "nihlathakboss",
+      "NameStr": "Nihlathak",
+      "Level": 65.0,
+      "Level(N)": 70.0,
+      "Level(H)": 92.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "baalcrab",
+      "NameStr": "Baal Crab",
+      "Level": 60.0,
+      "Level(N)": 75.0,
+      "Level(H)": 99.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "putriddefiler1",
+      "NameStr": "Putrid Defiler1",
+      "Level": 35.0,
+      "Level(N)": 61.0,
+      "Level(H)": 80.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "putriddefiler2",
+      "NameStr": "Putrid Defiler2",
+      "Level": 37.0,
+      "Level(N)": 62.0,
+      "Level(H)": 81.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "putriddefiler3",
+      "NameStr": "Putrid Defiler3",
+      "Level": 38.0,
+      "Level(N)": 63.0,
+      "Level(H)": 82.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "putriddefiler4",
+      "NameStr": "Putrid Defiler4",
+      "Level": 39.0,
+      "Level(N)": 64.0,
+      "Level(H)": 83.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "putriddefiler5",
+      "NameStr": "Putrid Defiler5",
+      "Level": 40.0,
+      "Level(N)": 65.0,
+      "Level(H)": 84.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "baalcrabstairs",
+      "NameStr": "Baal Crab to Stairs",
+      "Level": 60.0,
+      "Level(N)": 70.0,
+      "Level(H)": 96.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "baalclone",
+      "NameStr": "Baal Crab Clone",
+      "Level": 60.0,
+      "Level(N)": 69.0,
+      "Level(H)": 95.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "ubermephisto",
+      "NameStr": "Mephisto",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "uberdiablo",
+      "NameStr": "Diablo",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "uberizual",
+      "NameStr": "izual",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "uberandariel",
+      "NameStr": "Lilith",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "uberduriel",
+      "NameStr": "Duriel",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
+    },
+    {
+      "Id": "uberbaal",
+      "NameStr": "Baal Crab",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "treasure_drops": [
+        "TreasureClass3"
+      ],
+      "treasure_drops(N)": [
+        "TreasureClass3(N)"
+      ],
+      "treasure_drops(H)": [
+        "TreasureClass3(H)"
+      ]
     }
   ]
 }

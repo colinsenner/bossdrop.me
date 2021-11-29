@@ -1,24 +1,30 @@
+import json
 import os
 from os import path
+
 import util.items
-import json
+import util.monsters
 
 
 def main():
     # UniqueItems.txt
-    df = util.items.get_unique_items()
-
-    # Add name column
-    df = df[['index', 'lvl', 'tc_group']]
-
-    print(df.sample(10))
+    unique_items = util.items.get_unique_items()
+    runes = util.items.get_runes()
 
     # Save for debugging
-    df.to_csv(path.join("generated", "unique_items.csv"))
-    df.to_json(path.join("generated", "unique_items.json"), orient='records', indent=2)
+    unique_items.to_json(path.join("generated", "unique_items.json"), orient='records', indent=2)
+    runes.to_json(path.join("generated", "runes.json"), orient='records', indent=2)
+
+    # Put runes in the unique_items list
+    unique_items = unique_items.append(runes)
+
+    bosses = util.monsters.get_bosses()
+
+    bosses.to_json(path.join("generated", "bosses.json"), orient='records', indent=2)
 
     results = dict()
-    results['unique_items'] = df.to_dict(orient='records')
+    results['unique_items'] = unique_items.to_dict(orient='records')
+    results['bosses'] = bosses.to_dict(orient='records')
 
     # Write our file for the JS side
     with open(path.join("generated", "results.json"), "wt", encoding='utf-8') as f:
