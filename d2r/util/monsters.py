@@ -6,7 +6,42 @@ import pandas as pd
 from .common import get_data_dir
 
 
-def get_all_treasure_classes(row, difficulty):
+def get_all_treasure_classes(treasure_class_name, treasure_class_ex, all_treasure_classes=[]):
+    """Returns every droppable Treasure Class for a given Treasure Class
+
+    Args:
+        treasure_class_name ([str]): name of the row in the column 'Treasure Class'
+
+    Returns:
+        [str]: List of every Treasure Class including all sub TCs for a given string
+    """
+
+
+    # Base case
+    # Some values in 'Item#' are empty, pandas returns NaN
+    if pd.isna(treasure_class_name):
+        return
+
+    all_treasure_classes.append(treasure_class_name)
+
+    # Find this TC name in TreasureClassEx.txt
+    df = treasure_class_ex[treasure_class_ex['Treasure Class'] == treasure_class_name]
+    if df.empty:
+        return
+
+    # Go through columns 'Item1-10'
+    for col in [f"Item{i}" for i in range(1,11)]:
+        entry = df[col]
+
+        if not entry.empty:
+            get_all_treasure_classes(entry.values[0], treasure_class_ex, all_treasure_classes)
+
+    return all_treasure_classes
+
+
+def get_all_treasure_classes_for_difficulty(row, difficulty):
+    treasure_class_ex = pd.read_csv(os.path.join(get_data_dir(), 'TreasureClassEx.txt'), sep='\t')
+
     column_name = ''
 
     if difficulty == 'normal':
@@ -18,9 +53,15 @@ def get_all_treasure_classes(row, difficulty):
     else:
         raise Exception("Unsupported difficulty option")
 
-    all_tcs_from_class
+    print(f"Getting TCs for '{row.Id}'")
+    tcs = get_all_treasure_classes(row[column_name], treasure_class_ex, [])
 
-    return [column_name]
+    # Sometimes there isn't an entry (uberbaal can't spawn on normal or nightmare, so can't drop anything)
+    # Rather than them getting assigned null, assign them an empty list
+    if tcs == None:
+        tcs = []
+
+    return tcs
 
 
 def get_bosses():
@@ -32,9 +73,9 @@ def get_bosses():
     bosses = bosses[bosses['boss'] == 1]
 
     # Get all the TC items each can drop
-    bosses['treasure_drops'] = bosses.apply(get_all_treasure_classes, args=('normal',), axis=1)
-    bosses['treasure_drops(N)'] = bosses.apply(get_all_treasure_classes, args=('nightmare',), axis=1)
-    bosses['treasure_drops(H)'] = bosses.apply(get_all_treasure_classes, args=('hell',), axis=1)
+    bosses['treasure_drops'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('normal',), axis=1)
+    bosses['treasure_drops(N)'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('nightmare',), axis=1)
+    bosses['treasure_drops(H)'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('hell',), axis=1)
 
     columns_to_keep = ['Id', 'NameStr', 'Level', 'Level(N)', 'Level(H)', 'boss', 'treasure_drops', 'treasure_drops(N)', 'treasure_drops(H)']
     bosses = bosses[columns_to_keep]
