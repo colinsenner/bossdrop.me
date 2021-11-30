@@ -109,6 +109,15 @@ def get_unique_items():
     # Assign their base TC class
     df1['tc_group'] = df1.apply(get_tc_group, axis=1)
 
+    # Hack Hack Hack
+    # Annihilus is a 'cm1' code but can only be dropped by dclone
+    # Change it's group so it'll be found in dclone's dropped tcs (which reference it by 'Annihilus' in TreasureClassEx.txt)
+    df1.at[df1['index'] == 'Annihilus', 'tc_group'] = 'Annihilus'
+
+    # Make some of the item names a bit more friendly to search ('The Stone of Jordan' => add 'soj', and 'Shako' to 'Harlequin Crest')
+    df1.at[df1['index'] == 'Harlequin Crest', 'index'] = 'Harlequin Crest (Shako)'
+    df1.at[df1['index'] == 'The Stone of Jordan', 'index'] = 'The Stone of Jordan (soj)'
+
     # 'Rainbow Facet' - shows up multiple times, they're all the same level with the same code, remove them
     df1.drop_duplicates(subset="index", inplace=True)
 
