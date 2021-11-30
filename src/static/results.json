@@ -2034,7 +2034,7 @@
       "Level(N)": 49.0,
       "Level(H)": 75.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Andariel",
         "gld,mul=1280",
         "Act 2 Equip A",
@@ -2126,7 +2126,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Andariel (N)",
         "gld,mul=1536",
         "Act 2 (N) Equip A",
@@ -2447,7 +2447,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Andariel (H)",
         "gld,mul=2048",
         "Act 2 (H) Equip A",
@@ -2891,7 +2891,7 @@
       "Level(N)": 55.0,
       "Level(H)": 88.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Duriel",
         "tsc",
         "Duriel - Base",
@@ -3044,7 +3044,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Duriel (N)",
         "tsc",
         "Duriel (N) - Base",
@@ -3388,7 +3388,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Duriel (H)",
         "tsc",
         "Duriel (H) - Base",
@@ -3855,7 +3855,7 @@
       "Level(N)": 49.0,
       "Level(H)": 83.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Radament",
         "gld,mul=1280",
         "Act 3 Equip B",
@@ -4015,7 +4015,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Radament (N)",
         "gld,mul=1536",
         "Act 3 (N) Equip B",
@@ -4366,7 +4366,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Radament (H)",
         "gld,mul=2048",
         "Act 3 (H) Equip C",
@@ -4839,7 +4839,7 @@
       "Level(N)": 59.0,
       "Level(H)": 87.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Mephisto",
         "gld,mul=1280",
         "Act 4 Equip A",
@@ -5057,7 +5057,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Mephisto (N)",
         "gld,mul=1536",
         "Act 4 (N) Equip A",
@@ -5420,7 +5420,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Mephisto (H)",
         "gld,mul=2048",
         "Act 4 (H) Equip A",
@@ -5906,7 +5906,7 @@
       "Level(N)": 62.0,
       "Level(H)": 94.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Diablo",
         "gld,mul=1280",
         "Act 5 Equip A",
@@ -6157,7 +6157,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Diablo (N)",
         "gld,mul=1536",
         "Act 5 (N) Equip A",
@@ -6541,7 +6541,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Diablo (H)",
         "gld,mul=2048",
         "Act 5 (H) Equip A",
@@ -7047,7 +7047,7 @@
       "Level(N)": 55.0,
       "Level(H)": 80.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Summoner",
         "gld,mul=1280",
         "Act 2 Equip C",
@@ -7182,7 +7182,7 @@
         "mp3",
         "mp4"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Summoner (N)",
         "gld,mul=1536",
         "Act 2 (N) Equip C",
@@ -7517,7 +7517,7 @@
         "mp4",
         "mp5"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Summoner (H)",
         "gld,mul=2048",
         "Act 2 (H) Equip C",
@@ -7975,7 +7975,7 @@
       "Level(N)": 60.0,
       "Level(H)": 86.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Izual",
         "gld,mul=1280",
         "Act 4 Equip B",
@@ -8202,7 +8202,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Izual (N)",
         "gld,mul=1536",
         "Act 4 (N) Equip B",
@@ -8574,7 +8574,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Izual (H)",
         "gld,mul=2048",
         "Act 4 (H) Equip B",
@@ -9068,7 +9068,7 @@
       "Level(N)": 43.0,
       "Level(H)": 88.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Blood Raven",
         "gld,mul=1280",
         "Act 1 Equip B",
@@ -9110,7 +9110,7 @@
         "gcw",
         "skc"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Blood Raven (N)",
         "gld,mul=1536",
         "Act 1 (N) Equip B",
@@ -9419,7 +9419,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Blood Raven (H)",
         "gld,mul=2048",
         "Act 1 (H) Equip B",
@@ -9850,7 +9850,7 @@
       "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "ROP",
         "Diablo",
         "gld,mul=1280",
@@ -10102,7 +10102,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "ROP (N)",
         "Diablo (N)",
         "gld,mul=1536",
@@ -10488,7 +10488,7 @@
         "r02",
         "Annihilus"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "ROP (H)",
         "Annihilus"
       ]
@@ -10500,7 +10500,7 @@
       "Level(N)": 39.0,
       "Level(H)": 84.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Griswold",
         "Act 1 Uitem C",
         "Act 1 Equip C",
@@ -10534,7 +10534,7 @@
         "mele6",
         "armo6"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Griswold (N)",
         "Act 1 (H) Uitem C",
         "Act 1 (H) Equip B",
@@ -10968,7 +10968,7 @@
         "mele12",
         "armo12"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Griswold (H)",
         "Act 1 (H) Uitem C",
         "Act 1 (H) Equip B",
@@ -11509,7 +11509,7 @@
       "Level(N)": 70.0,
       "Level(H)": 92.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Nihlathak",
         "gld,mul=1280",
         "Act 5 Equip B",
@@ -11769,7 +11769,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Nihlathak (N)",
         "gld,mul=1536",
         "Act 5 (N) Equip B",
@@ -12162,7 +12162,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Nihlathak (H)",
         "gld,mul=2048",
         "Act 5 (H) Equip B",
@@ -12677,7 +12677,7 @@
       "Level(N)": 75.0,
       "Level(H)": 99.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Baal",
         "gld,mul=1280",
         "Act 1 (N) Equip A",
@@ -12977,7 +12977,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Baal (N)",
         "gld,mul=1536",
         "Act 1 (H) Equip A",
@@ -13391,7 +13391,7 @@
         "r01",
         "r02"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Baal (H)",
         "gld,mul=2048",
         "Act 5 (H) Equip B",
@@ -13906,7 +13906,7 @@
       "Level(N)": 61.0,
       "Level(H)": 80.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Act 5 Unique A",
         "Act 5 Uitem A",
         "Act 5 Equip A",
@@ -14075,7 +14075,7 @@
         "mp5",
         "rvs"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Act 5 (N) Unique A",
         "Act 5 (N) Uitem A",
         "Act 5 (N) Equip A",
@@ -14365,7 +14365,7 @@
         "mp5",
         "rvs"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Act 5 (H) Unique A",
         "Act 5 (H) Uitem A",
         "Act 5 (H) Equip A",
@@ -14776,7 +14776,7 @@
       "Level(N)": 62.0,
       "Level(H)": 81.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Act 5 Unique A",
         "Act 5 Uitem A",
         "Act 5 Equip A",
@@ -14945,7 +14945,7 @@
         "mp5",
         "rvs"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Act 5 (N) Unique A",
         "Act 5 (N) Uitem A",
         "Act 5 (N) Equip A",
@@ -15235,7 +15235,7 @@
         "mp5",
         "rvs"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Act 5 (H) Unique A",
         "Act 5 (H) Uitem A",
         "Act 5 (H) Equip A",
@@ -15646,7 +15646,7 @@
       "Level(N)": 63.0,
       "Level(H)": 82.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Act 5 Unique B",
         "Act 5 Uitem B",
         "Act 5 Equip B",
@@ -15824,7 +15824,7 @@
         "mp5",
         "rvs"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Act 5 (N) Unique B",
         "Act 5 (N) Uitem B",
         "Act 5 (N) Equip B",
@@ -16123,7 +16123,7 @@
         "mp5",
         "rvs"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Act 5 (H) Unique B",
         "Act 5 (H) Uitem B",
         "Act 5 (H) Equip B",
@@ -16543,7 +16543,7 @@
       "Level(N)": 64.0,
       "Level(H)": 83.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Act 5 Unique B",
         "Act 5 Uitem B",
         "Act 5 Equip B",
@@ -16721,7 +16721,7 @@
         "mp5",
         "rvs"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Act 5 (N) Unique B",
         "Act 5 (N) Uitem B",
         "Act 5 (N) Equip B",
@@ -17020,7 +17020,7 @@
         "mp5",
         "rvs"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Act 5 (H) Unique B",
         "Act 5 (H) Uitem B",
         "Act 5 (H) Equip B",
@@ -17440,7 +17440,7 @@
       "Level(N)": 65.0,
       "Level(H)": 84.0,
       "boss": 1.0,
-      "treasure_drops": [
+      "tcs": [
         "Act 5 Unique B",
         "Act 5 Uitem B",
         "Act 5 Equip B",
@@ -17618,7 +17618,7 @@
         "mp5",
         "rvs"
       ],
-      "treasure_drops(N)": [
+      "tcs(N)": [
         "Act 5 (N) Unique B",
         "Act 5 (N) Uitem B",
         "Act 5 (N) Equip B",
@@ -17917,7 +17917,7 @@
         "mp5",
         "rvs"
       ],
-      "treasure_drops(H)": [
+      "tcs(H)": [
         "Act 5 (H) Unique B",
         "Act 5 (H) Uitem B",
         "Act 5 (H) Equip B",
@@ -18337,9 +18337,9 @@
       "Level(N)": 70.0,
       "Level(H)": 96.0,
       "boss": 1.0,
-      "treasure_drops": [],
-      "treasure_drops(N)": [],
-      "treasure_drops(H)": []
+      "tcs": [],
+      "tcs(N)": [],
+      "tcs(H)": []
     },
     {
       "Id": "baalclone",
@@ -18348,9 +18348,9 @@
       "Level(N)": 69.0,
       "Level(H)": 95.0,
       "boss": 1.0,
-      "treasure_drops": [],
-      "treasure_drops(N)": [],
-      "treasure_drops(H)": []
+      "tcs": [],
+      "tcs(N)": [],
+      "tcs(H)": []
     },
     {
       "Id": "ubermephisto",
@@ -18359,9 +18359,9 @@
       "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "treasure_drops": [],
-      "treasure_drops(N)": [],
-      "treasure_drops(H)": []
+      "tcs": [],
+      "tcs(N)": [],
+      "tcs(H)": []
     },
     {
       "Id": "uberdiablo",
@@ -18370,9 +18370,9 @@
       "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "treasure_drops": [],
-      "treasure_drops(N)": [],
-      "treasure_drops(H)": []
+      "tcs": [],
+      "tcs(N)": [],
+      "tcs(H)": []
     },
     {
       "Id": "uberizual",
@@ -18381,9 +18381,9 @@
       "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "treasure_drops": [],
-      "treasure_drops(N)": [],
-      "treasure_drops(H)": [
+      "tcs": [],
+      "tcs(N)": [],
+      "tcs(H)": [
         "Uber Izual",
         "mbr"
       ]
@@ -18395,9 +18395,9 @@
       "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "treasure_drops": [],
-      "treasure_drops(N)": [],
-      "treasure_drops(H)": [
+      "tcs": [],
+      "tcs(N)": [],
+      "tcs(H)": [
         "Uber Andariel",
         "dhn"
       ]
@@ -18409,9 +18409,9 @@
       "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "treasure_drops": [],
-      "treasure_drops(N)": [],
-      "treasure_drops(H)": [
+      "tcs": [],
+      "tcs(N)": [],
+      "tcs(H)": [
         "Uber Duriel",
         "bey"
       ]
@@ -18423,9 +18423,9 @@
       "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "treasure_drops": [],
-      "treasure_drops(N)": [],
-      "treasure_drops(H)": []
+      "tcs": [],
+      "tcs(N)": [],
+      "tcs(H)": []
     }
   ]
 }

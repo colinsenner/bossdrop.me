@@ -73,11 +73,11 @@ def get_bosses():
     bosses = bosses[bosses['boss'] == 1]
 
     # Get all the TC items each can drop
-    bosses['treasure_drops'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('normal',), axis=1)
-    bosses['treasure_drops(N)'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('nightmare',), axis=1)
-    bosses['treasure_drops(H)'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('hell',), axis=1)
+    bosses['tcs'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('normal',), axis=1)
+    bosses['tcs(N)'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('nightmare',), axis=1)
+    bosses['tcs(H)'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('hell',), axis=1)
 
-    columns_to_keep = ['Id', 'NameStr', 'Level', 'Level(N)', 'Level(H)', 'boss', 'treasure_drops', 'treasure_drops(N)', 'treasure_drops(H)']
+    columns_to_keep = ['Id', 'NameStr', 'Level', 'Level(N)', 'Level(H)', 'boss', 'tcs', 'tcs(N)', 'tcs(H)']
     bosses = bosses[columns_to_keep]
 
     return bosses

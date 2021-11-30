@@ -52,7 +52,7 @@ function get_bosses_that_can_drop(item_name) {
             ['', '(N)', '(H)'].forEach((difficulty) => {
 
                 let boss_level = boss['Level' + difficulty];
-                let boss_dropped_tcs = boss['treasure_drops' + difficulty];
+                let boss_dropped_tcs = boss['tcs' + difficulty];
 
                 let boss_is_high_enough_level = boss_level >= item.lvl;
                 let boss_can_drop_that_treasure_class = boss_dropped_tcs.includes(item['tc_group']);
