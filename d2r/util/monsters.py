@@ -72,6 +72,11 @@ def get_bosses():
 
     bosses = bosses[bosses['boss'] == 1]
 
+    # Remove some bosses we don't want to show up
+    # e.g. We don't want
+    boss_ids_to_keep = ['andariel', 'duriel', 'mephisto', 'diablo', 'summoner', 'nihlathakboss', 'baalcrab', 'diabloclone']
+    bosses = bosses.loc[bosses['Id'].isin(boss_ids_to_keep)]
+
     # Get all the TC items each can drop
     bosses['tcs'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('normal',), axis=1)
     bosses['tcs(N)'] = bosses.apply(get_all_treasure_classes_for_difficulty, args=('nightmare',), axis=1)
@@ -79,5 +84,27 @@ def get_bosses():
 
     columns_to_keep = ['Id', 'NameStr', 'Level', 'Level(N)', 'Level(H)', 'boss', 'tcs', 'tcs(N)', 'tcs(H)']
     bosses = bosses[columns_to_keep]
+
+    # Change bosses NameStr's to be a bit more user friendly
+    id_to_namestr_mapping = {
+        'izual': 'Izual',
+        'diabloclone': 'Diablo Clone',
+        'baalcrab': 'Baal',
+        'nihlathakboss': 'Nihlathak',
+        'ubermephisto': 'Uber Mephisto',
+        'uberdiablo': 'Uber Diablo',
+        'uberizual': 'Uber Izual',
+        'uberduriel': 'Uber Duriel',
+        'uberbaal': 'Uber Baal',
+    }
+
+    bosses['NameStr'] = bosses['Id'].apply(lambda Id: id_to_namestr_mapping[Id] if Id in id_to_namestr_mapping.keys() else Id)
+
+    # We don't want diablo clone showing results for normal and nightmare
+    # It is possible for him to spawn in those difficulties, but it's visual clutter
+    # We're going to just set their level on Normal and NM to a very low value
+    # So it won't pass the high enough level check
+    bosses.at[bosses['Id'] == 'diabloclone', 'Level'] = -999
+    bosses.at[bosses['Id'] == 'diabloclone', 'Level(N)'] = -999
 
     return bosses

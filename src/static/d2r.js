@@ -37,6 +37,8 @@ function search_onsubmit() {
 }
 
 function get_bosses_that_can_drop(item_name) {
+    let debug = false;
+
     let all_bosses = d2data['bosses']
     let all_items = d2data['unique_items'];
 
@@ -46,19 +48,31 @@ function get_bosses_that_can_drop(item_name) {
         // Found the item
         let bosses = []
 
-        console.log(`${item.index} lvl:${item.lvl}`)
-
         all_bosses.forEach((boss) => {
             ['', '(N)', '(H)'].forEach((difficulty) => {
 
+                difficulty_str = {  '':'Normal',
+                                    '(N)':'Nightmare',
+                                    '(H)': 'Hell'
+                                }
+                let difficult_name = difficulty_str[difficulty];
+
                 let boss_level = boss['Level' + difficulty];
                 let boss_dropped_tcs = boss['tcs' + difficulty];
+                let item_tc_group = item['tc_group'];
 
-                let boss_is_high_enough_level = boss_level >= item.lvl;
-                let boss_can_drop_that_treasure_class = boss_dropped_tcs.includes(item['tc_group']);
+                let boss_is_high_enough_level = (boss_level >= item.lvl);
+                let boss_can_drop_that_treasure_class = boss_dropped_tcs.includes(item_tc_group);
 
-                if (boss_is_high_enough_level && boss_can_drop_that_treasure_class) {
-                    bosses.push(boss['Id'] + difficulty)
+                let can_boss_drop_item = boss_is_high_enough_level && boss_can_drop_that_treasure_class;
+
+                if (debug) {
+                    console.log(`Can ${boss.Id} in ${difficult_name} drop ${item['index']}?  ${can_boss_drop_item}`);
+                }
+
+                if (boss_is_high_enough_level && boss_can_drop_that_treasure_class)
+                {
+                    bosses.push(boss['NameStr'] + difficulty)
                 }
             });
         });
