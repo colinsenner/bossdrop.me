@@ -58,7 +58,7 @@ function get_bosses_that_can_drop(item_name) {
                 let difficult_name = difficulty_str[difficulty];
 
                 let boss_level = boss['Level' + difficulty];
-                let boss_dropped_tcs = boss['tcs' + difficulty];
+                let boss_dropped_tcs = boss['TC' + difficulty];
                 let item_tc_group = item['tc_group'];
 
                 let boss_is_high_enough_level = (boss_level >= item.lvl);

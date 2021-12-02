@@ -1,6 +1,9 @@
 # Files
 
+https://github.com/fabd/diablo2/tree/master/code/d2_113_data
+
 https://d2mods.info/forum/kb/index?c=4
+
 https://dropcalc.silospen.com/item.php
 
 ## MonStats.txt
