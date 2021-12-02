@@ -131,7 +131,13 @@ def get_superuniques():
     su = su.dropna(subset=['Level', 'Level(N)', 'Level(H)'])
 
     # Drop superuniques we don't care about
-    superuniques_to_keep = ['Baal Subject 1', 'Baal Subject 2', 'Baal Subject 3', 'Baal Subject 4', 'Baal Subject 5', 'Pindleskin', 'Ismail Vilehand', 'Toorc Icefist', 'Geleb Flamefinger', 'Bremm Sparkfist', 'Wyand Voidfinger', 'Maffer Dragonhand', 'The Countess', 'The Cow King', 'The Summoner']
+    superuniques_to_keep = ['Baal Subject 1', 'Baal Subject 2', 'Baal Subject 3',
+                            'Baal Subject 4', 'Baal Subject 5', 'Pindleskin',
+                            'Ismail Vilehand', 'Toorc Icefist', 'Geleb Flamefinger',
+                            'Bremm Sparkfist', 'Wyand Voidfinger', 'Maffer Dragonhand',
+                            'The Countess', 'The Cow King', 'The Summoner',
+                            'Lord De Seis', 'Grand Vizier of Chaos', 'Infector of Souls']
+
     su = su[su['Superunique'].isin(superuniques_to_keep)]
 
     su['TC'] = su.apply(get_all_treasure_classes_for_difficulty, args=(treasure_class_ex, 'TC',), axis=1)
