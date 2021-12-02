@@ -2034,7 +2034,7 @@
       "Level(N)": 49.0,
       "Level(H)": 75.0,
       "boss": 1.0,
-      "tcs": [
+      "TC": [
         "Andariel",
         "gld,mul=1280",
         "Act 2 Equip A",
@@ -2126,7 +2126,7 @@
         "r01",
         "r02"
       ],
-      "tcs(N)": [
+      "TC(N)": [
         "Andariel (N)",
         "gld,mul=1536",
         "Act 2 (N) Equip A",
@@ -2447,7 +2447,7 @@
         "r01",
         "r02"
       ],
-      "tcs(H)": [
+      "TC(H)": [
         "Andariel (H)",
         "gld,mul=2048",
         "Act 2 (H) Equip A",
@@ -2891,7 +2891,7 @@
       "Level(N)": 55.0,
       "Level(H)": 88.0,
       "boss": 1.0,
-      "tcs": [
+      "TC": [
         "Duriel",
         "tsc",
         "Duriel - Base",
@@ -3044,7 +3044,7 @@
         "r01",
         "r02"
       ],
-      "tcs(N)": [
+      "TC(N)": [
         "Duriel (N)",
         "tsc",
         "Duriel (N) - Base",
@@ -3388,7 +3388,7 @@
         "r01",
         "r02"
       ],
-      "tcs(H)": [
+      "TC(H)": [
         "Duriel (H)",
         "tsc",
         "Duriel (H) - Base",
@@ -3855,7 +3855,7 @@
       "Level(N)": 59.0,
       "Level(H)": 87.0,
       "boss": 1.0,
-      "tcs": [
+      "TC": [
         "Mephisto",
         "gld,mul=1280",
         "Act 4 Equip A",
@@ -4073,7 +4073,7 @@
         "r01",
         "r02"
       ],
-      "tcs(N)": [
+      "TC(N)": [
         "Mephisto (N)",
         "gld,mul=1536",
         "Act 4 (N) Equip A",
@@ -4436,7 +4436,7 @@
         "r01",
         "r02"
       ],
-      "tcs(H)": [
+      "TC(H)": [
         "Mephisto (H)",
         "gld,mul=2048",
         "Act 4 (H) Equip A",
@@ -4922,7 +4922,7 @@
       "Level(N)": 62.0,
       "Level(H)": 94.0,
       "boss": 1.0,
-      "tcs": [
+      "TC": [
         "Diablo",
         "gld,mul=1280",
         "Act 5 Equip A",
@@ -5173,7 +5173,7 @@
         "r01",
         "r02"
       ],
-      "tcs(N)": [
+      "TC(N)": [
         "Diablo (N)",
         "gld,mul=1536",
         "Act 5 (N) Equip A",
@@ -5557,7 +5557,7 @@
         "r01",
         "r02"
       ],
-      "tcs(H)": [
+      "TC(H)": [
         "Diablo (H)",
         "gld,mul=2048",
         "Act 5 (H) Equip A",
@@ -6063,7 +6063,7 @@
       "Level(N)": 55.0,
       "Level(H)": 80.0,
       "boss": 1.0,
-      "tcs": [
+      "TC": [
         "Summoner",
         "gld,mul=1280",
         "Act 2 Equip C",
@@ -6198,7 +6198,7 @@
         "mp3",
         "mp4"
       ],
-      "tcs(N)": [
+      "TC(N)": [
         "Summoner (N)",
         "gld,mul=1536",
         "Act 2 (N) Equip C",
@@ -6533,7 +6533,7 @@
         "mp4",
         "mp5"
       ],
-      "tcs(H)": [
+      "TC(H)": [
         "Summoner (H)",
         "gld,mul=2048",
         "Act 2 (H) Equip C",
@@ -6991,7 +6991,7 @@
       "Level(N)": -999.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "tcs": [
+      "TC": [
         "ROP",
         "Diablo",
         "gld,mul=1280",
@@ -7243,7 +7243,7 @@
         "r01",
         "r02"
       ],
-      "tcs(N)": [
+      "TC(N)": [
         "ROP (N)",
         "Diablo (N)",
         "gld,mul=1536",
@@ -7629,7 +7629,7 @@
         "r02",
         "Annihilus"
       ],
-      "tcs(H)": [
+      "TC(H)": [
         "ROP (H)",
         "Annihilus"
       ]
@@ -7641,7 +7641,7 @@
       "Level(N)": 70.0,
       "Level(H)": 92.0,
       "boss": 1.0,
-      "tcs": [
+      "TC": [
         "Nihlathak",
         "gld,mul=1280",
         "Act 5 Equip B",
@@ -7901,7 +7901,7 @@
         "r01",
         "r02"
       ],
-      "tcs(N)": [
+      "TC(N)": [
         "Nihlathak (N)",
         "gld,mul=1536",
         "Act 5 (N) Equip B",
@@ -8294,7 +8294,7 @@
         "r01",
         "r02"
       ],
-      "tcs(H)": [
+      "TC(H)": [
         "Nihlathak (H)",
         "gld,mul=2048",
         "Act 5 (H) Equip B",
@@ -8809,7 +8809,7 @@
       "Level(N)": 75.0,
       "Level(H)": 99.0,
       "boss": 1.0,
-      "tcs": [
+      "TC": [
         "Baal",
         "gld,mul=1280",
         "Act 1 (N) Equip A",
@@ -9109,7 +9109,7 @@
         "r01",
         "r02"
       ],
-      "tcs(N)": [
+      "TC(N)": [
         "Baal (N)",
         "gld,mul=1536",
         "Act 1 (H) Equip A",
@@ -9523,7 +9523,7 @@
         "r01",
         "r02"
       ],
-      "tcs(H)": [
+      "TC(H)": [
         "Baal (H)",
         "gld,mul=2048",
         "Act 5 (H) Equip B",

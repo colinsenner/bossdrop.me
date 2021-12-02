@@ -11,16 +11,19 @@ def main():
     # UniqueItems.txt
     unique_items = util.items.get_unique_items()
     runes = util.items.get_runes()
+    superuniques = util.monsters.get_superuniques()
 
     # Save for debugging
-    unique_items.to_json(path.join("generated", "unique_items.json"), orient='records', indent=2)
+    unique_items.to_json(path.join("generated", "uniqueitems.json"), orient='records', indent=2)
     runes.to_json(path.join("generated", "runes.json"), orient='records', indent=2)
+    superuniques.to_json(path.join("generated", "superuniques.json"), orient='records', indent=2)
 
     # Put runes in the unique_items list
     unique_items = unique_items.append(runes)
 
-    bosses = util.monsters.get_bosses()
+    #exit(0)
 
+    bosses = util.monsters.get_bosses()
     bosses.to_json(path.join("generated", "bosses.json"), orient='records', indent=2)
 
     results = dict()
