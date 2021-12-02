@@ -6,6 +6,9 @@ import pandas as pd
 from .common import get_data_dir, get_superunique_area, rename_superuniques
 
 
+cached_tcs = {}
+
+
 def get_all_treasure_classes(treasure_class_name, treasure_class_ex, all_treasure_classes=[]):
     """Returns every droppable Treasure Class for a given Treasure Class
 
@@ -39,22 +42,19 @@ def get_all_treasure_classes(treasure_class_name, treasure_class_ex, all_treasur
     return all_treasure_classes
 
 
-def get_all_treasure_classes_for_difficulty(row, difficulty):
-    treasure_class_ex = pd.read_csv(os.path.join(get_data_dir(), 'TreasureClassEx.txt'), sep='\t')
+def get_all_treasure_classes_for_difficulty(row, treasure_class_ex, column_name):
+    global cached_tcs
 
-    column_name = ''
+    treasure_class_name = row[column_name]
+    print(f"Getting TCs for '{row[column_name]}'")
 
-    if difficulty == 'normal':
-        column_name = 'TreasureClass3'
-    elif difficulty == 'nightmare':
-        column_name = 'TreasureClass3(N)'
-    elif difficulty == 'hell':
-        column_name = 'TreasureClass3(H)'
-    else:
-        raise Exception("Unsupported difficulty option")
+    if treasure_class_name in cached_tcs:
+        return cached_tcs[treasure_class_name]
 
-    print(f"Getting TCs for '{row.Id}'")
     tcs = get_all_treasure_classes(row[column_name], treasure_class_ex, [])
+
+    # Cache for immediate lookup next time
+    cached_tcs[treasure_class_name] = tcs
 
     # Sometimes there isn't an entry (uberbaal can't spawn on normal or nightmare, so can't drop anything)
     # Rather than them getting assigned null, assign them an empty list
@@ -69,12 +69,15 @@ def calculate_superunique_levels(superunique, monstats, levels):
         Assigns the 'Level', 'Level(N)', 'Level(H)', columns to the correct values
     '''
     superunique_name = superunique['Superunique']
-    if superunique_name == 'Pindleskin':
-        pass
     mob_base = monstats.loc[superunique['Class'] == monstats['Id']]
 
     assert len(mob_base) == 1, f"Multiple mobs found with Class '{superunique['Class']}'"
     mob_base = mob_base.iloc[0]
+
+    if pd.isna(mob_base['boss']):
+        superunique['boss'] = 0
+    else:
+        superunique['boss'] = mob_base['boss']
 
     # if the monster in MonStats is 'boss' == 1, you can just use their levels from this file
     if mob_base['boss'] == 1:
@@ -108,6 +111,7 @@ def get_superuniques():
     su = pd.read_csv(os.path.join(get_data_dir(), 'SuperUniques.txt'), sep='\t')
     monstats = pd.read_csv(os.path.join(get_data_dir(), 'MonStats.txt'), sep='\t')
     levels = pd.read_csv(os.path.join(get_data_dir(), 'Levels.txt'), sep='\t')
+    treasure_class_ex = pd.read_csv(os.path.join(get_data_dir(), 'TreasureClassEx.txt'), sep='\t')
 
     # Drop rows where 'Name' is nan
     su.dropna(subset=['Name'], inplace=True)
@@ -115,10 +119,7 @@ def get_superuniques():
     su['Level'] = np.nan
     su['Level(N)'] = np.nan
     su['Level(H)'] = np.nan
-
-    # su['TC'] = np.nan
-    # su['TC(N)'] = np.nan
-    # su['TC(H)'] = np.nan
+    su['boss'] = np.nan
 
     # Superunique monsters use a combination of MonStats and area Levels when not bosses and just monstats levels when bosses
     # To figure out a SuperUnique's NM and Hell levels we have to know what area they're in
@@ -126,28 +127,23 @@ def get_superuniques():
     # maybe MonPresets.txt?
     su = su.apply(calculate_superunique_levels, args=(monstats, levels,), axis=1)
 
-    # bosses fields
-    #  {
-    #    "Id":"andariel",
-    #    "NameStr":"andariel",
-    #    "Level":12.0,
-    #    "Level(N)":49.0,
-    #    "Level(H)":75.0,
-    #    "boss":1.0,
-    #    "TC":[],
-    #    "TC(N)":[],
-    #    "TC(H)":[]
-    #  }
+    # Drop mobs we couldn't calculate the level for
+    su = su.dropna(subset=['Level', 'Level(N)', 'Level(H)'])
 
-    #su = su[['Superunique', 'Name', 'Class', 'Level', 'Level(N)', 'Level(H)', 'TC', 'TC(N)', 'TC(H)']]
+    # Drop superuniques we don't care about
+    superuniques_to_keep = ['Baal Subject 1', 'Baal Subject 2', 'Baal Subject 3', 'Baal Subject 4', 'Baal Subject 5', 'Pindleskin', 'Ismail Vilehand', 'Toorc Icefist', 'Geleb Flamefinger', 'Bremm Sparkfist', 'Wyand Voidfinger', 'Maffer Dragonhand', 'The Countess', 'The Cow King', 'The Summoner']
+    su = su[su['Superunique'].isin(superuniques_to_keep)]
+
+    su['TC'] = su.apply(get_all_treasure_classes_for_difficulty, args=(treasure_class_ex, 'TC',), axis=1)
+    su['TC(N)'] = su.apply(get_all_treasure_classes_for_difficulty, args=(treasure_class_ex, 'TC(N)',), axis=1)
+    su['TC(H)'] = su.apply(get_all_treasure_classes_for_difficulty, args=(treasure_class_ex, 'TC(H)',), axis=1)
 
     # Some superunique's were renamed in the expansion pack, apply those transformations here
     su['Superunique'] = su['Superunique'].apply(rename_superuniques)
 
-
-
-    # Set their TC's
-    #su['TC'] = su.apply(get_all_treasure_classes_for_difficulty, args=('normal',), axis=1)
+    # Add fields so it merges perfectly with bosses data
+    su['Id'] = su['Superunique']
+    su['NameStr'] = su['Superunique']
 
     # Wrong levels listed on this site
     # https://diablo.fandom.com/wiki/Wyand_Voidbringer
@@ -158,12 +154,7 @@ def get_superuniques():
     # https://rankedboost.com/diablo-2/bosses/nihlathak/#sts=Diablo%202%20Nihlathak
     # https://diablo.fandom.com/wiki/Nihlathak
 
-
-    pd.set_option("display.max_rows", None)
-    print(su.head(100))
-
-    print(su.head(10))
-
+    su = su[['Id', 'NameStr', 'Level', 'Level(N)', 'Level(H)', 'boss', 'TC', 'TC(N)', 'TC(H)']]
     return su
 
 
@@ -172,6 +163,7 @@ def get_bosses():
     # Read MonStats.txt and setup the dataframe to only include enabled items with codes
     #
     monstats = pd.read_csv(os.path.join(get_data_dir(), 'MonStats.txt'), sep='\t')
+    treasure_class_ex = pd.read_csv(os.path.join(get_data_dir(), 'TreasureClassEx.txt'), sep='\t')
 
     monstats = monstats[monstats['boss'] == 1]
 
@@ -181,9 +173,9 @@ def get_bosses():
     monstats = monstats.loc[monstats['Id'].isin(boss_ids_to_keep)]
 
     # Get all the TC items each can drop
-    monstats['TC'] = monstats.apply(get_all_treasure_classes_for_difficulty, args=('normal',), axis=1)
-    monstats['TC(N)'] = monstats.apply(get_all_treasure_classes_for_difficulty, args=('nightmare',), axis=1)
-    monstats['TC(H)'] = monstats.apply(get_all_treasure_classes_for_difficulty, args=('hell',), axis=1)
+    monstats['TC'] = monstats.apply(get_all_treasure_classes_for_difficulty, args=(treasure_class_ex, 'TreasureClass3',), axis=1)
+    monstats['TC(N)'] = monstats.apply(get_all_treasure_classes_for_difficulty, args=(treasure_class_ex, 'TreasureClass3(N)',), axis=1)
+    monstats['TC(H)'] = monstats.apply(get_all_treasure_classes_for_difficulty, args=(treasure_class_ex, 'TreasureClass3(H)',), axis=1)
 
     columns_to_keep = ['Id', 'NameStr', 'Level', 'Level(N)', 'Level(H)', 'boss', 'TC', 'TC(N)', 'TC(H)']
     monstats = monstats[columns_to_keep]
