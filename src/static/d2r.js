@@ -27,11 +27,41 @@ function search_onsubmit() {
 
     var bosses = get_bosses_that_can_drop(search.value);
 
-    var items = ""
+    results.innerHTML = ''
+    let table_header = `
+        <table>
+            <tr>
+                <th>Boss</th>
+                <th>Normal</th>
+                <th>Nightmare</th>
+                <th>Hell</th>
+            </tr>
+    `
+
+    //["Andariel"].forEach((boss) => {
     bosses.forEach((boss) => {
-        items += "<li>" + boss + "</li>"
-    });
-    results.innerHTML = "<ul>" + items + "</ul>";
+        if (boss['difficulty'].some(x => x)) {
+            let row = `
+                <tr>
+            `
+
+            row += `<td>${boss['name']}</td>`
+
+            for (let index = 0; index < 3; index++) {
+                if (boss['difficulty'][index])
+                    row += `<td class="difficulty">✔️</td>`
+                else
+                    row += `<td class="difficulty">❌</td>`
+            }
+
+            row += `</tr>`
+            table_header += row;
+        }
+    })
+
+    table_header += `</table>`
+
+    results.innerHTML = table_header;
 
     return false;
 }
@@ -49,6 +79,9 @@ function get_bosses_that_can_drop(item_name) {
         let bosses = []
 
         all_bosses.forEach((boss) => {
+
+            let boss_entry = { "name": boss['Id'], "difficulty": [false, false, false] };
+
             ['', '(N)', '(H)'].forEach((difficulty) => {
 
                 difficulty_str = {  '':'Normal',
@@ -72,9 +105,21 @@ function get_bosses_that_can_drop(item_name) {
 
                 if (boss_is_high_enough_level && boss_can_drop_that_treasure_class)
                 {
-                    bosses.push(boss['NameStr'] + difficulty)
+                    //bosses.push(boss['NameStr'] + difficulty)
+                    if (difficult_name === 'Normal') {
+                        boss_entry['difficulty'][0] = true;
+                    }
+                    if (difficult_name === 'Nightmare') {
+                        boss_entry['difficulty'][1] = true;
+                    }
+                    if (difficult_name === 'Hell') {
+                        boss_entry['difficulty'][2] = true;
+                    }
                 }
             });
+
+            bosses.push(boss_entry);
+
         });
 
         return bosses;

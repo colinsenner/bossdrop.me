@@ -11,6 +11,14 @@
         @apply font-serif bg-gray-100 text-gray-700;
     }
 
+    td {
+        @apply text-center;
+    }
+
+    .difficulty {
+        @apply md:w-full;
+    }
+
     nav {
         @apply m-2 md:m-4 font-sans;
     }
