@@ -12,7 +12,7 @@ layout: "base.njk"
     <div class="text-center lg:text-right text-3xl lg:text-4xl mt-2">What boss drops</div>
     <div>
         <form autocomplete="off" id="searchform" action="" onsubmit="return search_onsubmit()">
-            <input type="text" class="text-center text-2xl text-yellow-600 font-light w-full h-16" name="q" id="search" onKeyUp="showSearchResults(this.value)" />
+            <input type="text" class="text-center text-2xl text-yellow-600 font-light w-full h-16" name="q" id="search" onKeyUp="showSearchResults(this.value)" onFocus="searchFocus(this.value)" autofocus />
         </form>
         <div id="search_results" class="flex text-2xl w-full rounded-xl text-center lg:text-left justify-center bg-gray-50"></div>
     </div>
