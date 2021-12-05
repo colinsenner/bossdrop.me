@@ -2,7 +2,13 @@ var d2data = {}
 
 $.getJSON('results.json', function(data) {
     d2data = data;
+
+    let input_search = document.getElementById("search");
+
+    if (input_search !== undefined)
+        input_search.addEventListener('keydown', searchKeyDown);
 });
+
 
 function searchresult_onclick(data) {
     let search_input = document.getElementById("search");
@@ -52,8 +58,6 @@ function search_onsubmit() {
                 table_header += row;
             }
         })
-
-        table_header += `</table>`
 
         results.innerHTML = table_header;
     }
@@ -138,6 +142,25 @@ function autocompleteMatch(input) {
         return term;
         }
     });
+}
+
+function searchKeyDown(event) {
+
+    if (event.keyCode === 40) {
+        // ArrowDown
+
+    }
+    else if (event.keyCode === 38) {
+        // ArrowUp
+    }
+    console.log(event);
+}
+
+function searchFocus(item_name) {
+    let search_box = document.getElementById("search");
+
+    if (search_box !== undefined)
+        search_box.value = "";
 }
 
 function showSearchResults(val) {
