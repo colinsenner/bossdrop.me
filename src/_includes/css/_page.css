@@ -11,14 +11,6 @@
         @apply font-serif bg-gray-100 text-gray-700;
     }
 
-    td {
-        @apply text-center;
-    }
-
-    .difficulty {
-        @apply md:w-full;
-    }
-
     nav {
         @apply m-2 md:m-4 font-sans;
     }
@@ -37,5 +29,17 @@
 
     #searchresult ul li {
         @apply pt-2 hover:text-yellow-800 cursor-pointer;
+    }
+
+    #result_list {
+        @apply grid grid-cols-9 gap-2  mt-12 text-xl max-w-3xl mx-auto place-items-center;
+    }
+
+    .header {
+        @apply text-base;
+    }
+
+    .boss_name {
+        @apply col-span-6;
     }
 }
