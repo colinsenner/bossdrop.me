@@ -46,17 +46,32 @@ def get_tc_group(row):
     return base_tc_class
 
 
-def get_runes():
+def get_misc():
     misc = pd.read_csv(os.path.join(get_data_dir(), 'Misc.txt'), sep='\t')
-    runes = misc[misc.name.str.contains("Rune")]
+    #runes = misc[misc.name.str.contains("Rune")]
 
-    runes = runes.rename(columns={"code":"tc_group"})
+    misc.dropna(subset=['level'], inplace=True)
+
+    # Most of these are found in these patch files
+    # https://github.com/fabd/diablo2/blob/17d60a1085151a640b164e047b4e0afb179af254/code/d2_113_data/TBL/ENG/patchstring.txt
+    name_to_friendly_name = {
+        'Pandemonium Key 1': 'Key of Terror',
+        'Pandemonium Key 2': 'Key of Hate',
+        'Pandemonium Key 3': 'Key of Destruction',
+    }
+    misc['name'] = misc['name'].apply(lambda name: name_to_friendly_name[name] if name in name_to_friendly_name.keys() else name)
+
+    # Drop rows with name == 'Not used"
+    misc.drop(misc[misc['name'] == 'Not used'].index, inplace=True)
 
     # Only keep these columns, and format them the same as unique_items
-    runes = runes[['name', 'level', 'tc_group']]
-    runes = runes.rename(columns={"name":"index", "level":"lvl"})
+    misc = misc[['name', 'level', 'code']]
 
-    return runes
+    misc = misc.rename( columns={ "name":"index",
+                                "level":"lvl",
+                                "code":"tc_group"})
+
+    return misc
 
 
 def get_unique_items():
