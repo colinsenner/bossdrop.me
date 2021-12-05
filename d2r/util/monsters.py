@@ -135,8 +135,8 @@ def get_superuniques():
                             'Baal Subject 4', 'Baal Subject 5', 'Pindleskin',
                             'Ismail Vilehand', 'Toorc Icefist', 'Geleb Flamefinger',
                             'Bremm Sparkfist', 'Wyand Voidfinger', 'Maffer Dragonhand',
-                            'The Countess', 'The Cow King', 'The Summoner',
-                            'Lord De Seis', 'Grand Vizier of Chaos', 'Infector of Souls']
+                            'The Countess', 'The Cow King', 'Lord De Seis',
+                            'Grand Vizier of Chaos', 'Infector of Souls']
 
     su = su[su['Superunique'].isin(superuniques_to_keep)]
 
