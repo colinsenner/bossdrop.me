@@ -1931,11 +1931,6 @@
       "tc_group": "rin"
     },
     {
-      "index": "gold",
-      "lvl": 0.0,
-      "tc_group": "gld"
-    },
-    {
       "index": "Bark Scroll",
       "lvl": 0.0,
       "tc_group": "bks"

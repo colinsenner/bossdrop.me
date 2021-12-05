@@ -62,6 +62,8 @@ def get_misc():
     misc['name'] = misc['name'].apply(lambda name: name_to_friendly_name[name] if name in name_to_friendly_name.keys() else name)
 
     # Drop rows with name == 'Not used"
+    names_to_drop = ['Not used', 'gold']
+    misc.drop(misc[misc['name'].isin(names_to_drop)].index, inplace=True)
     misc.drop(misc[misc['name'] == 'Not used'].index, inplace=True)
 
     # Only keep these columns, and format them the same as unique_items
