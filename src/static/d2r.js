@@ -1,7 +1,6 @@
 var d2data = {}
 
 $.getJSON('results.json', function(data) {
-    console.log('results.json loaded');
     d2data = data;
 });
 
@@ -14,54 +13,50 @@ function searchresult_onclick(data) {
 };
 
 function clear_search_results() {
-    removeAllChildNodes(document.querySelector('#searchresult'));
+    removeAllChildNodes(document.querySelector('#search_results'));
 }
 
 function clear_results() {
-    removeAllChildNodes(document.querySelector('#results'));
+    removeAllChildNodes(document.querySelector('#boss_results'));
 }
 
 function search_onsubmit() {
     var search = document.getElementById("search");
-    var results = document.getElementById("results");
+    var results = document.getElementById("boss_results");
 
     var bosses = get_bosses_that_can_drop(search.value);
 
-    results.innerHTML = ''
-    let table_header = `
-        <table>
-            <tr>
-                <th>Boss</th>
-                <th>Normal</th>
-                <th>Nightmare</th>
-                <th>Hell</th>
-            </tr>
-    `
+    results.innerHTML = '';
 
-    //["Andariel"].forEach((boss) => {
-    bosses.forEach((boss) => {
-        if (boss['difficulty'].some(x => x)) {
-            let row = `
-                <tr>
-            `
+    if (bosses.length > 0) {
+        let table_header = `
+            <div class="boss_name header">Boss</div>
+            <div class="header">N</div>
+            <div class="header">NM</div>
+            <div class="header">Hell</div>
+        `;
 
-            row += `<td>${boss['name']}</td>`
+        bosses.forEach((boss) => {
+            if (boss['difficulty'].some(x => x)) {
+                let row = '';
 
-            for (let index = 0; index < 3; index++) {
-                if (boss['difficulty'][index])
-                    row += `<td class="difficulty">✔️</td>`
-                else
-                    row += `<td class="difficulty">❌</td>`
+                row += `<div class="boss_name">${boss['name']}</div>`
+
+                for (let index = 0; index < 3; index++) {
+                    if (boss['difficulty'][index])
+                        row += `<div>✔️</div>`
+                    else
+                        row += `<div>❌</div>`
+                }
+
+                table_header += row;
             }
+        })
 
-            row += `</tr>`
-            table_header += row;
-        }
-    })
+        table_header += `</table>`
 
-    table_header += `</table>`
-
-    results.innerHTML = table_header;
+        results.innerHTML = table_header;
+    }
 
     return false;
 }
@@ -80,7 +75,7 @@ function get_bosses_that_can_drop(item_name) {
 
         all_bosses.forEach((boss) => {
 
-            let boss_entry = { "name": boss['Id'], "difficulty": [false, false, false] };
+            let boss_entry = { "name": boss['NameStr'], "difficulty": [false, false, false] };
 
             ['', '(N)', '(H)'].forEach((difficulty) => {
 
@@ -146,7 +141,7 @@ function autocompleteMatch(input) {
 }
 
 function showSearchResults(val) {
-    res = document.getElementById("searchresult");
+    res = document.getElementById("search_results");
     res.innerHTML = '';
     let list = '';
     let terms = autocompleteMatch(val);

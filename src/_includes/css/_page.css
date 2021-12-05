@@ -20,18 +20,18 @@
     }
 
     input {
-        @apply rounded-full focus:outline-none focus:ring-1 focus:ring-yellow-600;
+        @apply rounded-full ring-1 ring-yellow-600 focus:ring-yellow-600;
     }
 
     .page-width {
         @apply max-w-6xl;
     }
 
-    #searchresult ul li {
-        @apply pt-2 hover:text-yellow-800 cursor-pointer;
+    #search_results ul li {
+        @apply pt-2 hover:text-yellow-600 cursor-pointer;
     }
 
-    #result_list {
+    #boss_results {
         @apply grid grid-cols-9 gap-2 mt-6 lg:mt-12 mx-4 lg:mx-auto text-xl max-w-3xl lg:place-items-center;
     }
 
