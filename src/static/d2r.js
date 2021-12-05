@@ -35,6 +35,8 @@ function search_onsubmit() {
     results.innerHTML = '';
 
     if (bosses.length > 0) {
+        showDisclaimer();
+
         let table_header = `
             <div class="boss_name header">Boss</div>
             <div class="header">N</div>
@@ -60,9 +62,21 @@ function search_onsubmit() {
         })
 
         results.innerHTML = table_header;
+    } else {
+        hideDisclaimer();
     }
 
     return false;
+}
+
+function showDisclaimer() {
+    var disclaimer = document.getElementById("disclaimer");
+    disclaimer.classList.remove("hidden");
+}
+
+function hideDisclaimer() {
+    var disclaimer = document.getElementById("disclaimer");
+    disclaimer.classList.add("hidden");
 }
 
 function get_bosses_that_can_drop(item_name) {
