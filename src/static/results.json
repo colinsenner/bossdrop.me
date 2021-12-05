@@ -6987,8 +6987,8 @@
     {
       "Id": "diabloclone",
       "NameStr": "Diablo Clone",
-      "Level": -999.0,
-      "Level(N)": -999.0,
+      "Level": 110.0,
+      "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
       "TC": [

@@ -27,6 +27,9 @@ function search_onsubmit() {
 
     var bosses = get_bosses_that_can_drop(search.value);
 
+    // Sort bosses based on their normal level
+    bosses.sort((a, b) => a['Level'] - b['Level']);
+
     results.innerHTML = '';
 
     if (bosses.length > 0) {
@@ -72,7 +75,12 @@ function get_bosses_that_can_drop(item_name) {
 
         all_bosses.forEach((boss) => {
 
-            let boss_entry = { "name": boss['NameStr'], "difficulty": [false, false, false] };
+            let boss_entry = {
+                "name": boss['NameStr'],
+                "Level": boss['Level'],
+                "Level(N)": boss['Level(N)'],
+                "Level(H)": boss['Level(H)'],
+                "difficulty": [false, false, false] };
 
             ['', '(N)', '(H)'].forEach((difficulty) => {
                 difficulty_str = {  '':'Normal',

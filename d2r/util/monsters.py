@@ -205,7 +205,7 @@ def get_bosses():
     # It is possible for him to spawn in those difficulties, but it's visual clutter
     # We're going to just set their level on Normal and NM to a very low value
     # So it won't pass the high enough level check
-    monstats.at[monstats['Id'] == 'diabloclone', 'Level'] = -999
-    monstats.at[monstats['Id'] == 'diabloclone', 'Level(N)'] = -999
+    # monstats.at[monstats['Id'] == 'diabloclone', 'Level'] = -999
+    # monstats.at[monstats['Id'] == 'diabloclone', 'Level(N)'] = -999
 
     return monstats
