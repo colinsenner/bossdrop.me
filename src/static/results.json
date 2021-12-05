@@ -1856,11 +1856,6 @@
       "tc_group": "jew"
     },
     {
-      "index": "Hellfire Torch",
-      "lvl": 110.0,
-      "tc_group": "cm2"
-    },
-    {
       "index": "elixir",
       "lvl": 21.0,
       "tc_group": "elx"
@@ -10569,7 +10564,7 @@
       "Level(H)": 110.0,
       "boss": 1.0,
       "TC": [],
-      "TC(N)": null,
+      "TC(N)": [],
       "TC(H)": [
         "Uber Izual",
         "mbr"
@@ -10582,8 +10577,8 @@
       "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "TC": null,
-      "TC(N)": null,
+      "TC": [],
+      "TC(N)": [],
       "TC(H)": [
         "Uber Andariel",
         "dhn"
@@ -10596,8 +10591,8 @@
       "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "TC": null,
-      "TC(N)": null,
+      "TC": [],
+      "TC(N)": [],
       "TC(H)": [
         "Uber Duriel",
         "bey"
@@ -10610,9 +10605,9 @@
       "Level(N)": 110.0,
       "Level(H)": 110.0,
       "boss": 1.0,
-      "TC": null,
-      "TC(N)": null,
-      "TC(H)": null
+      "TC": [],
+      "TC(N)": [],
+      "TC(H)": []
     },
     {
       "Id": "The Countess",

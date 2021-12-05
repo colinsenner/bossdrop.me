@@ -46,7 +46,11 @@ def get_all_treasure_classes_for_difficulty(row, treasure_class_ex, column_name)
     global cached_tcs
 
     treasure_class_name = row[column_name]
-    print(f"Getting TCs for '{row[column_name]}'")
+
+    if pd.isna(treasure_class_name):
+        return []
+
+    print(f"Getting TCs for '{treasure_class_name}'")
 
     if treasure_class_name in cached_tcs:
         return cached_tcs[treasure_class_name]
