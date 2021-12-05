@@ -80,7 +80,8 @@ function get_bosses_that_can_drop(item_name) {
                 "Level": boss['Level'],
                 "Level(N)": boss['Level(N)'],
                 "Level(H)": boss['Level(H)'],
-                "difficulty": [false, false, false] };
+                "difficulty": [false, false, false]
+            };
 
             ['', '(N)', '(H)'].forEach((difficulty) => {
                 difficulty_str = {  '':'Normal',

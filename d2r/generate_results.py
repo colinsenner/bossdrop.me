@@ -11,8 +11,8 @@ def main():
     unique_items = util.items.get_unique_items()
     unique_items.to_json(path.join("generated", "uniqueitems.json"), orient='records', indent=2)
 
-    runes = util.items.get_runes()
-    runes.to_json(path.join("generated", "runes.json"), orient='records', indent=2)
+    misc = util.items.get_misc()
+    misc.to_json(path.join("generated", "misc.json"), orient='records', indent=2)
 
     bosses = util.monsters.get_bosses()
     bosses.to_json(path.join("generated", "bosses.json"), orient='records', indent=2)
@@ -20,8 +20,8 @@ def main():
     superuniques = util.monsters.get_superuniques()
     superuniques.to_json(path.join("generated", "superuniques.json"), orient='records', indent=2)
 
-    # Put runes in the unique_items list
-    unique_items = unique_items.append(runes)
+    # Put misc in the unique_items list
+    unique_items = unique_items.append(misc)
 
     # Add superunique monsters to our list of bosses
     bosses = bosses.append(superuniques)

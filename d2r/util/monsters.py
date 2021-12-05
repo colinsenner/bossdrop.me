@@ -46,7 +46,11 @@ def get_all_treasure_classes_for_difficulty(row, treasure_class_ex, column_name)
     global cached_tcs
 
     treasure_class_name = row[column_name]
-    print(f"Getting TCs for '{row[column_name]}'")
+
+    if pd.isna(treasure_class_name):
+        return []
+
+    print(f"Getting TCs for '{treasure_class_name}'")
 
     if treasure_class_name in cached_tcs:
         return cached_tcs[treasure_class_name]
@@ -135,8 +139,8 @@ def get_superuniques():
                             'Baal Subject 4', 'Baal Subject 5', 'Pindleskin',
                             'Ismail Vilehand', 'Toorc Icefist', 'Geleb Flamefinger',
                             'Bremm Sparkfist', 'Wyand Voidfinger', 'Maffer Dragonhand',
-                            'The Countess', 'The Cow King', 'The Summoner',
-                            'Lord De Seis', 'Grand Vizier of Chaos', 'Infector of Souls']
+                            'The Countess', 'The Cow King', 'Lord De Seis',
+                            'Grand Vizier of Chaos', 'Infector of Souls']
 
     su = su[su['Superunique'].isin(superuniques_to_keep)]
 
@@ -175,7 +179,11 @@ def get_bosses():
 
     # Remove some bosses we don't want to show up
     # e.g. We don't want
-    boss_ids_to_keep = ['andariel', 'duriel', 'mephisto', 'diablo', 'summoner', 'nihlathakboss', 'baalcrab', 'diabloclone']
+    boss_ids_to_keep = ['andariel', 'duriel', 'mephisto',
+                        'diablo', 'summoner', 'nihlathakboss',
+                        'baalcrab', 'diabloclone', 'uberandariel',
+                        'uberduriel', 'uberizual', 'uberbaal']
+
     monstats = monstats.loc[monstats['Id'].isin(boss_ids_to_keep)]
 
     # Get all the TC items each can drop
@@ -192,6 +200,7 @@ def get_bosses():
         'diabloclone': 'Diablo Clone',
         'baalcrab': 'Baal',
         'nihlathakboss': 'Nihlathak',
+        'uberandariel': 'Lilith',
         'ubermephisto': 'Uber Mephisto',
         'uberdiablo': 'Uber Diablo',
         'uberizual': 'Uber Izual',
