@@ -91,6 +91,11 @@ def get_unique_items():
     df1['base_item_type'] = np.nan
     df1['tc_group'] = np.nan
 
+    # From what I can tell no monster has a drop for the item `Hellfire Torch`
+    # Because it's coded `cm2` and it's level 110, Diablo Clone shows he can drop it (in Normal and NM)
+    # But he definitely can't, drop the entry for now
+    df1.drop(df1[df1['index'] == 'Hellfire Torch'].index, inplace=True)
+
     # Read Weapons.txt to find the base item type's level
     weapons = pd.read_csv(os.path.join(get_data_dir(), 'Weapons.txt'), sep='\t')
     weapons.set_index('code', inplace=True, drop=True, verify_integrity=True)
