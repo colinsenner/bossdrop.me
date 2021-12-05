@@ -32,14 +32,14 @@
     }
 
     #result_list {
-        @apply grid grid-cols-9 gap-2  mt-12 text-xl max-w-3xl mx-auto place-items-center;
+        @apply grid grid-cols-9 gap-2 mt-6 lg:mt-12 mx-4 lg:mx-auto text-xl max-w-3xl lg:place-items-center;
     }
 
     .header {
-        @apply text-base;
+        @apply text-xs lg:text-base border-b-2;
     }
 
     .boss_name {
-        @apply col-span-6;
+        @apply col-span-6 text-left lg:text-center;
     }
 }

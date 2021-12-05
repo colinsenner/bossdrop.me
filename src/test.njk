@@ -8,7 +8,7 @@ layout: "base.njk"
 <script type="text/javascript" src="d2r.js"></script>
 </head>
 
-<div class="flex h-full justify-center items-center md:mt-16">
+{# <div class="flex h-full border justify-center items-center md:mt-16">
     <div class="flex flex-wrap">
         <div class="text-4xl mx-auto">
             What boss drops
@@ -20,11 +20,21 @@ layout: "base.njk"
             </form>
         </div>
     </div>
+</div> #}
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-6 content-center mt-8 lg:mt-16 mx-4 lg:mx-auto items-center">
+    <div class="text-center lg:text-right text-3xl lg:text-4xl">What boss drops</div>
+    <div class="">
+        <form autocomplete="off" id="searchform" action="" onsubmit="return search_onsubmit()">
+            <input type="text" class="text-center text-2xl text-yellow-600 font-light w-full h-16" name="q" id="search" onKeyUp="showSearchResults(this.value)" />
+            <div class="flex text-xl rounded-xl justify-center bg-gray-50" id="searchresult"></div>
+        </form>
+    </div>
 </div>
 
 <div id="result_list">
     <div class="boss_name header">Boss</div>
-    <div class="header">Normal</div>
+    <div class="header">N</div>
     <div class="header">NM</div>
     <div class="header">Hell</div>
 
