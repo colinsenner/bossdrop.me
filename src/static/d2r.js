@@ -2,11 +2,6 @@ var d2data = {}
 
 $.getJSON('results.json', function(data) {
     d2data = data;
-
-    let input_search = document.getElementById("search");
-
-    if (input_search !== undefined)
-        input_search.addEventListener('keydown', searchKeyDown);
 });
 
 
@@ -66,8 +61,6 @@ function search_onsubmit() {
 }
 
 function get_bosses_that_can_drop(item_name) {
-    let debug = false;
-
     let all_bosses = d2data['bosses']
     let all_items = d2data['unique_items'];
 
@@ -82,7 +75,6 @@ function get_bosses_that_can_drop(item_name) {
             let boss_entry = { "name": boss['NameStr'], "difficulty": [false, false, false] };
 
             ['', '(N)', '(H)'].forEach((difficulty) => {
-
                 difficulty_str = {  '':'Normal',
                                     '(N)':'Nightmare',
                                     '(H)': 'Hell'
@@ -95,12 +87,6 @@ function get_bosses_that_can_drop(item_name) {
 
                 let boss_is_high_enough_level = (boss_level >= item.lvl);
                 let boss_can_drop_that_treasure_class = boss_dropped_tcs.includes(item_tc_group);
-
-                let can_boss_drop_item = boss_is_high_enough_level && boss_can_drop_that_treasure_class;
-
-                if (debug) {
-                    console.log(`Can ${boss.Id} in ${difficult_name} drop ${item['index']}?  ${can_boss_drop_item}`);
-                }
 
                 if (boss_is_high_enough_level && boss_can_drop_that_treasure_class)
                 {
@@ -118,7 +104,6 @@ function get_bosses_that_can_drop(item_name) {
             });
 
             bosses.push(boss_entry);
-
         });
 
         return bosses;
@@ -142,18 +127,6 @@ function autocompleteMatch(input) {
         return term;
         }
     });
-}
-
-function searchKeyDown(event) {
-
-    if (event.keyCode === 40) {
-        // ArrowDown
-
-    }
-    else if (event.keyCode === 38) {
-        // ArrowUp
-    }
-    console.log(event);
 }
 
 function searchFocus(item_name) {
