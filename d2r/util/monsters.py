@@ -175,7 +175,11 @@ def get_bosses():
 
     # Remove some bosses we don't want to show up
     # e.g. We don't want
-    boss_ids_to_keep = ['andariel', 'duriel', 'mephisto', 'diablo', 'summoner', 'nihlathakboss', 'baalcrab', 'diabloclone']
+    boss_ids_to_keep = ['andariel', 'duriel', 'mephisto',
+                        'diablo', 'summoner', 'nihlathakboss',
+                        'baalcrab', 'diabloclone', 'uberandariel',
+                        'uberduriel', 'uberizual', 'uberbaal']
+
     monstats = monstats.loc[monstats['Id'].isin(boss_ids_to_keep)]
 
     # Get all the TC items each can drop
@@ -192,6 +196,7 @@ def get_bosses():
         'diabloclone': 'Diablo Clone',
         'baalcrab': 'Baal',
         'nihlathakboss': 'Nihlathak',
+        'uberandariel': 'Lilith',
         'ubermephisto': 'Uber Mephisto',
         'uberdiablo': 'Uber Diablo',
         'uberizual': 'Uber Izual',

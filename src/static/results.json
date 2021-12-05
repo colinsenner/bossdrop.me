@@ -10562,6 +10562,59 @@
       ]
     },
     {
+      "Id": "uberizual",
+      "NameStr": "Uber Izual",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "TC": [],
+      "TC(N)": null,
+      "TC(H)": [
+        "Uber Izual",
+        "mbr"
+      ]
+    },
+    {
+      "Id": "uberandariel",
+      "NameStr": "Lilith",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "TC": null,
+      "TC(N)": null,
+      "TC(H)": [
+        "Uber Andariel",
+        "dhn"
+      ]
+    },
+    {
+      "Id": "uberduriel",
+      "NameStr": "Uber Duriel",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "TC": null,
+      "TC(N)": null,
+      "TC(H)": [
+        "Uber Duriel",
+        "bey"
+      ]
+    },
+    {
+      "Id": "uberbaal",
+      "NameStr": "Uber Baal",
+      "Level": 110.0,
+      "Level(N)": 110.0,
+      "Level(H)": 110.0,
+      "boss": 1.0,
+      "TC": null,
+      "TC(N)": null,
+      "TC(H)": null
+    },
+    {
       "Id": "The Countess",
       "NameStr": "The Countess",
       "Level": 11.0,
