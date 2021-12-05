@@ -1,7 +1,7 @@
 {
   "baseURL": "https://bossdrop.me",
   "author": "Colin Senner",
-  "description": "Find out if [boss] drops [item] for your favorite games",
+  "description": "Bossdrop.me is an easy to use website to figure out if a boss in a video game can drop an item",
   "title": "bossdrop.me",
   "language": "en"
 }
