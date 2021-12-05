@@ -2,6 +2,8 @@ var d2data = {}
 
 $.getJSON('results.json', function(data) {
     d2data = data;
+
+    console.log("Huge thanks to Goretusk and Sinny!")
 });
 
 
