@@ -22,7 +22,8 @@
 			"options": {
 				"cwd": "${workspaceFolder}/d2r"
 			},
-			"args": ["download_data_files.py"]
+			"args": ["download_data_files.py"],
+			"problemMatcher": []
 		},
 		{
 			"type": "shell",
@@ -31,7 +32,8 @@
 			"options": {
 				"cwd": "${workspaceFolder}/d2r"
 			},
-			"args": ["generate_results.py"]
+			"args": ["generate_results.py"],
+			"problemMatcher": []
 		},
 	]
 }
