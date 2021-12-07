@@ -143,6 +143,7 @@ def get_unique_items():
     # TODO Fix some items which got renamed?  Maybe parse the renamed expansion strings?
     df1.at[df1['index'] == 'Fathom', 'index'] = "Death's Fathom"
     df1.at[df1['index'] == "Deaths's Web", 'index'] = "Death's Web"
+    df1.at[df1['index'] == "Lenyms Cord", 'index'] = "Lenymo"
 
     # 'Rainbow Facet' - shows up multiple times, they're all the same level with the same code, remove them
     df1.drop_duplicates(subset="index", inplace=True)
