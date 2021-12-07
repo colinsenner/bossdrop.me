@@ -46,6 +46,33 @@ def get_tc_group(row):
     return base_tc_class
 
 
+def rename_expansion_strings(index, name_mappings):
+    if index in name_mappings:
+        new_name = name_mappings[index]
+
+        if index != new_name:
+            print(f"renaming '{index}' to '{new_name}'")
+            return new_name
+
+    return index
+
+
+def get_rename_mappings(filename):
+    df1 = pd.read_csv(os.path.join(get_data_dir(), filename), sep='\t', header=None)
+    df1.drop_duplicates(inplace=True)
+
+    df1 = df1.to_dict(orient='dict')
+
+    # Convert the pandas to_dict to be a normal dictionary lookup by key (first column), and val (second column)
+    results = { df1[0][k]: df1[1][k] for k in df1[0].keys() }
+
+    # Friendly name remappings
+    results['Harlequin Crest'] = 'Harlequin Crest (Shako)'
+    results['The Stone of Jordan'] = 'The Stone of Jordan (SOJ)'
+
+    return results
+
+
 def get_sets():
     sets = pd.read_csv(os.path.join(get_data_dir(), 'SetItems.txt'), sep='\t')
 
@@ -95,6 +122,14 @@ def get_sets():
 
     # 'Rainbow Facet' - shows up multiple times, they're all the same level with the same code, remove them
     df1.drop_duplicates(subset="index", inplace=True)
+
+    # Apply renaming from expansionstring.txt
+    expansion_strings = get_rename_mappings("expansionstring.txt")
+    df1['index'] = df1['index'].apply(rename_expansion_strings, args=(expansion_strings,))
+
+    # Apply renaming from string.txt
+    strings = get_rename_mappings("string.txt")
+    df1['index'] = df1['index'].apply(rename_expansion_strings, args=(strings,))
 
     # Keep only these
     df1 = df1[['index', 'lvl', 'tc_group']]
@@ -192,17 +227,16 @@ def get_unique_items():
     # Change it's group so it'll be found in dclone's dropped tcs (which reference it by 'Annihilus' in TreasureClassEx.txt)
     df1.at[df1['index'] == 'Annihilus', 'tc_group'] = 'Annihilus'
 
-    # Make some of the item names a bit more friendly to search ('The Stone of Jordan' => add 'soj', and 'Shako' to 'Harlequin Crest')
-    df1.at[df1['index'] == 'Harlequin Crest', 'index'] = 'Harlequin Crest (Shako)'
-    df1.at[df1['index'] == 'The Stone of Jordan', 'index'] = 'The Stone of Jordan (soj)'
-
-    # TODO Fix some items which got renamed?  Maybe parse the renamed expansion strings?
-    df1.at[df1['index'] == 'Fathom', 'index'] = "Death's Fathom"
-    df1.at[df1['index'] == "Deaths's Web", 'index'] = "Death's Web"
-    df1.at[df1['index'] == "Lenyms Cord", 'index'] = "Lenymo"
-
     # 'Rainbow Facet' - shows up multiple times, they're all the same level with the same code, remove them
     df1.drop_duplicates(subset="index", inplace=True)
+
+    # Apply renaming from expansionstring.txt
+    expansion_strings = get_rename_mappings("expansionstring.txt")
+    df1['index'] = df1['index'].apply(rename_expansion_strings, args=(expansion_strings,))
+
+    # Apply renaming from string.txt
+    strings = get_rename_mappings("string.txt")
+    df1['index'] = df1['index'].apply(rename_expansion_strings, args=(strings,))
 
     # Keep only these
     df1 = df1[['index', 'lvl', 'tc_group']]
