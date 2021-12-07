@@ -1856,6 +1856,641 @@
       "tc_group": "jew"
     },
     {
+      "index": "Civerb's Ward",
+      "lvl": 13.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Civerb's Icon",
+      "lvl": 13.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Civerb's Cudgel",
+      "lvl": 13.0,
+      "tc_group": "weap15"
+    },
+    {
+      "index": "Hsarus' Iron Heel",
+      "lvl": 4.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Hsarus' Iron Fist",
+      "lvl": 4.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Hsarus' Iron Stay",
+      "lvl": 4.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Cleglaw's Tooth",
+      "lvl": 6.0,
+      "tc_group": "weap21"
+    },
+    {
+      "index": "Cleglaw's Claw",
+      "lvl": 6.0,
+      "tc_group": "armo6"
+    },
+    {
+      "index": "Cleglaw's Pincers",
+      "lvl": 6.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Iratha's Collar",
+      "lvl": 21.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Iratha's Cuff",
+      "lvl": 21.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Iratha's Coil",
+      "lvl": 21.0,
+      "tc_group": "armo30"
+    },
+    {
+      "index": "Iratha's Cord",
+      "lvl": 21.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Isenhart's Lightbrand",
+      "lvl": 11.0,
+      "tc_group": "weap15"
+    },
+    {
+      "index": "Isenhart's Parry",
+      "lvl": 11.0,
+      "tc_group": "armo30"
+    },
+    {
+      "index": "Isenhart's Case",
+      "lvl": 11.0,
+      "tc_group": "armo18"
+    },
+    {
+      "index": "Isenhart's Horns",
+      "lvl": 11.0,
+      "tc_group": "armo15"
+    },
+    {
+      "index": "Vidala's Barb",
+      "lvl": 19.0,
+      "tc_group": "weap24"
+    },
+    {
+      "index": "Vidala's Fetlock",
+      "lvl": 19.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Vidala's Ambush",
+      "lvl": 19.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Vidala's Snare",
+      "lvl": 19.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Milabrega's Orb",
+      "lvl": 23.0,
+      "tc_group": "armo15"
+    },
+    {
+      "index": "Milabrega's Rod",
+      "lvl": 23.0,
+      "tc_group": "weap21"
+    },
+    {
+      "index": "Milabrega's Diadem",
+      "lvl": 23.0,
+      "tc_group": "armo30"
+    },
+    {
+      "index": "Milabrega's Robe",
+      "lvl": 23.0,
+      "tc_group": "armo42"
+    },
+    {
+      "index": "Cathan's Rule",
+      "lvl": 15.0,
+      "tc_group": "weap18"
+    },
+    {
+      "index": "Cathan's Mesh",
+      "lvl": 15.0,
+      "tc_group": "armo15"
+    },
+    {
+      "index": "Cathan's Visage",
+      "lvl": 15.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Cathan's Sigil",
+      "lvl": 15.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Cathan's Seal",
+      "lvl": 15.0,
+      "tc_group": "rin"
+    },
+    {
+      "index": "Tancred's Crowbill",
+      "lvl": 27.0,
+      "tc_group": "weap21"
+    },
+    {
+      "index": "Tancred's Spine",
+      "lvl": 27.0,
+      "tc_group": "armo39"
+    },
+    {
+      "index": "Tancred's Hobnails",
+      "lvl": 27.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Tancred's Weird",
+      "lvl": 27.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Tancred's Skull",
+      "lvl": 27.0,
+      "tc_group": "armo24"
+    },
+    {
+      "index": "Sigon's Gage",
+      "lvl": 9.0,
+      "tc_group": "armo27"
+    },
+    {
+      "index": "Sigon's Visor",
+      "lvl": 9.0,
+      "tc_group": "armo24"
+    },
+    {
+      "index": "Sigon's Shelter",
+      "lvl": 9.0,
+      "tc_group": "armo33"
+    },
+    {
+      "index": "Sigon's Sabot",
+      "lvl": 9.0,
+      "tc_group": "armo27"
+    },
+    {
+      "index": "Sigon's Wrap",
+      "lvl": 9.0,
+      "tc_group": "armo27"
+    },
+    {
+      "index": "Sigon's Guard",
+      "lvl": 9.0,
+      "tc_group": "armo24"
+    },
+    {
+      "index": "Infernal Cranium",
+      "lvl": 7.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Infernal Torch",
+      "lvl": 7.0,
+      "tc_group": "weap27"
+    },
+    {
+      "index": "Infernal Sign",
+      "lvl": 7.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Berserker's Headgear",
+      "lvl": 5.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Berserker's Hauberk",
+      "lvl": 5.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Berserker's Hatchet",
+      "lvl": 5.0,
+      "tc_group": "weap15"
+    },
+    {
+      "index": "Death's Hand",
+      "lvl": 8.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Death's Guard",
+      "lvl": 8.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Death's Touch",
+      "lvl": 8.0,
+      "tc_group": "weap27"
+    },
+    {
+      "index": "Angelic Sickle",
+      "lvl": 17.0,
+      "tc_group": "weap9"
+    },
+    {
+      "index": "Angelic Mantle",
+      "lvl": 17.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Angelic Halo",
+      "lvl": 17.0,
+      "tc_group": "rin"
+    },
+    {
+      "index": "Angelic Wings",
+      "lvl": 17.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Arctic Horn",
+      "lvl": 3.0,
+      "tc_group": "weap27"
+    },
+    {
+      "index": "Arctic Furs",
+      "lvl": 3.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Arctic Binding",
+      "lvl": 3.0,
+      "tc_group": "armo9"
+    },
+    {
+      "index": "Arctic Mitts",
+      "lvl": 3.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Arcanna's Sign",
+      "lvl": 20.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Arcanna's Deathwand",
+      "lvl": 20.0,
+      "tc_group": "weap24"
+    },
+    {
+      "index": "Arcanna's Head",
+      "lvl": 20.0,
+      "tc_group": "armo6"
+    },
+    {
+      "index": "Arcanna's Flesh",
+      "lvl": 20.0,
+      "tc_group": "armo36"
+    },
+    {
+      "index": "Natalya's Totem",
+      "lvl": 22.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Natalya's Mark",
+      "lvl": 22.0,
+      "tc_group": "weap87"
+    },
+    {
+      "index": "Natalya's Shadow",
+      "lvl": 22.0,
+      "tc_group": "armo75"
+    },
+    {
+      "index": "Natalya's Soul",
+      "lvl": 22.0,
+      "tc_group": "armo45"
+    },
+    {
+      "index": "Aldur's Stony Gaze",
+      "lvl": 29.0,
+      "tc_group": "armo48"
+    },
+    {
+      "index": "Aldur's Deception",
+      "lvl": 29.0,
+      "tc_group": "armo84"
+    },
+    {
+      "index": "Aldur's Gauntlet",
+      "lvl": 29.0,
+      "tc_group": "weap39"
+    },
+    {
+      "index": "Aldur's Advance",
+      "lvl": 29.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Immortal King's Will",
+      "lvl": 37.0,
+      "tc_group": "armo24"
+    },
+    {
+      "index": "Immortal King's Soul Cage ",
+      "lvl": 37.0,
+      "tc_group": "armo87"
+    },
+    {
+      "index": "Immortal King's Detail",
+      "lvl": 37.0,
+      "tc_group": "armo54"
+    },
+    {
+      "index": "Immortal King's Forge",
+      "lvl": 37.0,
+      "tc_group": "armo54"
+    },
+    {
+      "index": "Immortal King's Pillar",
+      "lvl": 37.0,
+      "tc_group": "armo54"
+    },
+    {
+      "index": "Immortal King's Stone Crusher",
+      "lvl": 37.0,
+      "tc_group": "weap69"
+    },
+    {
+      "index": "Tal Rasha's Fire-Spun Cloth",
+      "lvl": 26.0,
+      "tc_group": "armo45"
+    },
+    {
+      "index": "Tal Rasha's Adjudication",
+      "lvl": 26.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Tal Rasha's Lidless Eye",
+      "lvl": 26.0,
+      "tc_group": "weap51"
+    },
+    {
+      "index": "Tal Rasha's Howling Wind",
+      "lvl": 26.0,
+      "tc_group": "armo84"
+    },
+    {
+      "index": "Tal Rasha's Horadric Crest",
+      "lvl": 26.0,
+      "tc_group": "armo48"
+    },
+    {
+      "index": "Griswold's Valor",
+      "lvl": 44.0,
+      "tc_group": "armo87"
+    },
+    {
+      "index": "Griswold's Heart",
+      "lvl": 44.0,
+      "tc_group": "armo66"
+    },
+    {
+      "index": "Griswolds's Redemption",
+      "lvl": 44.0,
+      "tc_group": "weap87"
+    },
+    {
+      "index": "Griswold's Honor",
+      "lvl": 44.0,
+      "tc_group": "armo87"
+    },
+    {
+      "index": "Trang-Oul's Guise",
+      "lvl": 32.0,
+      "tc_group": "armo84"
+    },
+    {
+      "index": "Trang-Oul's Scales",
+      "lvl": 32.0,
+      "tc_group": "armo63"
+    },
+    {
+      "index": "Trang-Oul's Wing",
+      "lvl": 32.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Trang-Oul's Claws",
+      "lvl": 32.0,
+      "tc_group": "armo45"
+    },
+    {
+      "index": "Trang-Oul's Girth",
+      "lvl": 32.0,
+      "tc_group": "armo84"
+    },
+    {
+      "index": "M'avina's True Sight",
+      "lvl": 21.0,
+      "tc_group": "armo87"
+    },
+    {
+      "index": "M'avina's Embrace",
+      "lvl": 21.0,
+      "tc_group": "armo81"
+    },
+    {
+      "index": "M'avina's Icy Clutch",
+      "lvl": 21.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "M'avina's Tenet",
+      "lvl": 21.0,
+      "tc_group": "armo39"
+    },
+    {
+      "index": "M'avina's Caster",
+      "lvl": 21.0,
+      "tc_group": "weap78"
+    },
+    {
+      "index": "Telling of Beads",
+      "lvl": 39.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Laying of Hands",
+      "lvl": 39.0,
+      "tc_group": "armo57"
+    },
+    {
+      "index": "Rite of Passage",
+      "lvl": 39.0,
+      "tc_group": "armo36"
+    },
+    {
+      "index": "Spiritual Custodian",
+      "lvl": 39.0,
+      "tc_group": "armo66"
+    },
+    {
+      "index": "Credendum",
+      "lvl": 39.0,
+      "tc_group": "armo75"
+    },
+    {
+      "index": "Dangoon's Teaching",
+      "lvl": 55.0,
+      "tc_group": "weap63"
+    },
+    {
+      "index": "Heaven's Taebaek",
+      "lvl": 55.0,
+      "tc_group": "armo84"
+    },
+    {
+      "index": "Haemosu's Adament",
+      "lvl": 55.0,
+      "tc_group": "armo48"
+    },
+    {
+      "index": "Ondal's Almighty",
+      "lvl": 55.0,
+      "tc_group": "armo81"
+    },
+    {
+      "index": "Guillaume's Face",
+      "lvl": 41.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Wilhelm's Pride",
+      "lvl": 41.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Magnus' Skin",
+      "lvl": 41.0,
+      "tc_group": "armo39"
+    },
+    {
+      "index": "Wihtstan's Guard",
+      "lvl": 41.0,
+      "tc_group": "armo39"
+    },
+    {
+      "index": "Hwanin's Splendor",
+      "lvl": 28.0,
+      "tc_group": "armo57"
+    },
+    {
+      "index": "Hwanin's Refuge",
+      "lvl": 28.0,
+      "tc_group": "armo45"
+    },
+    {
+      "index": "Hwanin's Seal",
+      "lvl": 28.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Hwanin's Justice",
+      "lvl": 28.0,
+      "tc_group": "weap39"
+    },
+    {
+      "index": "Sazabi's Cobalt Redeemer",
+      "lvl": 34.0,
+      "tc_group": "weap84"
+    },
+    {
+      "index": "Sazabi's Ghost Liberator",
+      "lvl": 34.0,
+      "tc_group": "armo78"
+    },
+    {
+      "index": "Sazabi's Mental Sheath",
+      "lvl": 34.0,
+      "tc_group": "armo45"
+    },
+    {
+      "index": "Bul-Kathos' Sacred Charge",
+      "lvl": 50.0,
+      "tc_group": "weap87"
+    },
+    {
+      "index": "Bul-Kathos' Tribal Guardian",
+      "lvl": 50.0,
+      "tc_group": "weap87"
+    },
+    {
+      "index": "Cow King's Horns",
+      "lvl": 20.0,
+      "tc_group": "armo36"
+    },
+    {
+      "index": "Cow King's Hide",
+      "lvl": 20.0,
+      "tc_group": "armo9"
+    },
+    {
+      "index": "Cow King's Hoofs",
+      "lvl": 20.0,
+      "tc_group": "armo9"
+    },
+    {
+      "index": "Naj's Puzzler",
+      "lvl": 43.0,
+      "tc_group": "weap75"
+    },
+    {
+      "index": "Naj's Light Plate",
+      "lvl": 43.0,
+      "tc_group": "armo78"
+    },
+    {
+      "index": "Naj's Circlet",
+      "lvl": 43.0,
+      "tc_group": "armo24"
+    },
+    {
+      "index": "McAuley's Paragon",
+      "lvl": 20.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "McAuley's Riprap",
+      "lvl": 20.0,
+      "tc_group": "armo9"
+    },
+    {
+      "index": "McAuley's Taboo",
+      "lvl": 20.0,
+      "tc_group": "armo9"
+    },
+    {
+      "index": "McAuley's Superstition",
+      "lvl": 20.0,
+      "tc_group": "weap18"
+    },
+    {
       "index": "elixir",
       "lvl": 21.0,
       "tc_group": "elx"
