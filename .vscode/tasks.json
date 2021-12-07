@@ -14,6 +14,24 @@
 			"problemMatcher": [],
 			"label": "npm: deploy",
 			"detail": "eleventy"
-		}
+		},
+		{
+			"type": "shell",
+			"label": "Download game data files",
+			"command": "python",
+			"options": {
+				"cwd": "${workspaceFolder}/d2r"
+			},
+			"args": ["download_data_files.py"]
+		},
+		{
+			"type": "shell",
+			"label": "Generate results.json",
+			"command": "python",
+			"options": {
+				"cwd": "${workspaceFolder}/d2r"
+			},
+			"args": ["generate_results.py"]
+		},
 	]
 }
