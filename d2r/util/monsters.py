@@ -3,7 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 
-from .common import get_data_dir, get_superunique_area, rename_superuniques
+from .common import get_data_dir, get_superunique_area, get_rename_mappings, rename_strings
 
 
 cached_tcs = {}

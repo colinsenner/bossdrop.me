@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import numpy as np
-from .common import get_data_dir
+from .common import get_data_dir, get_rename_mappings, rename_strings
 
 
 def EquipGroupLevel(level):
@@ -44,33 +44,6 @@ def get_tc_group(row):
         base_tc_class = f"{base_item_type}{int(tc_level)}"
 
     return base_tc_class
-
-
-def rename_expansion_strings(index, name_mappings):
-    if index in name_mappings:
-        new_name = name_mappings[index]
-
-        if index != new_name:
-            print(f"renaming '{index}' to '{new_name}'")
-            return new_name
-
-    return index
-
-
-def get_rename_mappings(filename):
-    df1 = pd.read_csv(os.path.join(get_data_dir(), filename), sep='\t', header=None)
-    df1.drop_duplicates(inplace=True)
-
-    df1 = df1.to_dict(orient='dict')
-
-    # Convert the pandas to_dict to be a normal dictionary lookup by key (first column), and val (second column)
-    results = { df1[0][k]: df1[1][k] for k in df1[0].keys() }
-
-    # Friendly name remappings
-    results['Harlequin Crest'] = 'Harlequin Crest (Shako)'
-    results['The Stone of Jordan'] = 'The Stone of Jordan (SOJ)'
-
-    return results
 
 
 def get_sets():
@@ -125,11 +98,11 @@ def get_sets():
 
     # Apply renaming from expansionstring.txt
     expansion_strings = get_rename_mappings("expansionstring.txt")
-    df1['index'] = df1['index'].apply(rename_expansion_strings, args=(expansion_strings,))
+    df1['index'] = df1['index'].apply(rename_strings, args=(expansion_strings,))
 
     # Apply renaming from string.txt
     strings = get_rename_mappings("string.txt")
-    df1['index'] = df1['index'].apply(rename_expansion_strings, args=(strings,))
+    df1['index'] = df1['index'].apply(rename_strings, args=(strings,))
 
     # Keep only these
     df1 = df1[['index', 'lvl', 'tc_group']]
@@ -232,11 +205,11 @@ def get_unique_items():
 
     # Apply renaming from expansionstring.txt
     expansion_strings = get_rename_mappings("expansionstring.txt")
-    df1['index'] = df1['index'].apply(rename_expansion_strings, args=(expansion_strings,))
+    df1['index'] = df1['index'].apply(rename_strings, args=(expansion_strings,))
 
     # Apply renaming from string.txt
     strings = get_rename_mappings("string.txt")
-    df1['index'] = df1['index'].apply(rename_expansion_strings, args=(strings,))
+    df1['index'] = df1['index'].apply(rename_strings, args=(strings,))
 
     # Keep only these
     df1 = df1[['index', 'lvl', 'tc_group']]
