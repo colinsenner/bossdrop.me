@@ -14,13 +14,17 @@ def main():
     misc = util.items.get_misc()
     misc.to_json(path.join("generated", "misc.json"), orient='records', indent=2)
 
+    sets = util.items.get_sets()
+    sets.to_json(path.join("generated", "setitems.json"), orient='records', indent=2)
+
     bosses = util.monsters.get_bosses()
     bosses.to_json(path.join("generated", "bosses.json"), orient='records', indent=2)
 
     superuniques = util.monsters.get_superuniques()
     superuniques.to_json(path.join("generated", "superuniques.json"), orient='records', indent=2)
 
-    # Put misc in the unique_items list
+    # Gather all items we want to display to the user
+    unique_items = unique_items.append(sets)
     unique_items = unique_items.append(misc)
 
     # Add superunique monsters to our list of bosses

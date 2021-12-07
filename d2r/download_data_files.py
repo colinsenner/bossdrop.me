@@ -6,14 +6,18 @@ from urllib.parse import urljoin
 download_url = f'https://raw.githubusercontent.com/fabd/diablo2/master/code/d2_113_data/'
 data_dir = os.path.join(os.path.dirname(__file__), 'data')
 
-files_to_download = ['MonStats.txt', 'UniqueItems.txt', 'Armor.txt', 'Weapons.txt', 'Misc.txt', 'SuperUniques.txt', 'Levels.txt', 'ItemTypes.txt']
+files_to_download = ['MonStats.txt', 'UniqueItems.txt', 'Armor.txt',
+                    'Weapons.txt', 'Misc.txt', 'SuperUniques.txt',
+                    'Levels.txt', 'ItemTypes.txt', 'SetItems.txt',
+                    "TBL/ENG/expansionstring.txt", "TBL/ENG/string.txt"
+                    ]
 
 os.makedirs(data_dir, exist_ok=True)
 
 for file in files_to_download:
     url = urljoin(download_url, file)
 
-    local_file = os.path.join(data_dir, file)
+    local_file = os.path.join(data_dir, os.path.basename(file))
 
     res = requests.get(url)
 
