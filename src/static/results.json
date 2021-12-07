@@ -16,7 +16,7 @@
       "tc_group": "weap15"
     },
     {
-      "index": "Mindrend",
+      "index": "Skull Splitter",
       "lvl": 28.0,
       "tc_group": "weap21"
     },
@@ -26,7 +26,7 @@
       "tc_group": "weap27"
     },
     {
-      "index": "Fechmars Axe",
+      "index": "Axe of Fechmar",
       "lvl": 11.0,
       "tc_group": "weap6"
     },
@@ -36,7 +36,7 @@
       "tc_group": "weap12"
     },
     {
-      "index": "The Chieftan",
+      "index": "The Chieftain",
       "lvl": 26.0,
       "tc_group": "weap18"
     },
@@ -46,17 +46,17 @@
       "tc_group": "weap24"
     },
     {
-      "index": "The Humongous",
+      "index": "Humongous",
       "lvl": 39.0,
       "tc_group": "weap27"
     },
     {
-      "index": "Iros Torch",
+      "index": "Torch of Iro",
       "lvl": 7.0,
       "tc_group": "weap3"
     },
     {
-      "index": "Maelstromwrath",
+      "index": "Maelstrom",
       "lvl": 19.0,
       "tc_group": "weap12"
     },
@@ -66,7 +66,7 @@
       "tc_group": "weap18"
     },
     {
-      "index": "Umes Lament",
+      "index": "Ume's Lament",
       "lvl": 38.0,
       "tc_group": "weap27"
     },
@@ -106,7 +106,7 @@
       "tc_group": "weap15"
     },
     {
-      "index": "The Generals Tan Do Li Ga",
+      "index": "The General's Tan Do Li Ga",
       "lvl": 28.0,
       "tc_group": "weap21"
     },
@@ -116,7 +116,7 @@
       "tc_group": "weap27"
     },
     {
-      "index": "Bonesob",
+      "index": "Bonesnap",
       "lvl": 32.0,
       "tc_group": "weap21"
     },
@@ -126,7 +126,7 @@
       "tc_group": "weap33"
     },
     {
-      "index": "Rixots Keen",
+      "index": "Rixot's Keen",
       "lvl": 3.0,
       "tc_group": "weap3"
     },
@@ -136,7 +136,7 @@
       "tc_group": "weap6"
     },
     {
-      "index": "Krintizs Skewer",
+      "index": "Skewer of Krintiz",
       "lvl": 14.0,
       "tc_group": "weap9"
     },
@@ -146,7 +146,7 @@
       "tc_group": "weap12"
     },
     {
-      "index": "Griswolds Edge",
+      "index": "Griswold's Edge",
       "lvl": 23.0,
       "tc_group": "weap15"
     },
@@ -156,7 +156,7 @@
       "tc_group": "weap21"
     },
     {
-      "index": "Culwens Point",
+      "index": "Culwen's Point",
       "lvl": 39.0,
       "tc_group": "weap27"
     },
@@ -171,7 +171,7 @@
       "tc_group": "weap18"
     },
     {
-      "index": "Kinemils Awl",
+      "index": "Kinemil's Awl",
       "lvl": 31.0,
       "tc_group": "weap21"
     },
@@ -206,7 +206,7 @@
       "tc_group": "weap18"
     },
     {
-      "index": "Irices Shard",
+      "index": "Spectral Shard",
       "lvl": 34.0,
       "tc_group": "weap24"
     },
@@ -236,7 +236,7 @@
       "tc_group": "weap24"
     },
     {
-      "index": "Dimoaks Hew",
+      "index": "Dimoak's Hew",
       "lvl": 11.0,
       "tc_group": "weap6"
     },
@@ -276,7 +276,7 @@
       "tc_group": "weap9"
     },
     {
-      "index": "Lazarus Spire",
+      "index": "Spire of Lazarus",
       "lvl": 24.0,
       "tc_group": "weap12"
     },
@@ -301,17 +301,17 @@
       "tc_group": "weap6"
     },
     {
-      "index": "Rimeraven",
+      "index": "Raven Claw",
       "lvl": 20.0,
       "tc_group": "weap9"
     },
     {
-      "index": "Piercerib",
+      "index": "Rogue's Bow",
       "lvl": 27.0,
       "tc_group": "weap12"
     },
     {
-      "index": "Pullspite",
+      "index": "Stormstrike",
       "lvl": 34.0,
       "tc_group": "weap18"
     },
@@ -346,12 +346,12 @@
       "tc_group": "weap24"
     },
     {
-      "index": "Doomspittle",
+      "index": "Doomslinger",
       "lvl": 38.0,
       "tc_group": "weap33"
     },
     {
-      "index": "War Bonnet",
+      "index": "Biggin's Bonnet",
       "lvl": 4.0,
       "tc_group": "armo3"
     },
@@ -396,7 +396,7 @@
       "tc_group": "armo3"
     },
     {
-      "index": "Blinkbats Form",
+      "index": "Blinkbat's Form",
       "lvl": 16.0,
       "tc_group": "armo3"
     },
@@ -426,7 +426,7 @@
       "tc_group": "armo15"
     },
     {
-      "index": "Venomsward",
+      "index": "Venom Ward",
       "lvl": 27.0,
       "tc_group": "armo18"
     },
@@ -456,7 +456,7 @@
       "tc_group": "armo39"
     },
     {
-      "index": "Victors Silk",
+      "index": "Silks of the Victor",
       "lvl": 38.0,
       "tc_group": "armo42"
     },
@@ -606,7 +606,7 @@
       "tc_group": "rin"
     },
     {
-      "index": "The Stone of Jordan (soj)",
+      "index": "The Stone of Jordan (SOJ)",
       "lvl": 39.0,
       "tc_group": "rin"
     },
@@ -626,7 +626,7 @@
       "tc_group": "weap39"
     },
     {
-      "index": "Pompe's Wrath",
+      "index": "Pompeii's Wrath",
       "lvl": 53.0,
       "tc_group": "weap45"
     },
@@ -656,7 +656,7 @@
       "tc_group": "weap48"
     },
     {
-      "index": "The Minataur",
+      "index": "The Minotaur",
       "lvl": 53.0,
       "tc_group": "weap51"
     },
@@ -771,7 +771,7 @@
       "tc_group": "weap45"
     },
     {
-      "index": "The Atlantian",
+      "index": "The Atlantean",
       "lvl": 50.0,
       "tc_group": "weap51"
     },
@@ -901,7 +901,7 @@
       "tc_group": "weap42"
     },
     {
-      "index": "Skullcollector",
+      "index": "Skull Collector",
       "lvl": 49.0,
       "tc_group": "weap48"
     },
@@ -941,7 +941,7 @@
       "tc_group": "weap51"
     },
     {
-      "index": "Godstrike Arch",
+      "index": "Goldstrike Arch",
       "lvl": 54.0,
       "tc_group": "weap54"
     },
@@ -951,7 +951,7 @@
       "tc_group": "weap36"
     },
     {
-      "index": "Pus Spiter",
+      "index": "Pus Spitter",
       "lvl": 44.0,
       "tc_group": "weap42"
     },
@@ -966,7 +966,7 @@
       "tc_group": "weap54"
     },
     {
-      "index": "Peasent Crown",
+      "index": "Peasant Crown",
       "lvl": 36.0,
       "tc_group": "armo36"
     },
@@ -986,7 +986,7 @@
       "tc_group": "armo45"
     },
     {
-      "index": "Valkiry Wing",
+      "index": "Valkyrie Wing",
       "lvl": 52.0,
       "tc_group": "armo51"
     },
@@ -1001,7 +1001,7 @@
       "tc_group": "armo48"
     },
     {
-      "index": "Vampiregaze",
+      "index": "Vampire Gaze",
       "lvl": 49.0,
       "tc_group": "armo51"
     },
@@ -1016,17 +1016,17 @@
       "tc_group": "armo36"
     },
     {
-      "index": "Skin of the Flayerd One",
+      "index": "Skin of the Flayed One",
       "lvl": 39.0,
       "tc_group": "armo39"
     },
     {
-      "index": "Ironpelt",
+      "index": "Iron Pelt",
       "lvl": 41.0,
       "tc_group": "armo42"
     },
     {
-      "index": "Spiritforge",
+      "index": "Spirit Forge",
       "lvl": 43.0,
       "tc_group": "armo42"
     },
@@ -1076,7 +1076,7 @@
       "tc_group": "armo66"
     },
     {
-      "index": "Que-Hegan's Wisdon",
+      "index": "Que-Hegan's Wisdom",
       "lvl": 59.0,
       "tc_group": "armo60"
     },
@@ -1086,7 +1086,7 @@
       "tc_group": "armo36"
     },
     {
-      "index": "Mosers Blessed Circle",
+      "index": "Moser's Blessed Circle",
       "lvl": 39.0,
       "tc_group": "armo39"
     },
@@ -1101,12 +1101,12 @@
       "tc_group": "armo45"
     },
     {
-      "index": "Kerke's Sanctuary",
+      "index": "Gerke's Sanctuary",
       "lvl": 52.0,
       "tc_group": "armo51"
     },
     {
-      "index": "Radimant's Sphere",
+      "index": "Radament's Sphere",
       "lvl": 58.0,
       "tc_group": "armo57"
     },
@@ -1136,7 +1136,7 @@
       "tc_group": "armo45"
     },
     {
-      "index": "Lavagout",
+      "index": "Lava Gout",
       "lvl": 50.0,
       "tc_group": "armo51"
     },
@@ -1161,12 +1161,12 @@
       "tc_group": "armo45"
     },
     {
-      "index": "Wartraveler",
+      "index": "War Traveler",
       "lvl": 50.0,
       "tc_group": "armo51"
     },
     {
-      "index": "Gorerider",
+      "index": "Gore Rider",
       "lvl": 55.0,
       "tc_group": "armo54"
     },
@@ -1181,7 +1181,7 @@
       "tc_group": "armo39"
     },
     {
-      "index": "Gloomstrap",
+      "index": "Gloom's Trap",
       "lvl": 45.0,
       "tc_group": "armo45"
     },
@@ -1191,7 +1191,7 @@
       "tc_group": "armo51"
     },
     {
-      "index": "Thudergod's Vigor",
+      "index": "Thundergod's Vigor",
       "lvl": 55.0,
       "tc_group": "armo54"
     },
@@ -1286,7 +1286,7 @@
       "tc_group": "weap87"
     },
     {
-      "index": "Bul Katho's Wedding Band",
+      "index": "Bul-Kathos' Wedding Band",
       "lvl": 66.0,
       "tc_group": "rin"
     },
@@ -1391,7 +1391,7 @@
       "tc_group": "weap63"
     },
     {
-      "index": "Djinnslayer",
+      "index": "Djinn Slayer",
       "lvl": 73.0,
       "tc_group": "weap63"
     },
@@ -1406,22 +1406,22 @@
       "tc_group": "weap78"
     },
     {
-      "index": "Gutsiphon",
+      "index": "Gut Siphon",
       "lvl": 79.0,
       "tc_group": "weap84"
     },
     {
-      "index": "Razoredge",
+      "index": "Razor's Edge",
       "lvl": 75.0,
       "tc_group": "weap54"
     },
     {
-      "index": "Demonlimb",
+      "index": "Demon Limb",
       "lvl": 71.0,
       "tc_group": "weap57"
     },
     {
-      "index": "Steelshade",
+      "index": "Steel Shade",
       "lvl": 70.0,
       "tc_group": "armo69"
     },
@@ -1466,17 +1466,17 @@
       "tc_group": "weap84"
     },
     {
-      "index": "Jadetalon",
+      "index": "Jade Talon",
       "lvl": 74.0,
       "tc_group": "weap63"
     },
     {
-      "index": "Shadowdancer",
+      "index": "Shadow Dancer",
       "lvl": 79.0,
       "tc_group": "armo87"
     },
     {
-      "index": "Cerebus",
+      "index": "Cerebus' Bite",
       "lvl": 71.0,
       "tc_group": "armo63"
     },
@@ -1486,17 +1486,17 @@
       "tc_group": "armo87"
     },
     {
-      "index": "Souldrain",
+      "index": "Soul Drainer",
       "lvl": 82.0,
       "tc_group": "armo69"
     },
     {
-      "index": "Runemaster",
+      "index": "Rune Master",
       "lvl": 80.0,
       "tc_group": "weap72"
     },
     {
-      "index": "Deathcleaver",
+      "index": "Death Cleaver",
       "lvl": 78.0,
       "tc_group": "weap87"
     },
@@ -1516,7 +1516,7 @@
       "tc_group": "armo81"
     },
     {
-      "index": "Wisp",
+      "index": "Wisp Projector",
       "lvl": 84.0,
       "tc_group": "rin"
     },
@@ -1556,7 +1556,7 @@
       "tc_group": "weap72"
     },
     {
-      "index": "Spiritkeeper",
+      "index": "Spirit Keeper",
       "lvl": 75.0,
       "tc_group": "armo78"
     },
@@ -1571,7 +1571,7 @@
       "tc_group": "armo72"
     },
     {
-      "index": "Darkforge Spawn",
+      "index": "Darkforce Spawn",
       "lvl": 72.0,
       "tc_group": "armo87"
     },
@@ -1581,7 +1581,7 @@
       "tc_group": "weap81"
     },
     {
-      "index": "Bloodraven's Charge",
+      "index": "Blood Raven's Charge",
       "lvl": 79.0,
       "tc_group": "weap54"
     },
@@ -1591,7 +1591,7 @@
       "tc_group": "weap87"
     },
     {
-      "index": "Shadowkiller",
+      "index": "Shadow Killer",
       "lvl": 85.0,
       "tc_group": "weap75"
     },
@@ -1626,7 +1626,7 @@
       "tc_group": "armo81"
     },
     {
-      "index": "Steelpillar",
+      "index": "Steel Pillar",
       "lvl": 77.0,
       "tc_group": "weap87"
     },
@@ -1651,7 +1651,7 @@
       "tc_group": "armo84"
     },
     {
-      "index": "Steel Carapice",
+      "index": "Steel Carapace",
       "lvl": 74.0,
       "tc_group": "armo84"
     },
@@ -1736,7 +1736,7 @@
       "tc_group": "armo87"
     },
     {
-      "index": "Eschuta's temper",
+      "index": "Eschuta's Temper",
       "lvl": 80.0,
       "tc_group": "weap69"
     },
@@ -1776,7 +1776,7 @@
       "tc_group": "amu"
     },
     {
-      "index": "Verdugo's Hearty Cord",
+      "index": "Verdungo's Hearty Cord",
       "lvl": 71.0,
       "tc_group": "armo75"
     },
@@ -1786,12 +1786,12 @@
       "tc_group": "rin"
     },
     {
-      "index": "Giantskull",
+      "index": "Giant Skull",
       "lvl": 73.0,
       "tc_group": "armo84"
     },
     {
-      "index": "Ironward",
+      "index": "Astreon's Iron Ward",
       "lvl": 68.0,
       "tc_group": "weap87"
     },
@@ -1816,12 +1816,12 @@
       "tc_group": "weap54"
     },
     {
-      "index": "Earthshifter",
+      "index": "Earth Shifter",
       "lvl": 77.0,
       "tc_group": "weap87"
     },
     {
-      "index": "Wraithflight",
+      "index": "Wraith Flight",
       "lvl": 84.0,
       "tc_group": "weap81"
     },
@@ -1836,12 +1836,12 @@
       "tc_group": "weap75"
     },
     {
-      "index": "The Reedeemer",
+      "index": "The Redeemer",
       "lvl": 80.0,
       "tc_group": "weap63"
     },
     {
-      "index": "Headhunter's Glory",
+      "index": "Head Hunter's Glory",
       "lvl": 83.0,
       "tc_group": "armo78"
     },
@@ -1854,6 +1854,641 @@
       "index": "Rainbow Facet",
       "lvl": 85.0,
       "tc_group": "jew"
+    },
+    {
+      "index": "Civerb's Ward",
+      "lvl": 13.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Civerb's Icon",
+      "lvl": 13.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Civerb's Cudgel",
+      "lvl": 13.0,
+      "tc_group": "weap15"
+    },
+    {
+      "index": "Hsarus' Iron Heel",
+      "lvl": 4.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Hsarus' Iron Fist",
+      "lvl": 4.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Hsarus' Iron Stay",
+      "lvl": 4.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Cleglaw's Tooth",
+      "lvl": 6.0,
+      "tc_group": "weap21"
+    },
+    {
+      "index": "Cleglaw's Claw",
+      "lvl": 6.0,
+      "tc_group": "armo6"
+    },
+    {
+      "index": "Cleglaw's Pincers",
+      "lvl": 6.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Iratha's Collar",
+      "lvl": 21.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Iratha's Cuff",
+      "lvl": 21.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Iratha's Coil",
+      "lvl": 21.0,
+      "tc_group": "armo30"
+    },
+    {
+      "index": "Iratha's Cord",
+      "lvl": 21.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Isenhart's Lightbrand",
+      "lvl": 11.0,
+      "tc_group": "weap15"
+    },
+    {
+      "index": "Isenhart's Parry",
+      "lvl": 11.0,
+      "tc_group": "armo30"
+    },
+    {
+      "index": "Isenhart's Case",
+      "lvl": 11.0,
+      "tc_group": "armo18"
+    },
+    {
+      "index": "Isenhart's Horns",
+      "lvl": 11.0,
+      "tc_group": "armo15"
+    },
+    {
+      "index": "Vidala's Barb",
+      "lvl": 19.0,
+      "tc_group": "weap24"
+    },
+    {
+      "index": "Vidala's Fetlock",
+      "lvl": 19.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Vidala's Ambush",
+      "lvl": 19.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Vidala's Snare",
+      "lvl": 19.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Milabrega's Orb",
+      "lvl": 23.0,
+      "tc_group": "armo15"
+    },
+    {
+      "index": "Milabrega's Rod",
+      "lvl": 23.0,
+      "tc_group": "weap21"
+    },
+    {
+      "index": "Milabrega's Diadem",
+      "lvl": 23.0,
+      "tc_group": "armo30"
+    },
+    {
+      "index": "Milabrega's Robe",
+      "lvl": 23.0,
+      "tc_group": "armo42"
+    },
+    {
+      "index": "Cathan's Rule",
+      "lvl": 15.0,
+      "tc_group": "weap18"
+    },
+    {
+      "index": "Cathan's Mesh",
+      "lvl": 15.0,
+      "tc_group": "armo15"
+    },
+    {
+      "index": "Cathan's Visage",
+      "lvl": 15.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Cathan's Sigil",
+      "lvl": 15.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Cathan's Seal",
+      "lvl": 15.0,
+      "tc_group": "rin"
+    },
+    {
+      "index": "Tancred's Crowbill",
+      "lvl": 27.0,
+      "tc_group": "weap21"
+    },
+    {
+      "index": "Tancred's Spine",
+      "lvl": 27.0,
+      "tc_group": "armo39"
+    },
+    {
+      "index": "Tancred's Hobnails",
+      "lvl": 27.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Tancred's Weird",
+      "lvl": 27.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Tancred's Skull",
+      "lvl": 27.0,
+      "tc_group": "armo24"
+    },
+    {
+      "index": "Sigon's Gage",
+      "lvl": 9.0,
+      "tc_group": "armo27"
+    },
+    {
+      "index": "Sigon's Visor",
+      "lvl": 9.0,
+      "tc_group": "armo24"
+    },
+    {
+      "index": "Sigon's Shelter",
+      "lvl": 9.0,
+      "tc_group": "armo33"
+    },
+    {
+      "index": "Sigon's Sabot",
+      "lvl": 9.0,
+      "tc_group": "armo27"
+    },
+    {
+      "index": "Sigon's Wrap",
+      "lvl": 9.0,
+      "tc_group": "armo27"
+    },
+    {
+      "index": "Sigon's Guard",
+      "lvl": 9.0,
+      "tc_group": "armo24"
+    },
+    {
+      "index": "Infernal Cranium",
+      "lvl": 7.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Infernal Torch",
+      "lvl": 7.0,
+      "tc_group": "weap27"
+    },
+    {
+      "index": "Infernal Sign",
+      "lvl": 7.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Berserker's Headgear",
+      "lvl": 5.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Berserker's Hauberk",
+      "lvl": 5.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Berserker's Hatchet",
+      "lvl": 5.0,
+      "tc_group": "weap15"
+    },
+    {
+      "index": "Death's Hand",
+      "lvl": 8.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Death's Guard",
+      "lvl": 8.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Death's Touch",
+      "lvl": 8.0,
+      "tc_group": "weap27"
+    },
+    {
+      "index": "Angelic Sickle",
+      "lvl": 17.0,
+      "tc_group": "weap9"
+    },
+    {
+      "index": "Angelic Mantle",
+      "lvl": 17.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Angelic Halo",
+      "lvl": 17.0,
+      "tc_group": "rin"
+    },
+    {
+      "index": "Angelic Wings",
+      "lvl": 17.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Arctic Horn",
+      "lvl": 3.0,
+      "tc_group": "weap27"
+    },
+    {
+      "index": "Arctic Furs",
+      "lvl": 3.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Arctic Binding",
+      "lvl": 3.0,
+      "tc_group": "armo9"
+    },
+    {
+      "index": "Arctic Mitts",
+      "lvl": 3.0,
+      "tc_group": "armo21"
+    },
+    {
+      "index": "Arcanna's Sign",
+      "lvl": 20.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Arcanna's Deathwand",
+      "lvl": 20.0,
+      "tc_group": "weap24"
+    },
+    {
+      "index": "Arcanna's Head",
+      "lvl": 20.0,
+      "tc_group": "armo6"
+    },
+    {
+      "index": "Arcanna's Flesh",
+      "lvl": 20.0,
+      "tc_group": "armo36"
+    },
+    {
+      "index": "Natalya's Totem",
+      "lvl": 22.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Natalya's Mark",
+      "lvl": 22.0,
+      "tc_group": "weap87"
+    },
+    {
+      "index": "Natalya's Shadow",
+      "lvl": 22.0,
+      "tc_group": "armo75"
+    },
+    {
+      "index": "Natalya's Soul",
+      "lvl": 22.0,
+      "tc_group": "armo45"
+    },
+    {
+      "index": "Aldur's Stony Gaze",
+      "lvl": 29.0,
+      "tc_group": "armo48"
+    },
+    {
+      "index": "Aldur's Deception",
+      "lvl": 29.0,
+      "tc_group": "armo84"
+    },
+    {
+      "index": "Aldur's Rhythm",
+      "lvl": 29.0,
+      "tc_group": "weap39"
+    },
+    {
+      "index": "Aldur's Advance",
+      "lvl": 29.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Immortal King's Will",
+      "lvl": 37.0,
+      "tc_group": "armo24"
+    },
+    {
+      "index": "Immortal King's Soul Cage",
+      "lvl": 37.0,
+      "tc_group": "armo87"
+    },
+    {
+      "index": "Immortal King's Detail",
+      "lvl": 37.0,
+      "tc_group": "armo54"
+    },
+    {
+      "index": "Immortal King's Forge",
+      "lvl": 37.0,
+      "tc_group": "armo54"
+    },
+    {
+      "index": "Immortal King's Pillar",
+      "lvl": 37.0,
+      "tc_group": "armo54"
+    },
+    {
+      "index": "Immortal King's Stone Crusher",
+      "lvl": 37.0,
+      "tc_group": "weap69"
+    },
+    {
+      "index": "Tal Rasha's Fine-Spun Cloth",
+      "lvl": 26.0,
+      "tc_group": "armo45"
+    },
+    {
+      "index": "Tal Rasha's Adjudication",
+      "lvl": 26.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Tal Rasha's Lidless Eye",
+      "lvl": 26.0,
+      "tc_group": "weap51"
+    },
+    {
+      "index": "Tal Rasha's Guardianship",
+      "lvl": 26.0,
+      "tc_group": "armo84"
+    },
+    {
+      "index": "Tal Rasha's Horadric Crest",
+      "lvl": 26.0,
+      "tc_group": "armo48"
+    },
+    {
+      "index": "Griswold's Valor",
+      "lvl": 44.0,
+      "tc_group": "armo87"
+    },
+    {
+      "index": "Griswold's Heart",
+      "lvl": 44.0,
+      "tc_group": "armo66"
+    },
+    {
+      "index": "Griswold's Redemption",
+      "lvl": 44.0,
+      "tc_group": "weap87"
+    },
+    {
+      "index": "Griswold's Honor",
+      "lvl": 44.0,
+      "tc_group": "armo87"
+    },
+    {
+      "index": "Trang-Oul's Guise",
+      "lvl": 32.0,
+      "tc_group": "armo84"
+    },
+    {
+      "index": "Trang-Oul's Scales",
+      "lvl": 32.0,
+      "tc_group": "armo63"
+    },
+    {
+      "index": "Trang-Oul's Wing",
+      "lvl": 32.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Trang-Oul's Claws",
+      "lvl": 32.0,
+      "tc_group": "armo45"
+    },
+    {
+      "index": "Trang-Oul's Girth",
+      "lvl": 32.0,
+      "tc_group": "armo84"
+    },
+    {
+      "index": "M'avina's True Sight",
+      "lvl": 21.0,
+      "tc_group": "armo87"
+    },
+    {
+      "index": "M'avina's Embrace",
+      "lvl": 21.0,
+      "tc_group": "armo81"
+    },
+    {
+      "index": "M'avina's Icy Clutch",
+      "lvl": 21.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "M'avina's Tenet",
+      "lvl": 21.0,
+      "tc_group": "armo39"
+    },
+    {
+      "index": "M'avina's Caster",
+      "lvl": 21.0,
+      "tc_group": "weap78"
+    },
+    {
+      "index": "Telling of Beads",
+      "lvl": 39.0,
+      "tc_group": "amu"
+    },
+    {
+      "index": "Laying of Hands",
+      "lvl": 39.0,
+      "tc_group": "armo57"
+    },
+    {
+      "index": "Rite of Passage",
+      "lvl": 39.0,
+      "tc_group": "armo36"
+    },
+    {
+      "index": "Dark Adherent",
+      "lvl": 39.0,
+      "tc_group": "armo66"
+    },
+    {
+      "index": "Credendum",
+      "lvl": 39.0,
+      "tc_group": "armo75"
+    },
+    {
+      "index": "Dangoon's Teaching",
+      "lvl": 55.0,
+      "tc_group": "weap63"
+    },
+    {
+      "index": "Taebaek's Glory",
+      "lvl": 55.0,
+      "tc_group": "armo84"
+    },
+    {
+      "index": "Haemosu's Adamant",
+      "lvl": 55.0,
+      "tc_group": "armo48"
+    },
+    {
+      "index": "Ondal's Almighty",
+      "lvl": 55.0,
+      "tc_group": "armo81"
+    },
+    {
+      "index": "Guillaume's Face",
+      "lvl": 41.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Wilhelm's Pride",
+      "lvl": 41.0,
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Magnus' Skin",
+      "lvl": 41.0,
+      "tc_group": "armo39"
+    },
+    {
+      "index": "Whitstan's Guard",
+      "lvl": 41.0,
+      "tc_group": "armo39"
+    },
+    {
+      "index": "Hwanin's Splendor",
+      "lvl": 28.0,
+      "tc_group": "armo57"
+    },
+    {
+      "index": "Hwanin's Refuge",
+      "lvl": 28.0,
+      "tc_group": "armo45"
+    },
+    {
+      "index": "Hwanin's Blessing",
+      "lvl": 28.0,
+      "tc_group": "armo12"
+    },
+    {
+      "index": "Hwanin's Justice",
+      "lvl": 28.0,
+      "tc_group": "weap39"
+    },
+    {
+      "index": "Sazabi's Cobalt Redeemer",
+      "lvl": 34.0,
+      "tc_group": "weap84"
+    },
+    {
+      "index": "Sazabi's Ghost Liberator",
+      "lvl": 34.0,
+      "tc_group": "armo78"
+    },
+    {
+      "index": "Sazabi's Mental Sheath",
+      "lvl": 34.0,
+      "tc_group": "armo45"
+    },
+    {
+      "index": "Bul-Kathos' Sacred Charge",
+      "lvl": 50.0,
+      "tc_group": "weap87"
+    },
+    {
+      "index": "Bul-Kathos' Tribal Guardian",
+      "lvl": 50.0,
+      "tc_group": "weap87"
+    },
+    {
+      "index": "Cow King's Horns",
+      "lvl": 20.0,
+      "tc_group": "armo36"
+    },
+    {
+      "index": "Cow King's Hide",
+      "lvl": 20.0,
+      "tc_group": "armo9"
+    },
+    {
+      "index": "Cow King's Hooves",
+      "lvl": 20.0,
+      "tc_group": "armo9"
+    },
+    {
+      "index": "Naj's Puzzler",
+      "lvl": 43.0,
+      "tc_group": "weap75"
+    },
+    {
+      "index": "Naj's Light Plate",
+      "lvl": 43.0,
+      "tc_group": "armo78"
+    },
+    {
+      "index": "Naj's Circlet",
+      "lvl": 43.0,
+      "tc_group": "armo24"
+    },
+    {
+      "index": "Sander's Paragon",
+      "lvl": 20.0,
+      "tc_group": "armo3"
+    },
+    {
+      "index": "Sander's Riprap",
+      "lvl": 20.0,
+      "tc_group": "armo9"
+    },
+    {
+      "index": "Sander's Taboo",
+      "lvl": 20.0,
+      "tc_group": "armo9"
+    },
+    {
+      "index": "Sander's Superstition",
+      "lvl": 20.0,
+      "tc_group": "weap18"
     },
     {
       "index": "elixir",
@@ -15841,8 +16476,8 @@
       ]
     },
     {
-      "Id": "Wyand Voidfinger",
-      "NameStr": "Wyand Voidfinger",
+      "Id": "Wyand Voidbringer",
+      "NameStr": "Wyand Voidbringer",
       "Level": 28.0,
       "Level(N)": 58.0,
       "Level(H)": 86.0,
@@ -21540,6 +22175,930 @@
         "armo9",
         "mele12",
         "armo12"
+      ]
+    },
+    {
+      "Id": "Thresh Socket",
+      "NameStr": "Thresh Socket",
+      "Level": 41.0,
+      "Level(N)": 63.0,
+      "Level(H)": 84.0,
+      "boss": 0.0,
+      "TC": [
+        "Act 5 Super Cx",
+        "Act 5 Uitem C",
+        "Act 5 Equip C",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "Act 5 Equip B",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "Act 5 Equip A",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "Act 4 Equip B",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "Act 4 Equip A",
+        "weap24",
+        "armo24",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "Act 3 Equip C",
+        "weap21",
+        "armo21",
+        "weap24",
+        "armo24",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "Act 3 Equip B",
+        "weap18",
+        "armo18",
+        "weap21",
+        "armo21",
+        "weap24",
+        "armo24",
+        "weap27",
+        "armo27",
+        "Act 3 Equip A",
+        "weap15",
+        "armo15",
+        "weap18",
+        "armo18",
+        "weap21",
+        "armo21",
+        "weap24",
+        "armo24",
+        "Act 2 Equip C",
+        "weap12",
+        "armo12",
+        "weap15",
+        "armo15",
+        "weap18",
+        "armo18",
+        "weap21",
+        "armo21",
+        "Act 2 Equip B",
+        "weap9",
+        "armo9",
+        "weap12",
+        "armo12",
+        "weap15",
+        "armo15",
+        "weap18",
+        "armo18",
+        "Act 2 Equip A",
+        "weap6",
+        "armo6",
+        "weap9",
+        "armo9",
+        "weap12",
+        "armo12",
+        "weap15",
+        "armo15",
+        "Act 1 Equip C",
+        "weap3",
+        "armo3",
+        "weap6",
+        "armo6",
+        "weap9",
+        "armo9",
+        "weap12",
+        "armo12",
+        "Act 5 Good",
+        "Jewelry C",
+        "rin",
+        "amu",
+        "jew",
+        "cm3",
+        "cm2",
+        "cm1",
+        "Chipped Gem",
+        "gcv",
+        "gcy",
+        "gcb",
+        "gcg",
+        "gcr",
+        "gcw",
+        "skc",
+        "Flawed Gem",
+        "gfv",
+        "gfy",
+        "gfb",
+        "gfg",
+        "gfr",
+        "gfw",
+        "skf",
+        "Normal Gem",
+        "gsv",
+        "gsy",
+        "gsb",
+        "gsg",
+        "gsr",
+        "gsw",
+        "sku",
+        "Flawless Gem",
+        "gzv",
+        "gly",
+        "glb",
+        "glg",
+        "glr",
+        "glw",
+        "skl",
+        "Runes 7",
+        "r13",
+        "r14",
+        "Runes 6",
+        "r11",
+        "r12",
+        "Runes 5",
+        "r09",
+        "r10",
+        "Runes 4",
+        "r07",
+        "r08",
+        "Runes 3",
+        "r05",
+        "r06",
+        "Runes 2",
+        "r03",
+        "r04",
+        "Runes 1",
+        "r01",
+        "r02",
+        "Act 5 Cpot C",
+        "Hpotion 4",
+        "hp3",
+        "hp4",
+        "hp5",
+        "mp4",
+        "mp5",
+        "rvs",
+        "Hpotion 5",
+        "hp3",
+        "hp4",
+        "hp5",
+        "mp5",
+        "rvs"
+      ],
+      "TC(N)": [
+        "Act 5 (N) Super Cx",
+        "Act 5 (N) Uitem C",
+        "Act 5 (N) Equip C",
+        "weap54",
+        "armo54",
+        "weap57",
+        "armo57",
+        "weap60",
+        "armo60",
+        "weap63",
+        "armo63",
+        "Act 5 (N) Equip B",
+        "weap51",
+        "armo51",
+        "weap54",
+        "armo54",
+        "weap57",
+        "armo57",
+        "weap60",
+        "armo60",
+        "Act 5 (N) Equip A",
+        "weap51",
+        "armo51",
+        "weap54",
+        "armo54",
+        "weap57",
+        "armo57",
+        "weap60",
+        "armo60",
+        "Act 4 (N) Equip B",
+        "weap48",
+        "armo48",
+        "weap51",
+        "armo51",
+        "weap54",
+        "armo54",
+        "weap57",
+        "armo57",
+        "Act 4 (N) Equip A",
+        "weap45",
+        "armo45",
+        "weap48",
+        "armo48",
+        "weap51",
+        "armo51",
+        "weap54",
+        "armo54",
+        "Act 3 (N) Equip B",
+        "weap42",
+        "armo42",
+        "weap45",
+        "armo45",
+        "weap48",
+        "armo48",
+        "weap51",
+        "armo51",
+        "Act 3 (N) Equip A",
+        "weap42",
+        "armo42",
+        "weap45",
+        "armo45",
+        "weap48",
+        "armo48",
+        "weap51",
+        "armo51",
+        "Act 2 (N) Equip B",
+        "weap39",
+        "armo39",
+        "weap42",
+        "armo42",
+        "weap45",
+        "armo45",
+        "weap48",
+        "armo48",
+        "Act 2 (N) Equip A",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "weap42",
+        "armo42",
+        "weap45",
+        "armo45",
+        "Act 1 (N) Equip B",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "weap42",
+        "armo42",
+        "Act 1 (N) Equip A",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "weap42",
+        "armo42",
+        "Act 5 Equip C",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "Act 5 Equip B",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "Act 5 Equip A",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "Act 4 Equip B",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "Act 4 Equip A",
+        "weap24",
+        "armo24",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "Act 3 Equip C",
+        "weap21",
+        "armo21",
+        "weap24",
+        "armo24",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "Act 3 Equip B",
+        "weap18",
+        "armo18",
+        "weap21",
+        "armo21",
+        "weap24",
+        "armo24",
+        "weap27",
+        "armo27",
+        "Act 3 Equip A",
+        "weap15",
+        "armo15",
+        "weap18",
+        "armo18",
+        "weap21",
+        "armo21",
+        "weap24",
+        "armo24",
+        "Act 2 Equip C",
+        "weap12",
+        "armo12",
+        "weap15",
+        "armo15",
+        "weap18",
+        "armo18",
+        "weap21",
+        "armo21",
+        "Act 2 Equip B",
+        "weap9",
+        "armo9",
+        "weap12",
+        "armo12",
+        "weap15",
+        "armo15",
+        "weap18",
+        "armo18",
+        "Act 2 Equip A",
+        "weap6",
+        "armo6",
+        "weap9",
+        "armo9",
+        "weap12",
+        "armo12",
+        "weap15",
+        "armo15",
+        "Act 1 Equip C",
+        "weap3",
+        "armo3",
+        "weap6",
+        "armo6",
+        "weap9",
+        "armo9",
+        "weap12",
+        "armo12",
+        "Act 5 (N) Good",
+        "Jewelry C",
+        "rin",
+        "amu",
+        "jew",
+        "cm3",
+        "cm2",
+        "cm1",
+        "Chipped Gem",
+        "gcv",
+        "gcy",
+        "gcb",
+        "gcg",
+        "gcr",
+        "gcw",
+        "skc",
+        "Flawed Gem",
+        "gfv",
+        "gfy",
+        "gfb",
+        "gfg",
+        "gfr",
+        "gfw",
+        "skf",
+        "Normal Gem",
+        "gsv",
+        "gsy",
+        "gsb",
+        "gsg",
+        "gsr",
+        "gsw",
+        "sku",
+        "Flawless Gem",
+        "gzv",
+        "gly",
+        "glb",
+        "glg",
+        "glr",
+        "glw",
+        "skl",
+        "Runes 12",
+        "r23",
+        "r24",
+        "Runes 11",
+        "r21",
+        "r22",
+        "Runes 10",
+        "r19",
+        "r20",
+        "Runes 9",
+        "r17",
+        "r18",
+        "Runes 8",
+        "r15",
+        "r16",
+        "Runes 7",
+        "r13",
+        "r14",
+        "Runes 6",
+        "r11",
+        "r12",
+        "Runes 5",
+        "r09",
+        "r10",
+        "Runes 4",
+        "r07",
+        "r08",
+        "Runes 3",
+        "r05",
+        "r06",
+        "Runes 2",
+        "r03",
+        "r04",
+        "Runes 1",
+        "r01",
+        "r02",
+        "Act 5 (N) Cpot C",
+        "rvs",
+        "Hpotion 4",
+        "hp3",
+        "hp4",
+        "hp5",
+        "mp4",
+        "mp5",
+        "rvs",
+        "Hpotion 5",
+        "hp3",
+        "hp4",
+        "hp5",
+        "mp5",
+        "rvs",
+        "Hpotion 6",
+        "hp4",
+        "hp5",
+        "mp4",
+        "mp5",
+        "rvs"
+      ],
+      "TC(H)": [
+        "Act 5 (H) Super Cx",
+        "Act 5 (H) Uitem C",
+        "Act 5 (H) Equip C",
+        "weap81",
+        "armo81",
+        "weap84",
+        "armo84",
+        "weap87",
+        "armo87",
+        "weap87",
+        "armo87",
+        "Act 5 (H) Equip B",
+        "weap78",
+        "armo78",
+        "weap81",
+        "armo81",
+        "weap84",
+        "armo84",
+        "weap87",
+        "armo87",
+        "Act 5 (H) Equip A",
+        "weap75",
+        "armo75",
+        "weap78",
+        "armo78",
+        "weap81",
+        "armo81",
+        "weap84",
+        "armo84",
+        "Act 4 (H) Equip B",
+        "weap69",
+        "armo69",
+        "weap72",
+        "armo72",
+        "weap75",
+        "armo75",
+        "weap78",
+        "armo78",
+        "Act 4 (H) Equip A",
+        "weap69",
+        "armo69",
+        "weap72",
+        "armo72",
+        "weap75",
+        "armo75",
+        "weap78",
+        "armo78",
+        "Act 3 (H) Equip B",
+        "weap66",
+        "armo66",
+        "weap69",
+        "armo69",
+        "weap72",
+        "armo72",
+        "weap75",
+        "armo75",
+        "Act 3 (H) Equip A",
+        "weap63",
+        "armo63",
+        "weap66",
+        "armo66",
+        "weap69",
+        "armo69",
+        "weap72",
+        "armo72",
+        "Act 2 (H) Equip B",
+        "weap60",
+        "armo60",
+        "weap63",
+        "armo63",
+        "weap66",
+        "armo66",
+        "weap69",
+        "armo69",
+        "Act 2 (H) Equip A",
+        "weap60",
+        "armo60",
+        "weap63",
+        "armo63",
+        "weap66",
+        "armo66",
+        "weap69",
+        "armo69",
+        "Act 1 (H) Equip B",
+        "weap57",
+        "armo57",
+        "weap60",
+        "armo60",
+        "weap63",
+        "armo63",
+        "weap66",
+        "armo66",
+        "Act 1 (H) Equip A",
+        "weap54",
+        "armo54",
+        "weap57",
+        "armo57",
+        "weap60",
+        "armo60",
+        "weap63",
+        "armo63",
+        "Act 5 (N) Equip C",
+        "weap54",
+        "armo54",
+        "weap57",
+        "armo57",
+        "weap60",
+        "armo60",
+        "weap63",
+        "armo63",
+        "Act 5 (N) Equip B",
+        "weap51",
+        "armo51",
+        "weap54",
+        "armo54",
+        "weap57",
+        "armo57",
+        "weap60",
+        "armo60",
+        "Act 5 (N) Equip A",
+        "weap51",
+        "armo51",
+        "weap54",
+        "armo54",
+        "weap57",
+        "armo57",
+        "weap60",
+        "armo60",
+        "Act 4 (N) Equip B",
+        "weap48",
+        "armo48",
+        "weap51",
+        "armo51",
+        "weap54",
+        "armo54",
+        "weap57",
+        "armo57",
+        "Act 4 (N) Equip A",
+        "weap45",
+        "armo45",
+        "weap48",
+        "armo48",
+        "weap51",
+        "armo51",
+        "weap54",
+        "armo54",
+        "Act 3 (N) Equip B",
+        "weap42",
+        "armo42",
+        "weap45",
+        "armo45",
+        "weap48",
+        "armo48",
+        "weap51",
+        "armo51",
+        "Act 3 (N) Equip A",
+        "weap42",
+        "armo42",
+        "weap45",
+        "armo45",
+        "weap48",
+        "armo48",
+        "weap51",
+        "armo51",
+        "Act 2 (N) Equip B",
+        "weap39",
+        "armo39",
+        "weap42",
+        "armo42",
+        "weap45",
+        "armo45",
+        "weap48",
+        "armo48",
+        "Act 2 (N) Equip A",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "weap42",
+        "armo42",
+        "weap45",
+        "armo45",
+        "Act 1 (N) Equip B",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "weap42",
+        "armo42",
+        "Act 1 (N) Equip A",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "weap42",
+        "armo42",
+        "Act 5 Equip C",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "Act 5 Equip B",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "weap39",
+        "armo39",
+        "Act 5 Equip A",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "Act 4 Equip B",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "weap36",
+        "armo36",
+        "Act 4 Equip A",
+        "weap24",
+        "armo24",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "weap33",
+        "armo33",
+        "Act 3 Equip C",
+        "weap21",
+        "armo21",
+        "weap24",
+        "armo24",
+        "weap27",
+        "armo27",
+        "weap30",
+        "armo30",
+        "Act 3 Equip B",
+        "weap18",
+        "armo18",
+        "weap21",
+        "armo21",
+        "weap24",
+        "armo24",
+        "weap27",
+        "armo27",
+        "Act 3 Equip A",
+        "weap15",
+        "armo15",
+        "weap18",
+        "armo18",
+        "weap21",
+        "armo21",
+        "weap24",
+        "armo24",
+        "Act 2 Equip C",
+        "weap12",
+        "armo12",
+        "weap15",
+        "armo15",
+        "weap18",
+        "armo18",
+        "weap21",
+        "armo21",
+        "Act 2 Equip B",
+        "weap9",
+        "armo9",
+        "weap12",
+        "armo12",
+        "weap15",
+        "armo15",
+        "weap18",
+        "armo18",
+        "Act 2 Equip A",
+        "weap6",
+        "armo6",
+        "weap9",
+        "armo9",
+        "weap12",
+        "armo12",
+        "weap15",
+        "armo15",
+        "Act 1 Equip C",
+        "weap3",
+        "armo3",
+        "weap6",
+        "armo6",
+        "weap9",
+        "armo9",
+        "weap12",
+        "armo12",
+        "Act 5 (H) Good",
+        "Jewelry C",
+        "rin",
+        "amu",
+        "jew",
+        "cm3",
+        "cm2",
+        "cm1",
+        "Chipped Gem",
+        "gcv",
+        "gcy",
+        "gcb",
+        "gcg",
+        "gcr",
+        "gcw",
+        "skc",
+        "Flawed Gem",
+        "gfv",
+        "gfy",
+        "gfb",
+        "gfg",
+        "gfr",
+        "gfw",
+        "skf",
+        "Normal Gem",
+        "gsv",
+        "gsy",
+        "gsb",
+        "gsg",
+        "gsr",
+        "gsw",
+        "sku",
+        "Flawless Gem",
+        "gzv",
+        "gly",
+        "glb",
+        "glg",
+        "glr",
+        "glw",
+        "skl",
+        "Runes 17",
+        "r33",
+        "Runes 16",
+        "r31",
+        "r32",
+        "Runes 15",
+        "r29",
+        "r30",
+        "Runes 14",
+        "r27",
+        "r28",
+        "Runes 13",
+        "r25",
+        "r26",
+        "Runes 12",
+        "r23",
+        "r24",
+        "Runes 11",
+        "r21",
+        "r22",
+        "Runes 10",
+        "r19",
+        "r20",
+        "Runes 9",
+        "r17",
+        "r18",
+        "Runes 8",
+        "r15",
+        "r16",
+        "Runes 7",
+        "r13",
+        "r14",
+        "Runes 6",
+        "r11",
+        "r12",
+        "Runes 5",
+        "r09",
+        "r10",
+        "Runes 4",
+        "r07",
+        "r08",
+        "Runes 3",
+        "r05",
+        "r06",
+        "Runes 2",
+        "r03",
+        "r04",
+        "Runes 1",
+        "r01",
+        "r02",
+        "Act 5 (H) Cpot C",
+        "rvl",
+        "Hpotion 4",
+        "hp3",
+        "hp4",
+        "hp5",
+        "mp4",
+        "mp5",
+        "rvs",
+        "Hpotion 5",
+        "hp3",
+        "hp4",
+        "hp5",
+        "mp5",
+        "rvs",
+        "Hpotion 6",
+        "hp4",
+        "hp5",
+        "mp4",
+        "mp5",
+        "rvs"
       ]
     },
     {

@@ -54,7 +54,7 @@ function search_onsubmit() {
                     if (boss['difficulty'][index])
                         row += `<div>✔️</div>`
                     else
-                        row += `<div>❌</div>`
+                        row += `<div class="opacity-20">✖</div>`
                 }
 
                 table_header += row;

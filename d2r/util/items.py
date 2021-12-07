@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import numpy as np
-from .common import get_data_dir
+from .common import get_data_dir, get_rename_mappings, rename_strings
 
 
 def EquipGroupLevel(level):
@@ -44,6 +44,70 @@ def get_tc_group(row):
         base_tc_class = f"{base_item_type}{int(tc_level)}"
 
     return base_tc_class
+
+
+def get_sets():
+    sets = pd.read_csv(os.path.join(get_data_dir(), 'SetItems.txt'), sep='\t')
+
+    df1 = sets.copy()
+
+    df1 = df1[df1['item'].notna()]
+
+    # Add additional columns, we'll calculate these below
+    df1['base_item_level'] = np.nan
+    df1['base_item_type'] = np.nan
+    df1['tc_group'] = np.nan
+
+    df1 = df1.rename(columns={ "item":"code" })
+
+    # Read Weapons.txt to find the base item type's level
+    weapons = pd.read_csv(os.path.join(get_data_dir(), 'Weapons.txt'), sep='\t')
+    weapons.set_index('code', inplace=True, drop=True, verify_integrity=True)
+
+    # Read Armor.txt to find the base item type's level
+    armor = pd.read_csv(os.path.join(get_data_dir(), 'Armor.txt'), sep='\t')
+    armor.set_index('code', inplace=True, drop=True, verify_integrity=True)
+
+    # Read Misc.txt to find the base item type's level
+    misc = pd.read_csv(os.path.join(get_data_dir(), 'Misc.txt'), sep='\t')
+    misc.set_index('code', inplace=True, drop=True, verify_integrity=True)
+
+    #
+    # Calculations
+    #
+
+    # Lookup their base items levels
+    df1['base_item_level'] = df1.apply(get_base_item_level, args=(weapons,), axis=1)
+    df1['base_item_level'] = df1.apply(get_base_item_level, args=(armor,), axis=1)
+    df1['base_item_level'] = df1.apply(get_base_item_level, args=(misc,), axis=1)
+
+    assert df1['base_item_level'].isnull().sum() == 0, f"One or more of the `base_item_levels` are null"
+
+    # Lookup their base items types
+    df1['base_item_type'] = df1.apply(get_base_item_type, args=(weapons, "weap"), axis=1)
+    df1['base_item_type'] = df1.apply(get_base_item_type, args=(armor, "armo"), axis=1)
+    df1['base_item_type'] = df1.apply(get_base_item_type, args=(misc, 'misc'), axis=1)
+
+    assert df1['base_item_type'].isnull().sum() == 0, f"One or more of the `base_item_types` are null"
+
+    # Assign their base TC class
+    df1['tc_group'] = df1.apply(get_tc_group, axis=1)
+
+    # 'Rainbow Facet' - shows up multiple times, they're all the same level with the same code, remove them
+    df1.drop_duplicates(subset="index", inplace=True)
+
+    # Apply renaming from expansionstring.txt
+    expansion_strings = get_rename_mappings("expansionstring.txt")
+    df1['index'] = df1['index'].apply(rename_strings, args=(expansion_strings,))
+
+    # Apply renaming from string.txt
+    strings = get_rename_mappings("string.txt")
+    df1['index'] = df1['index'].apply(rename_strings, args=(strings,))
+
+    # Keep only these
+    df1 = df1[['index', 'lvl', 'tc_group']]
+
+    return df1
 
 
 def get_misc():
@@ -136,17 +200,16 @@ def get_unique_items():
     # Change it's group so it'll be found in dclone's dropped tcs (which reference it by 'Annihilus' in TreasureClassEx.txt)
     df1.at[df1['index'] == 'Annihilus', 'tc_group'] = 'Annihilus'
 
-    # Make some of the item names a bit more friendly to search ('The Stone of Jordan' => add 'soj', and 'Shako' to 'Harlequin Crest')
-    df1.at[df1['index'] == 'Harlequin Crest', 'index'] = 'Harlequin Crest (Shako)'
-    df1.at[df1['index'] == 'The Stone of Jordan', 'index'] = 'The Stone of Jordan (soj)'
-
-    # TODO Fix some items which got renamed?  Maybe parse the renamed expansion strings?
-    df1.at[df1['index'] == 'Fathom', 'index'] = "Death's Fathom"
-    df1.at[df1['index'] == "Deaths's Web", 'index'] = "Death's Web"
-    df1.at[df1['index'] == "Lenyms Cord", 'index'] = "Lenymo"
-
     # 'Rainbow Facet' - shows up multiple times, they're all the same level with the same code, remove them
     df1.drop_duplicates(subset="index", inplace=True)
+
+    # Apply renaming from expansionstring.txt
+    expansion_strings = get_rename_mappings("expansionstring.txt")
+    df1['index'] = df1['index'].apply(rename_strings, args=(expansion_strings,))
+
+    # Apply renaming from string.txt
+    strings = get_rename_mappings("string.txt")
+    df1['index'] = df1['index'].apply(rename_strings, args=(strings,))
 
     # Keep only these
     df1 = df1[['index', 'lvl', 'tc_group']]

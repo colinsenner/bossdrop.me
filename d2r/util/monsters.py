@@ -3,7 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 
-from .common import get_data_dir, get_superunique_area, rename_superuniques
+from .common import get_data_dir, get_superunique_area, get_rename_mappings, rename_strings
 
 
 cached_tcs = {}
@@ -140,7 +140,7 @@ def get_superuniques():
                             'Ismail Vilehand', 'Toorc Icefist', 'Geleb Flamefinger',
                             'Bremm Sparkfist', 'Wyand Voidfinger', 'Maffer Dragonhand',
                             'The Countess', 'The Cow King', 'Lord De Seis',
-                            'Grand Vizier of Chaos', 'Infector of Souls']
+                            'Grand Vizier of Chaos', 'Infector of Souls', 'Threash Socket']
 
     su = su[su['Superunique'].isin(superuniques_to_keep)]
 
@@ -149,7 +149,13 @@ def get_superuniques():
     su['TC(H)'] = su.apply(get_all_treasure_classes_for_difficulty, args=(treasure_class_ex, 'TC(H)',), axis=1)
 
     # Some superunique's were renamed in the expansion pack, apply those transformations here
-    su['Superunique'] = su['Superunique'].apply(rename_superuniques)
+    # Apply renaming from string.txt
+    strings = get_rename_mappings("string.txt")
+    su['Superunique'] = su['Superunique'].apply(rename_strings, args=(strings,))
+
+    # Apply renaming from expansionstring.txt
+    expansion_strings = get_rename_mappings("expansionstring.txt")
+    su['Superunique'] = su['Superunique'].apply(rename_strings, args=(expansion_strings,))
 
     # Add fields so it merges perfectly with bosses data
     su['Id'] = su['Superunique']

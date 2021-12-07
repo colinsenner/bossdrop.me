@@ -1,5 +1,6 @@
 import os
 from os import path
+import pandas as pd
 
 def get_data_dir():
     return path.join(os.getcwd(), "data")
@@ -66,22 +67,48 @@ def get_superunique_area(superunique_name):
     return superunique_area_mapping[superunique_name]
 
 
-def rename_superuniques(superunique_name):
-    renamed_superuniques = {
-        "Baal Subject 1": "Colenzo the Annihilator",
-        "Baal Subject 2": "Achmel the Cursed",
-        "Baal Subject 3": "Bartuc the Bloody",
-        "Baal Subject 4": "Ventar the Unholy",
-        "Baal Subject 5": "Lister the Tormentor",
-        "Sarina the Battlemaid": "Battlemaid Sarina",
-        "Siege Boss": "Shenk the Overseer",
-        "The Feature Creep": "Hephasto the Armorer",
-        "Leatherarm": "Creeping Feature",
-        "Threash Socket": "Thresh Socket",
-        "Web Mage the Burning": "Sszark the Burning"
-    }
+# def rename_superuniques(superunique_name):
+#     renamed_superuniques = {
+#         "Baal Subject 1": "Colenzo the Annihilator",
+#         "Baal Subject 2": "Achmel the Cursed",
+#         "Baal Subject 3": "Bartuc the Bloody",
+#         "Baal Subject 4": "Ventar the Unholy",
+#         "Baal Subject 5": "Lister the Tormentor",
+#         "Sarina the Battlemaid": "Battlemaid Sarina",
+#         "Siege Boss": "Shenk the Overseer",
+#         "The Feature Creep": "Hephasto the Armorer",
+#         "Leatherarm": "Creeping Feature",
+#         "Threash Socket": "Thresh Socket",
+#         "Web Mage the Burning": "Sszark the Burning"
+#     }
 
-    if superunique_name in renamed_superuniques.keys():
-        return renamed_superuniques[superunique_name]
+#     if superunique_name in renamed_superuniques.keys():
+#         return renamed_superuniques[superunique_name]
 
-    return superunique_name
+#     return superunique_name
+
+def rename_strings(index, name_mappings):
+    if index in name_mappings:
+        new_name = name_mappings[index]
+
+        if index != new_name:
+            print(f"renaming '{index}' to '{new_name}'")
+            return new_name
+
+    return index
+
+
+def get_rename_mappings(filename):
+    df1 = pd.read_csv(os.path.join(get_data_dir(), filename), sep='\t', header=None)
+    df1.drop_duplicates(inplace=True)
+
+    df1 = df1.to_dict(orient='dict')
+
+    # Convert the pandas to_dict to be a normal dictionary lookup by key (first column), and val (second column)
+    results = { df1[0][k]: df1[1][k] for k in df1[0].keys() }
+
+    # Friendly name remappings
+    results['Harlequin Crest'] = 'Harlequin Crest (Shako)'
+    results['The Stone of Jordan'] = 'The Stone of Jordan (SOJ)'
+
+    return results
