@@ -1,6 +1,7 @@
 import json
 import os
 
+from shutil import copyfile
 import numpy as np
 
 __translations = None
@@ -41,4 +42,8 @@ def __load(filepath):
     contents = None
     with open(filepath, "rt", encoding='utf-8-sig') as f:
         contents = json.load(f)
+
+    # Save for debugging
+    copyfile(filepath, os.path.join("generated", "translations.json"))
+
     return contents
