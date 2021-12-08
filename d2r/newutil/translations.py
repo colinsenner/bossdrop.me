@@ -1,6 +1,8 @@
 import json
 import os
 
+import numpy as np
+
 __translations = None
 
 
@@ -12,7 +14,11 @@ def translate(dir, name, locale='enUS'):
 
     items = list(filter(lambda item: item['Key'] == name, __translations))
 
-    assert len(items) == 1, f"Multiple or no keys found for name '{name}', can't translate."
+    if len(items) == 0:
+        print(f"Couldn't find a translation for '{name}'. This is not necessarily a problem, but this item will not show up in the results list")
+        return np.nan
+
+    assert len(items) == 1, f"Multiple keys found for name '{name}', can't translate."
 
     translation = items[0][locale]
 

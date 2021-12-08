@@ -17,6 +17,7 @@ def get(version):
     df['base_item_level'] = np.nan
     df['base_item_type'] = np.nan
     df['tc_group'] = np.nan
+    df['rarity_type'] = "set"
 
     df['code'] = df['item']
 
@@ -48,4 +49,4 @@ def get(version):
     # Save for debugging
     df.to_json(path.join(get_generated_dir(), "setitems.json"), orient='records', indent=2)
 
-    return df[['index', 'lvl', 'tc_group']]
+    return df[['index', 'lvl', 'rarity_type', 'tc_group']]

@@ -1,11 +1,12 @@
 import json
-from shutil import copyfile
 from os import path
+from shutil import copyfile
 
 import newutil.common as common
+import newutil.misc
 import newutil.sets
-from newutil.translations import translate
 import newutil.uniqueitems
+from newutil.translations import translate
 
 
 def main():
@@ -13,7 +14,6 @@ def main():
 
     results = {}
 
-    excel_dir = common.get_excel_dir(game_version)
     translation_dir = common.get_translation_dir(game_version)
 
     # uniqueitems
@@ -24,10 +24,19 @@ def main():
     sets = newutil.sets.get(game_version)
     sets['index'] = sets['index'].apply(lambda index: translate(translation_dir, index))
 
-    print(sets.sample(15))
+    # misc items (Runes, etc)
+    misc = newutil.misc.get(game_version)
+    misc['index'] = misc['tc_group'].apply(lambda code: translate(translation_dir, code))
+    misc.dropna(subset=['index'], inplace=True)
 
-    # Translate the items
-    #item1 = translate(translation_dir, "Lenyms Cord")
+    # Combine all items
+    searchable_items = []
+    searchable_items += uniqueitems.to_dict(orient="records")
+    searchable_items += sets.to_dict(orient="records")
+    searchable_items += misc.to_dict(orient="records")
+
+    results['searchable_items'] = searchable_items
+
 
     # Write our file for the JS side
     results_file = path.join("generated", "results.json")
