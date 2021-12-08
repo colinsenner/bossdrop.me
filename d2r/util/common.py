@@ -5,7 +5,9 @@ import pandas as pd
 
 
 def get_data_dir():
-    return path.join(os.getcwd(), "data")
+    data_dir = path.join(os.getcwd(), "data")
+    data_dir = path.join(data_dir, "old")
+    return data_dir
 
 
 def get_superunique_area(superunique_name):
