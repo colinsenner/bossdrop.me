@@ -19,6 +19,10 @@ def main():
     uniqueitems = newutil.uniqueitems.get(game_version)
     uniqueitems['index'] = uniqueitems['index'].apply(lambda index: translate(translation_dir, index))
 
+    # Add player friendly names to some items
+    uniqueitems.at[uniqueitems['index'] == 'Harlequin Crest', 'index'] = 'Harlequin Crest (Shako)'
+    uniqueitems.at[uniqueitems['index'] == 'The Stone of Jordan', 'index'] = 'The Stone of Jordan (SOJ)'
+
     # sets
     sets = newutil.sets.get(game_version)
     sets['index'] = sets['index'].apply(lambda index: translate(translation_dir, index))
