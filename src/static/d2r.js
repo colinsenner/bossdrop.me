@@ -80,8 +80,8 @@ function hideDisclaimer() {
 }
 
 function get_bosses_that_can_drop(item_name) {
-    let all_bosses = d2data['bosses']
-    let all_items = d2data['unique_items'];
+    let all_monsters = d2data['monsters']
+    let all_items = d2data['items'];
 
     let item = all_items.filter(item => item['index'] == item_name)[0];
 
@@ -89,7 +89,7 @@ function get_bosses_that_can_drop(item_name) {
         // Found the item
         let bosses = []
 
-        all_bosses.forEach((boss) => {
+        all_monsters.forEach((boss) => {
 
             let boss_entry = {
                 "name": boss['NameStr'],
@@ -115,7 +115,6 @@ function get_bosses_that_can_drop(item_name) {
 
                 if (boss_is_high_enough_level && boss_can_drop_that_treasure_class)
                 {
-                    //bosses.push(boss['NameStr'] + difficulty)
                     if (difficult_name === 'Normal') {
                         boss_entry['difficulty'][0] = true;
                     }
@@ -145,16 +144,16 @@ function autocompleteMatch(input) {
     }
     var reg = new RegExp(input, "i")
 
-    let unique_items = d2data['unique_items'].map(x => x['index']);
+    let items = d2data['items'].map(x => x['index']);
 
-    return unique_items.filter(function(term) {
+    return items.filter(function(term) {
         if (term.match(reg)) {
         return term;
         }
     });
 }
 
-function searchFocus(item_name) {
+function searchFocus() {
     let search_box = document.getElementById("search");
 
     if (search_box !== undefined)
@@ -177,8 +176,6 @@ function showSearchResults(val) {
     }
 
     res.innerHTML = '<ul>' + list + '</ul>';
-
-    search_onsubmit();
 
     return false;
 }
