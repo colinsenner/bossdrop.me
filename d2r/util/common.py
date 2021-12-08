@@ -1,9 +1,19 @@
+import pathlib
 import os
 from os import path
 import pandas as pd
 
 def get_data_dir():
     return path.join(os.getcwd(), "data")
+
+
+def get_excel_dir(version):
+    return pathlib.Path(get_data_dir(), version, "data", "data", "global", "excel")
+
+
+def get_translation_dir(version):
+    return pathlib.Path(get_data_dir(), version, "data", "data", "local", "lng", "strings")
+
 
 def get_superunique_area(superunique_name):
     # Maps entries in Superuniques.txt in column 'Superunique" to the areas they're in in 'Levels.txt'
