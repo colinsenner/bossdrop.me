@@ -17,22 +17,12 @@
 		},
 		{
 			"type": "shell",
-			"label": "Download game data files",
+			"label": "Build all",
 			"command": "python",
 			"options": {
 				"cwd": "${workspaceFolder}/d2r"
 			},
-			"args": ["download_data_files.py"],
-			"problemMatcher": []
-		},
-		{
-			"type": "shell",
-			"label": "Generate results.json",
-			"command": "python",
-			"options": {
-				"cwd": "${workspaceFolder}/d2r"
-			},
-			"args": ["generate_results.py"],
+			"args": ["build_all.py"],
 			"problemMatcher": []
 		},
 	]

@@ -5,14 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Generate Results",
-            "type": "python",
-            "cwd": "${workspaceFolder}/d2r",
-            "request": "launch",
-            "program": "${workspaceFolder}/d2r/generate_results.py",
-            "console": "integratedTerminal"
-        },
-        {
             "name": "Build all",
             "type": "python",
             "cwd": "${workspaceFolder}/d2r",
