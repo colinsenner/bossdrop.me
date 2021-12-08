@@ -2,6 +2,7 @@
 
 [x] Update setup.md for kitallen
 [x] Set items
+[ ] Implement new boss parsing
 [ ] Drop chances
 
 
@@ -10,3 +11,4 @@
 [ ] Check Hellfire Torch
 [ ] Check annihilus
 [ ] Check Key of Terror
+[ ] Harlequin crest
