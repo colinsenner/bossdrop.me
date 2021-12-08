@@ -5,14 +5,13 @@ from shutil import copyfile
 import newutil.common as common
 import newutil.misc
 import newutil.sets
+import newutil.bosses
 import newutil.uniqueitems
 from newutil.translations import translate
 
 
 def main():
     game_version = "1.1.67358"
-
-    results = {}
 
     translation_dir = common.get_translation_dir(game_version)
 
@@ -30,13 +29,22 @@ def main():
     misc.dropna(subset=['index'], inplace=True)
 
     # Combine all items
-    searchable_items = []
-    searchable_items += uniqueitems.to_dict(orient="records")
-    searchable_items += sets.to_dict(orient="records")
-    searchable_items += misc.to_dict(orient="records")
+    items = []
+    items += uniqueitems.to_dict(orient="records")
+    items += sets.to_dict(orient="records")
+    items += misc.to_dict(orient="records")
 
-    results['searchable_items'] = searchable_items
+    # Create results.json data
+    results = dict()
+    results['items'] = items
 
+    # Get monsters
+    bosses = newutil.bosses.get(game_version)
+
+    monsters = []
+    monsters += bosses.to_dict(orient="records")
+
+    results['monsters'] = monsters
 
     # Write our file for the JS side
     results_file = path.join("generated", "results.json")
