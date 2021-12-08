@@ -6,6 +6,7 @@ import newutil.common as common
 import newutil.misc
 import newutil.sets
 import newutil.bosses
+import newutil.superuniques
 import newutil.uniqueitems
 from newutil.translations import translate
 
@@ -33,7 +34,7 @@ def main():
     misc.dropna(subset=['index'], inplace=True)
 
     # Combine all items
-    items = []
+    items = list()
     items += uniqueitems.to_dict(orient="records")
     items += sets.to_dict(orient="records")
     items += misc.to_dict(orient="records")
@@ -45,8 +46,12 @@ def main():
     # Get monsters
     bosses = newutil.bosses.get(game_version)
 
-    monsters = []
+    superuniques = newutil.superuniques.get(game_version)
+    superuniques['NameStr'] = superuniques['Id'].apply(lambda id: translate(translation_dir, id))
+
+    monsters = list()
     monsters += bosses.to_dict(orient="records")
+    monsters += superuniques.to_dict(orient="records")
 
     results['monsters'] = monsters
 
