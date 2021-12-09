@@ -41,6 +41,13 @@ Used to get SuperUnique monsters like `Pindleskin` and `Nihlathak Boss`.
 
 ---
 
+## Unpacking D2R files
+
+http://www.zezula.net/en/casc/main.html
+
+https://puu.sh/IuGnx.zip
+
+
 ## Notes
 
 https://www.diabloii.net/forums/threads/how-has-pindle-changed-since-1-09.428922/

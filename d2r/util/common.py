@@ -1,9 +1,14 @@
 import os
 from os import path
+
 import pandas as pd
 
+
 def get_data_dir():
-    return path.join(os.getcwd(), "data")
+    data_dir = path.join(os.getcwd(), "data")
+    data_dir = path.join(data_dir, "old")
+    return data_dir
+
 
 def get_superunique_area(superunique_name):
     # Maps entries in Superuniques.txt in column 'Superunique" to the areas they're in in 'Levels.txt'

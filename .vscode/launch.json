@@ -5,11 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Generate Results",
+            "name": "Build all",
             "type": "python",
             "cwd": "${workspaceFolder}/d2r",
             "request": "launch",
-            "program": "${workspaceFolder}/d2r/generate_results.py",
+            "program": "${workspaceFolder}/d2r/build_all.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run tests",
+            "type": "python",
+            "cwd": "${workspaceFolder}/d2r",
+            "request": "launch",
+            "program": "${workspaceFolder}/d2r/run_tests.py",
             "console": "integratedTerminal"
         }
     ]
