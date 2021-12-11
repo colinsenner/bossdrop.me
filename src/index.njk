@@ -9,13 +9,13 @@ description: "Bossdrop is an easy to use site that tells you what diablo 2 bosse
 <script type="text/javascript" src="d2r.js"></script>
 </head>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-6 mt-8 lg:mt-16 mx-4 lg:mx-auto">
-    <div class="text-center lg:text-right text-3xl lg:text-4xl mt-2">What boss drops</div>
-    <div>
+<div class="flex justify-center flex-col lg:flex-row gap-4 lg:gap-8 mt-8 lg:mt-16 mx-4 lg:mx-auto ">
+    <div class="text-center lg:text-right text-3xl lg:text-4xl dark:text-diablo-yellow lg:mt-3">What boss drops</div>
+    <div class="w-full lg:max-w-lg">
         <form autocomplete="off" id="searchform" action="" onsubmit="return search_onsubmit()">
-            <input type="text" aria-label="item search field" class="text-center text-2xl text-yellow-600 font-light w-full h-16" name="q" id="search" onKeyUp="showSearchResults(this.value)" onFocus="searchFocus(this.value)" autofocus />
+            <input type="text" aria-label="item search field" class="text-center text-2xl text-diablo-yellow font-light w-full h-16 bg-diablo-light dark:bg-diablo-darker border-2 border-diablo-yellow outline-none shadow-none focus:shadow-diablo-input hover:shadow-diablo-input" name="q" id="search" onKeyUp="showSearchResults(this.value)" onFocus="searchFocus(this.value)" autofocus />
         </form>
-        <div id="search_results" class="flex text-2xl w-full rounded-xl text-center lg:text-left justify-center bg-gray-50"></div>
+        <div id="search_results" class="flex text-2xl w-full lg:max-w-lg rounded-xl text-center lg:text-left justify-center bg-gray-50 mt-2 dark:bg-diablo-darker dark:text-gray-200 max-h-[75vh] overflow-auto"></div>
     </div>
 </div>
 

@@ -7,8 +7,14 @@
 @tailwind utilities;
 
 @layer base {
+    html {
+        @apply bg-diablo-light;
+    }
+    html.dark {
+        @apply bg-diablo-dark;
+    }
     body {
-        @apply font-serif bg-gray-100 text-gray-700;
+        @apply font-serif text-gray-700;
     }
 
     nav {
@@ -27,8 +33,11 @@
         @apply max-w-6xl;
     }
 
+    #search_results.has-items {
+        @apply border-2 border-diablo-yellow;
+    }
     #search_results ul li {
-        @apply pt-2 hover:text-yellow-600 cursor-pointer;
+        @apply pt-2 hover:text-diablo-yellow cursor-pointer outline-none;
     }
 
     #boss_results {
@@ -42,4 +51,5 @@
     .boss_name {
         @apply col-span-6 text-left lg:text-center;
     }
+
 }
