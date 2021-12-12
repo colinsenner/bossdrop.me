@@ -1,11 +1,12 @@
 <header>
     <nav>
-        <div class="grid grid-cols-2 page-width mx-auto items-center">
+        <div class="grid grid-cols-2 page-width mx-auto items-center dark:text-gray-300">
             <div>
                 <a href="/">🐑 {{ site.title }}</a>
             </div>
-            <div class="text-right text-gray-600 text-sm">
-                <a href="/contact">Feedback</a>
+            <div class="flex justify-end items-center gap-2 text-gray-600 dark:text-inherit text-sm">
+                <div class="px-2 cursor-pointer" onClick="toggleDarkMode()"><i id="mode-toggle" class="fad fa-eclipse-alt fa-fw"></i></div>
+                <a href="/contact">feedback</a>
             </div>
         </div>
     </nav>
