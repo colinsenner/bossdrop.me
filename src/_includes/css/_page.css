@@ -33,23 +33,29 @@
         @apply max-w-6xl;
     }
 
-    #search_results.has-items {
-        @apply border-2 border-diablo-yellow;
+    #search_results ul {
+        @apply w-full;
     }
     #search_results ul li {
-        @apply pt-2 hover:text-diablo-yellow cursor-pointer outline-none;
+        @apply py-2 hover:text-diablo-yellow-darker dark:hover:text-diablo-yellow focus:text-diablo-yellow-darker dark:focus:text-diablo-yellow cursor-pointer outline-none border-2 border-transparent hover:border-diablo-yellow-darker dark:hover:border-diablo-yellow focus:border-diablo-yellow-darker dark:focus:border-diablo-yellow rounded-[calc(0.5rem+3px)] w-full px-6 text-center;
     }
 
     #boss_results {
-        @apply grid grid-cols-9 gap-2 mt-6 lg:mt-12 mx-4 lg:mx-auto text-xl max-w-3xl lg:place-items-center;
+        @apply grid grid-cols-9 gap-2 mt-6 lg:mt-12 mx-4 lg:mx-auto text-xl max-w-3xl lg:place-items-center dark:text-gray-300;
     }
 
     .header {
-        @apply text-xs lg:text-base border-b-2;
+        @apply text-xs lg:text-base border-b-2 border-gray-400 dark:border-gray-600 opacity-60;
     }
 
     .boss_name {
         @apply col-span-6 text-left lg:text-center;
     }
 
+    /* .item-result {
+        @apply min-w-[4rem];
+    } */
+    .item-result:not(.no-drop) {
+        @apply dark:text-diablo-yellow;
+    }
 }

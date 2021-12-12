@@ -9,18 +9,16 @@ description: "Bossdrop is an easy to use site that tells you what diablo 2 bosse
 <script type="text/javascript" src="d2r.js"></script>
 </head>
 
-<div class="flex justify-center flex-col lg:flex-row gap-4 lg:gap-8 mt-8 lg:mt-16 mx-4 lg:mx-auto ">
+<div class="flex justify-center flex-col lg:flex-row gap-4 lg:gap-8 mt-8 lg:mt-16 mx-4 lg:mx-auto">
     <div class="text-center lg:text-right text-3xl lg:text-4xl dark:text-diablo-yellow lg:mt-3">What boss drops</div>
     <div class="w-full lg:max-w-lg">
         <form autocomplete="off" id="searchform" action="" onsubmit="return search_onsubmit()">
-            <input type="text" aria-label="item search field" class="text-center text-2xl text-diablo-yellow font-light w-full h-16 bg-diablo-light dark:bg-diablo-darker border-2 border-diablo-yellow outline-none shadow-none focus:shadow-diablo-input hover:shadow-diablo-input" name="q" id="search" onKeyUp="showSearchResults(this.value)" onFocus="searchFocus(this.value)" autofocus />
+            <input type="text" aria-label="item search field" class="text-center text-2xl text-diablo-yellow-darker dark:text-diablo-yellow font-light w-full h-16 bg-gray-100 dark:bg-diablo-darker border-2 border-diablo-yellow-darker dark:border-diablo-yellow outline-none shadow-none focus:shadow-diablo-input hover:shadow-diablo-input" name="q" id="search" onKeyUp="showSearchResults(this.value)" onFocus="searchFocus(this.value)" autofocus />
         </form>
-        <div id="search_results" class="flex text-2xl w-full lg:max-w-lg rounded-xl text-center lg:text-left justify-center bg-gray-50 mt-2 dark:bg-diablo-darker dark:text-gray-200 max-h-[75vh] overflow-auto"></div>
+        <div id="search_results" class="flex text-2xl w-full lg:max-w-lg rounded-xl text-center lg:text-left justify-center bg-gray-100 mt-2 dark:bg-diablo-darker dark:text-gray-200 max-h-[calc(100vh-240px)] overflow-auto"></div>
     </div>
 </div>
 
-<div id="boss_results">
-    <div class="boss_name header hidden opacity-20"></div> <!-- Placeholder so it doesn't get stripped out -->
-</div>
+<div id="boss_results"></div>
 
-<div id="disclaimer" class="text-sm text-center text-gray-400 mt-12 hidden">only includes regularly farmed bosses</div>
+<div id="disclaimer" class="text-sm text-center text-gray-400 mt-12 mb-6 hidden">only includes regularly farmed bosses</div>

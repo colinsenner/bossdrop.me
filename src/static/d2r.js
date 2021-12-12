@@ -15,7 +15,6 @@ function searchresult_onclick(data) {
 }
 
 function clear_search_results() {
-    document.querySelector("#search_results").classList.remove("has-items");
     removeAllChildNodes(document.querySelector("#search_results"));
 }
 
@@ -51,8 +50,11 @@ function search_onsubmit() {
                 row += `<div class="boss_name">${boss["name"]}</div>`;
 
                 for (let index = 0; index < 3; index++) {
-                    if (boss["difficulty"][index]) row += `<div>✔️</div>`;
-                    else row += `<div class="opacity-20">✖</div>`;
+                    if (boss["difficulty"][index]) {
+                        row += `<div class="item-result"><i class="fas fa-check fa-fw"></i></div>`;
+                    } else {
+                        row += `<div class="item-result no-drop opacity-20"><i class="fas fa-times fa-fw"></i></div>`;
+                    }
                 }
 
                 table_header += row;
@@ -169,7 +171,7 @@ function showSearchResults(val) {
     if (terms.length !== 0) {
         for (i = 0; i < terms.length; i++) {
             list +=
-                '<li tabindex="0" onkeypress="searchresult_onclick(this.innerHTML)" onclick="searchresult_onclick(this.innerHTML)">' +
+                '<li class="item-search-result" tabindex="0" onkeypress="searchresult_onclick(this.innerHTML)" onclick="searchresult_onclick(this.innerHTML)">' +
                 terms[i] +
                 "</li>";
         }
@@ -179,19 +181,53 @@ function showSearchResults(val) {
 
     res.innerHTML = "<ul>" + list + "</ul>";
 
-    if (document.getElementsByTagName("li")) {
-        res.classList.add("has-items");
-    } else {
-        res.classList.remove("has-items");
-    }
-
     search_onsubmit();
     return false;
 }
+
+// function onInputKeyPress(event) {
+//     const key = event.key || event.code;
+//     if (key === "Enter") {
+//         // Set the first search result
+//         try {
+//             const itemName = document
+//                 .getElementById("search_results")
+//                 .getElementsByClassName("item-search-result")[0].innerHTML;
+//             if (itemName) {
+//                 searchresult_onclick(itemName);
+//                 clear_search_results();
+//             }
+//         } catch {}
+//     }
+// }
 
 function removeAllChildNodes(parent) {
     while (parent.firstChild) {
         parent.removeChild(parent.firstChild);
     }
-
 }
+
+// Performs the logic of setting classnames in our DOM for the light / dark theme
+function setMode(mode) {
+    // Update our html element to have the correct classname
+    document.getElementsByTagName("html")[0].classList.remove("light");
+    document.getElementsByTagName("html")[0].classList.remove("dark");
+    document.getElementsByTagName("html")[0].classList.add(mode);
+}
+
+// Find the mode we're toggling to, set it in local storage
+function toggleDarkMode() {
+    const mode =
+        localStorage.mode === "light" || !localStorage.mode ? "dark" : "light";
+    localStorage.mode = mode;
+    setMode(mode);
+}
+
+// Find the mode from local storage and update our html to match
+function initialiseMode() {
+    const mode =
+        localStorage.mode === "light" || !localStorage.mode ? "light" : "dark";
+    setMode(mode);
+}
+
+window.onload = initialiseMode;

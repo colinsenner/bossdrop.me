@@ -7,6 +7,7 @@ module.exports = {
         "./src/**/*.njk",
         "./src/**/*.md",
         "./src/**/*.11ty.js",
+        "./src/**/*.js",
     ],
     theme: {
         fontFamily: {
@@ -18,8 +19,11 @@ module.exports = {
                 "diablo-dark": "#1c1d21",
                 "diablo-darker": "#17181c",
                 "diablo-darkest": "#0c0c0e",
-                "diablo-light": "#f3f4f6",
-                "diablo-yellow": "#B79A64",
+                "diablo-light": "#e5e7eb",
+                "diablo-yellow": "#b79a64",
+                "diablo-yellow-darker": "#9d7f48",
+                "diablo-red": "#ff4747",
+                "diablo-red-darker": "#cc0000",
             },
         },
         boxShadow: {
