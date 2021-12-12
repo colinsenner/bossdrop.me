@@ -176,7 +176,7 @@ function showSearchResults(val) {
                 "</li>";
         }
     } else if (val !== "") {
-        list += '<li tabindex="0">Item not found</li>';
+        list += '<li tabindex="-1">Item not found</li>';
     }
 
     res.innerHTML = "<ul>" + list + "</ul>";
