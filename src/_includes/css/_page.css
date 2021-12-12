@@ -41,20 +41,26 @@
     }
 
     #boss_results {
-        @apply grid grid-cols-9 gap-2 mt-6 lg:mt-12 mx-4 lg:mx-auto text-xl max-w-3xl lg:place-items-center dark:text-gray-300;
+        @apply grid grid-cols-[1fr_auto_auto_auto] gap-2 lg:mt-12 sm:text-lg lg:text-xl lg:place-items-center dark:text-gray-300 w-full lg:w-auto sm:max-w-xl lg:max-w-none;
     }
 
     .header {
         @apply text-xs lg:text-base border-b-2 border-gray-400 dark:border-gray-600 opacity-60;
     }
-
-    .boss_name {
-        @apply col-span-6 text-left lg:text-center;
+    .header:not(.boss_name) {
+        @apply text-center;
     }
 
-    /* .item-result {
-        @apply min-w-[4rem];
-    } */
+    .boss_name {
+        @apply text-left lg:text-center;
+    }
+    .boss_name:not(.header) {
+        @apply lg:min-w-[28rem]
+    }
+
+    .item-result {
+        @apply min-w-[2.5rem] lg:min-w-[4rem] text-center;
+    }
     .item-result:not(.no-drop) {
         @apply dark:text-diablo-yellow;
     }

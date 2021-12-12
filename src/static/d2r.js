@@ -185,6 +185,9 @@ function showSearchResults(val) {
     return false;
 }
 
+// Kit: Attempted to add "enter chooses first result in list" functionality.
+// This introduced other issues, so was removed.
+// To re-enable, add `onKeyPress="onInputKeyPress(event)" to the input field.
 // function onInputKeyPress(event) {
 //     const key = event.key || event.code;
 //     if (key === "Enter") {
