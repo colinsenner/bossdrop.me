@@ -12,7 +12,7 @@ from newutil.translations import translate
 
 
 def main():
-    game_version = "1.1.67358"
+    game_version = "2.4.0"
 
     translation_dir = common.get_translation_dir(game_version)
 
