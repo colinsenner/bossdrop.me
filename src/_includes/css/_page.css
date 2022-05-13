@@ -41,7 +41,7 @@
     }
 
     #boss_results {
-        @apply grid grid-cols-[1fr_auto_auto_auto] gap-2 lg:mt-12 sm:text-lg lg:text-xl lg:place-items-center dark:text-gray-300 w-full lg:w-auto sm:max-w-xl lg:max-w-none;
+        @apply grid grid-cols-9 gap-2 lg:mt-12 sm:text-lg lg:text-xl lg:place-items-center dark:text-gray-300 w-full lg:w-auto sm:max-w-xl lg:max-w-none;
     }
 
     .header {
@@ -52,7 +52,7 @@
     }
 
     .boss_name {
-        @apply text-left lg:text-center;
+        @apply col-span-6 text-left lg:text-center;
     }
     .boss_name:not(.header) {
         @apply lg:min-w-[28rem]
