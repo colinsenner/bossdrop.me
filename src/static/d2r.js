@@ -3,7 +3,7 @@ var d2data = {};
 $.getJSON("results.json", function (data) {
     d2data = data;
 
-    console.log("Huge thanks to Goretusk and Sinny!");
+    console.log("Huge thanks to Goretusk and Sinny and Kit Allen!");
 });
 
 function searchresult_onclick(data) {
@@ -114,9 +114,17 @@ function get_bosses_that_can_drop(item_name) {
                 let boss_can_drop_that_treasure_class =
                     boss_dropped_tcs.includes(item_tc_group);
 
+                // Hack
+                // The game does not allow Cow King items to be dropped by other bosses
+                // Even though, for instance, "Cow King's Hide" is lvl 20 and in TC 9
+                // No other bosses can drop it. (Could also filter out TCs which don't contain "Cow King")
+                let set_is_cow_king = item["index"].startsWith("Cow King's");
+                let boss_is_cow_king = boss_entry["name"] === "The Cow King";
+
                 if (
                     boss_is_high_enough_level &&
-                    boss_can_drop_that_treasure_class
+                    boss_can_drop_that_treasure_class &&
+                    (!set_is_cow_king || boss_is_cow_king)
                 ) {
                     if (difficult_name === "Normal") {
                         boss_entry["difficulty"][0] = true;
