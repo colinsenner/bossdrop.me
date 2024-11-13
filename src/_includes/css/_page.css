@@ -7,61 +7,61 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        @apply bg-diablo-light;
-    }
-    html.dark {
-        @apply bg-diablo-dark;
-    }
-    body {
-        @apply font-serif text-gray-700;
-    }
+  html {
+    @apply bg-diablo-light;
+  }
+  html.dark {
+    @apply bg-diablo-dark;
+  }
+  body {
+    @apply font-serif text-gray-700;
+  }
 
-    nav {
-        @apply m-2 md:m-4 font-sans;
-    }
+  nav {
+    @apply m-2 md:m-4 font-sans;
+  }
 
-    hr {
-        @apply m-4 border-gray-300;
-    }
+  hr {
+    @apply m-4 border-gray-300;
+  }
 
-    input {
-        @apply rounded-full ring-1 ring-yellow-600 focus:ring-yellow-600;
-    }
+  input {
+    @apply rounded-full ring-1 ring-yellow-600 focus:ring-yellow-600;
+  }
 
-    .page-width {
-        @apply max-w-6xl;
-    }
+  .page-width {
+    @apply max-w-6xl;
+  }
 
-    #search_results ul {
-        @apply w-full;
-    }
-    #search_results ul li {
-        @apply py-2 hover:text-diablo-yellow-darker dark:hover:text-diablo-yellow focus:text-diablo-yellow-darker dark:focus:text-diablo-yellow cursor-pointer outline-none border-2 border-transparent hover:border-diablo-yellow-darker dark:hover:border-diablo-yellow focus:border-diablo-yellow-darker dark:focus:border-diablo-yellow rounded-[calc(0.5rem+3px)] w-full px-6 text-center;
-    }
+  #search_results ul {
+    @apply w-full;
+  }
+  #search_results ul li {
+    @apply py-2 hover:text-diablo-yellow-darker dark:hover:text-diablo-yellow focus:text-diablo-yellow-darker dark:focus:text-diablo-yellow cursor-pointer outline-none border-2 border-transparent hover:border-diablo-yellow-darker dark:hover:border-diablo-yellow focus:border-diablo-yellow-darker dark:focus:border-diablo-yellow rounded-[calc(0.5rem+3px)] w-full px-6 text-center;
+  }
 
-    #boss_results {
-        @apply grid grid-cols-9 gap-2 lg:mt-12 sm:text-lg lg:text-xl lg:place-items-center dark:text-gray-300 w-full lg:w-auto sm:max-w-xl lg:max-w-none;
-    }
+  #boss_results {
+    @apply grid grid-cols-9 gap-2 lg:mt-12 sm:text-lg lg:text-xl lg:place-items-center dark:text-gray-300 w-full lg:w-auto sm:max-w-xl lg:max-w-none;
+  }
 
-    .header {
-        @apply text-xs lg:text-base border-b-2 border-gray-400 dark:border-gray-600 opacity-60;
-    }
-    .header:not(.boss_name) {
-        @apply text-center;
-    }
+  .header {
+    @apply text-xs lg:text-base border-b-2 border-gray-400 dark:border-gray-600 opacity-60;
+  }
+  .header:not(.boss_name) {
+    @apply text-center;
+  }
 
-    .boss_name {
-        @apply col-span-6 text-left lg:text-center;
-    }
-    .boss_name:not(.header) {
-        @apply lg:min-w-[28rem]
-    }
+  .boss_name {
+    @apply col-span-6 text-left lg:text-center;
+  }
+  .boss_name:not(.header) {
+    @apply lg:min-w-[28rem];
+  }
 
-    .item-result {
-        @apply min-w-[2.5rem] lg:min-w-[4rem] text-center;
-    }
-    .item-result:not(.no-drop) {
-        @apply dark:text-diablo-yellow;
-    }
+  .item-result {
+    @apply min-w-[2.5rem] lg:min-w-[4rem] text-center;
+  }
+  .item-result:not(.no-drop) {
+    @apply dark:text-diablo-yellow;
+  }
 }
