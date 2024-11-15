@@ -2,6 +2,8 @@ import json
 from os import path
 
 # A bit optimistic calling these real tests
+
+
 def main():
     test_compare_results()
 
@@ -15,11 +17,11 @@ def test_compare_results():
 
     print("These items are in one file but not the other")
     print("---------------------------------------------")
-    print_diff_from_field(old_results['unique_items'],
+    print_diff_from_field(old_results['items'],
                           results['items'],
                           'index')
 
-    old_monsters = old_results['bosses']
+    old_monsters = old_results['monsters']
     new_monsters = results['monsters']
 
     # Remove all TC fields from both
@@ -32,7 +34,6 @@ def test_compare_results():
     print_diff_from_field(old_monsters,
                           new_monsters,
                           'Id')
-
 
     return
 
@@ -62,12 +63,13 @@ def print_diff_from_field(a, b, index_name):
         if b_entry != None:
             print(f"B: {b_entry}")
 
-    return diff
+    return
 
 
 def load_json(filepath):
     with open(filepath, "rt", encoding='utf-8') as f:
         return json.load(f)
+
 
 if __name__ == '__main__':
     main()
