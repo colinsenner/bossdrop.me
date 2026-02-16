@@ -12,7 +12,7 @@ from newutil.translations import translate
 
 
 def main():
-    game_version = "2.7.0"
+    game_version = "3.1.91636"
 
     os.makedirs(common.get_generated_dir(), exist_ok=True)
 
