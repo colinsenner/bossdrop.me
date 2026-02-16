@@ -18,9 +18,14 @@ def get(version):
     # Make sure the items are enabled and have valid codes
     # items with lvl == 0 are quest items 'Amulet of the Viper'
     df = df[df["disabled"] != 1.0]
+    df = df[df["spawnable"] != 0.0]
+    df = df[
+        df["spawnable"].notna()
+    ]  # RotW update: Some new items are null for spawnable (Darkfear, Crack of the Heavens)
     df = df[df["code"].notna()]
     df = df[df["lvl"] != 0]
 
+    # RotW update: Darkfear
     # Add additional columns, we'll calculate these below
     df["base_item_level"] = np.nan
     df["base_item_type"] = np.nan
