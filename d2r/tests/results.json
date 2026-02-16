@@ -2233,6 +2233,114 @@
       "tc_group": "cm2"
     },
     {
+      "index": "Ars Al'Diabolos",
+      "lvl": 85.0,
+      "rarity_type": "unique",
+      "tc_group": "armo87"
+    },
+    {
+      "index": "Ars Tor'Baalos",
+      "lvl": 85.0,
+      "rarity_type": "unique",
+      "tc_group": "armo81"
+    },
+    {
+      "index": "Ars Dul'Mephistos",
+      "lvl": 85.0,
+      "rarity_type": "unique",
+      "tc_group": "armo69"
+    },
+    {
+      "index": "Measured Wrath",
+      "lvl": 58.0,
+      "rarity_type": "unique",
+      "tc_group": "armo33"
+    },
+    {
+      "index": "Dreadfang",
+      "lvl": 69.0,
+      "rarity_type": "unique",
+      "tc_group": "weap60"
+    },
+    {
+      "index": "Wraithstep",
+      "lvl": 73.0,
+      "rarity_type": "unique",
+      "tc_group": "armo81"
+    },
+    {
+      "index": "Bloodpact Shard",
+      "lvl": 73.0,
+      "rarity_type": "unique",
+      "tc_group": "weap72"
+    },
+    {
+      "index": "Sling",
+      "lvl": 58.0,
+      "rarity_type": "unique",
+      "tc_group": "rin"
+    },
+    {
+      "index": "Opalvein",
+      "lvl": 58.0,
+      "rarity_type": "unique",
+      "tc_group": "rin"
+    },
+    {
+      "index": "Entropy Locket",
+      "lvl": 60.0,
+      "rarity_type": "unique",
+      "tc_group": "amu"
+    },
+    {
+      "index": "Gheed's Wager",
+      "lvl": 79.0,
+      "rarity_type": "unique",
+      "tc_group": "armo84"
+    },
+    {
+      "index": "Hellwarden's Will",
+      "lvl": 55.0,
+      "rarity_type": "unique",
+      "tc_group": "armo48"
+    },
+    {
+      "index": "Latent Cold Rupture",
+      "lvl": 69.0,
+      "rarity_type": "unique",
+      "tc_group": "cm3"
+    },
+    {
+      "index": "Latent Flame Rift",
+      "lvl": 69.0,
+      "rarity_type": "unique",
+      "tc_group": "cm3"
+    },
+    {
+      "index": "Latent Crack of the Heavens",
+      "lvl": 69.0,
+      "rarity_type": "unique",
+      "tc_group": "cm3"
+    },
+    {
+      "index": "Latent Rotting Fissure",
+      "lvl": 69.0,
+      "rarity_type": "unique",
+      "tc_group": "cm3"
+    },
+    {
+      "index": "Latent Bone Break",
+      "lvl": 69.0,
+      "rarity_type": "unique",
+      "tc_group": "cm3"
+    },
+    {
+      "index": "Latent Black Cleft",
+      "lvl": 69.0,
+      "rarity_type": "unique",
+      "tc_group": "cm3"
+    },
+    {
       "index": "Civerb's Ward",
       "lvl": 13.0,
       "rarity_type": "set",
@@ -2993,6 +3101,84 @@
       "lvl": 20.0,
       "rarity_type": "set",
       "tc_group": "weap18"
+    },
+    {
+      "index": "Warlord's Conquest",
+      "lvl": 100.0,
+      "rarity_type": "set",
+      "tc_group": "armo27"
+    },
+    {
+      "index": "Warlord's Lust",
+      "lvl": 100.0,
+      "rarity_type": "set",
+      "tc_group": "armo24"
+    },
+    {
+      "index": "Warlord's Mantle",
+      "lvl": 100.0,
+      "rarity_type": "set",
+      "tc_group": "armo39"
+    },
+    {
+      "index": "Warlord's Crushers",
+      "lvl": 100.0,
+      "rarity_type": "set",
+      "tc_group": "armo27"
+    },
+    {
+      "index": "Warlord's Authority",
+      "lvl": 100.0,
+      "rarity_type": "set",
+      "tc_group": "armo27"
+    },
+    {
+      "index": "Bane's Oathmaker",
+      "lvl": 7.0,
+      "rarity_type": "set",
+      "tc_group": "weap18"
+    },
+    {
+      "index": "Bane's Wraithskin",
+      "lvl": 7.0,
+      "rarity_type": "set",
+      "tc_group": "armo6"
+    },
+    {
+      "index": "Bane's Authority",
+      "lvl": 7.0,
+      "rarity_type": "set",
+      "tc_group": "armo9"
+    },
+    {
+      "index": "Horazon's Countenance",
+      "lvl": 40.0,
+      "rarity_type": "set",
+      "tc_group": "armo75"
+    },
+    {
+      "index": "Horazon's Dominion",
+      "lvl": 40.0,
+      "rarity_type": "set",
+      "tc_group": "armo51"
+    },
+    {
+      "index": "Horazon's Hold",
+      "lvl": 40.0,
+      "rarity_type": "set",
+      "tc_group": "armo33"
+    },
+    {
+      "index": "Horazon's Legacy",
+      "lvl": 40.0,
+      "rarity_type": "set",
+      "tc_group": "armo81"
+    },
+    {
+      "index": "Horazon's Secrets",
+      "lvl": 40.0,
+      "rarity_type": "set",
+      "tc_group": "armo66"
     },
     {
       "index": "Elixir",
@@ -3791,6 +3977,72 @@
       "lvl": 90.0,
       "rarity_type": "misc",
       "tc_group": "std"
+    },
+    {
+      "index": "Talic's Anguish",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "ua1"
+    },
+    {
+      "index": "Korlic's Pain",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "ua2"
+    },
+    {
+      "index": "Madawc's Ire",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "ua3"
+    },
+    {
+      "index": "Bul-Kathos' Nightmare",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "ua4"
+    },
+    {
+      "index": "Worusk's End",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "ua5"
+    },
+    {
+      "index": "Defender's Fire",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "um1"
+    },
+    {
+      "index": "Defender's Bile",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "um2"
+    },
+    {
+      "index": "Protector's Frost",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "um3"
+    },
+    {
+      "index": "Protector's Stone",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "um4"
+    },
+    {
+      "index": "Guardian's Thunder",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "um5"
+    },
+    {
+      "index": "Guardian's Light",
+      "lvl": 0.0,
+      "rarity_type": "misc",
+      "tc_group": "um6"
     }
   ],
   "monsters": [
@@ -9126,10 +9378,7 @@
         "r02",
         "Annihilus"
       ],
-      "TC(H)": [
-        "ROP (H)",
-        "Annihilus"
-      ]
+      "TC(H)": ["ROP (H)", "Annihilus"]
     },
     {
       "Id": "nihlathakboss",
@@ -11537,10 +11786,7 @@
       "boss": 1.0,
       "TC": [],
       "TC(N)": [],
-      "TC(H)": [
-        "Uber Izual",
-        "mbr"
-      ]
+      "TC(H)": ["Uber Izual", "mbr"]
     },
     {
       "Id": "uberandariel",
@@ -11551,10 +11797,7 @@
       "boss": 1.0,
       "TC": [],
       "TC(N)": [],
-      "TC(H)": [
-        "Uber Andariel",
-        "dhn"
-      ]
+      "TC(H)": ["Uber Andariel", "dhn"]
     },
     {
       "Id": "uberduriel",
@@ -11565,10 +11808,7 @@
       "boss": 1.0,
       "TC": [],
       "TC(N)": [],
-      "TC(H)": [
-        "Uber Duriel",
-        "bey"
-      ]
+      "TC(H)": ["Uber Duriel", "bey"]
     },
     {
       "Id": "uberbaal",
@@ -19821,7 +20061,13 @@
         "hp5",
         "mp4",
         "mp5",
-        "rvs"
+        "rvs",
+        "Act 2 Terrorize Act Consumable Desecrated ",
+        "xa1",
+        "xa2",
+        "xa3",
+        "xa4",
+        "xa5"
       ]
     },
     {
@@ -20664,7 +20910,13 @@
         "hp5",
         "mp4",
         "mp5",
-        "rvs"
+        "rvs",
+        "Act 2 Terrorize Act Consumable Desecrated ",
+        "xa1",
+        "xa2",
+        "xa3",
+        "xa4",
+        "xa5"
       ]
     },
     {
@@ -21507,7 +21759,13 @@
         "hp5",
         "mp4",
         "mp5",
-        "rvs"
+        "rvs",
+        "Act 2 Terrorize Act Consumable Desecrated ",
+        "xa1",
+        "xa2",
+        "xa3",
+        "xa4",
+        "xa5"
       ]
     },
     {
@@ -23440,7 +23698,13 @@
         "hp5",
         "mp4",
         "mp5",
-        "rvs"
+        "rvs",
+        "Act 1 Terrorize Act Consumable Desecrated ",
+        "xa1",
+        "xa2",
+        "xa3",
+        "xa4",
+        "xa5"
       ]
     },
     {
@@ -24364,7 +24628,13 @@
         "hp5",
         "mp4",
         "mp5",
-        "rvs"
+        "rvs",
+        "Act 1 Terrorize Act Consumable Desecrated ",
+        "xa1",
+        "xa2",
+        "xa3",
+        "xa4",
+        "xa5"
       ]
     },
     {
@@ -25291,7 +25561,13 @@
         "hp5",
         "mp4",
         "mp5",
-        "rvs"
+        "rvs",
+        "Act 1 Terrorize Act Consumable Desecrated ",
+        "xa1",
+        "xa2",
+        "xa3",
+        "xa4",
+        "xa5"
       ]
     },
     {
@@ -26218,7 +26494,13 @@
         "hp5",
         "mp4",
         "mp5",
-        "rvs"
+        "rvs",
+        "Act 1 Terrorize Act Consumable Desecrated ",
+        "xa1",
+        "xa2",
+        "xa3",
+        "xa4",
+        "xa5"
       ]
     },
     {
@@ -27145,7 +27427,13 @@
         "hp5",
         "mp4",
         "mp5",
-        "rvs"
+        "rvs",
+        "Act 1 Terrorize Act Consumable Desecrated ",
+        "xa1",
+        "xa2",
+        "xa3",
+        "xa4",
+        "xa5"
       ]
     },
     {
@@ -28072,7 +28360,13 @@
         "hp5",
         "mp4",
         "mp5",
-        "rvs"
+        "rvs",
+        "Act 1 Terrorize Act Consumable Desecrated ",
+        "xa1",
+        "xa2",
+        "xa3",
+        "xa4",
+        "xa5"
       ]
     },
     {
@@ -28999,7 +29293,13 @@
         "hp5",
         "mp4",
         "mp5",
-        "rvs"
+        "rvs",
+        "Act 1 Terrorize Act Consumable Desecrated ",
+        "xa1",
+        "xa2",
+        "xa3",
+        "xa4",
+        "xa5"
       ]
     }
   ]
